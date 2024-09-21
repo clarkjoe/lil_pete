@@ -1,0 +1,11 @@
+*.WFN
+*.spr
+*.bak
+*.dat
+*.ico
+*.lock
+*.log
+Sandbox/
+_Debug/
+AudioCache/
+Compiled/
