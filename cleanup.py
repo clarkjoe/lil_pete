@@ -1,7 +1,8 @@
 import xml.etree.ElementTree as ET
 import os
+import argparse
 
-def replace_tags(source_file, target_file):
+def replace_tags(source_file, target_file, reverse=False):
     # Expand ~ in file paths to full paths
     source_file = os.path.expanduser(source_file)
 
@@ -21,8 +22,8 @@ def replace_tags(source_file, target_file):
         return
     target_root = target_tree.getroot()
 
-    # Replace <Sprites> tag with text replacement ("G:\" -> "Y:\Google Drive\")
-    replace_sprites(source_root, target_root)
+    # Replace <Sprites> tag with text replacement (G:\ <-> Y:\Google Drive\ based on reverse flag)
+    replace_sprites(source_root, target_root, reverse)
 
     # Replace <Views> tag (no text replacement, just a direct copy)
     replace_views(source_root, target_root)
@@ -31,7 +32,7 @@ def replace_tags(source_file, target_file):
     write_with_declaration(source_file, target_file, target_root)
 
 
-def replace_sprites(source_root, target_root):
+def replace_sprites(source_root, target_root, reverse):
     # Find the <Sprites> tag under <AGSEditorDocument><Game> in the source file
     source_game = source_root.find('Game')
     if source_game is None:
@@ -43,12 +44,20 @@ def replace_sprites(source_root, target_root):
         print("No <Sprites> tag found in the source file.")
         return
 
-    # Replace all "G:\" with "Y:\Google Drive\" in the <Sprites> content
+    # Determine the replacement direction
+    if reverse:
+        from_path = "Y:\\Google Drive\\"
+        to_path = "G:\\"
+    else:
+        from_path = "G:\\"
+        to_path = "Y:\\Google Drive\\"
+
+    # Replace all occurrences based on the direction
     for elem in source_sprites.iter():
         if elem.text:
-            elem.text = elem.text.replace("G:\\", "Y:\\Google Drive\\")
+            elem.text = elem.text.replace(from_path, to_path)
         if elem.tail:
-            elem.tail = elem.tail.replace("G:\\", "Y:\\Google Drive\\")
+            elem.tail = elem.tail.replace(from_path, to_path)
 
     # Find the <Sprites> tag under <AGSEditorDocument><Game> in the target file
     target_game = target_root.find('Game')
@@ -118,10 +127,33 @@ def write_with_declaration(source_file, target_file, target_root):
         tgt.write(xml_string)
 
 
-# Usage example
-source_file = '~/Google Drive/My Drive/Pixel Studio/LilPete/LilPete_game/Game.agf'
+def main():
+    # Set up argument parser
+    parser = argparse.ArgumentParser(description="Replace tags in XML files with optional reverse replacement.")
+    parser.add_argument(
+        "source_file", 
+        nargs="?", 
+        default="~/Google Drive/My Drive/Pixel Studio/LilPete/LilPete_game/Game.agf", 
+        help="The path to the source XML file (default: '~/Google Drive/My Drive/Pixel Studio/LilPete/LilPete_game/Game.agf')."
+    )
+    parser.add_argument(
+        "target_file", 
+        nargs="?", 
+        default=os.path.join(os.getcwd(), 'Game.agf'), 
+        help="The path to the target XML file (default: './Game.agf')."
+    )
+    parser.add_argument(
+        "--reverse", 
+        action="store_true", 
+        help="Reverse the replacement (replace Y:\\Google Drive\\ with G:\\)."
+    )
 
-# Dynamically set the target file to Game.agf in the current working directory
-target_file = os.path.join(os.getcwd(), 'Game.agf')
+    # Parse arguments
+    args = parser.parse_args()
 
-replace_tags(source_file, target_file)
+    # Call the replace_tags function with the reverse flag
+    replace_tags(args.source_file, args.target_file, reverse=args.reverse)
+
+
+if __name__ == "__main__":
+    main()
