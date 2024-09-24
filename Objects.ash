@@ -1,4 +1,0 @@
-enum Objects {
-  AIRPLANE_TRASH_FULL = 0, 
-  AIRPLANE_TRASH_EMPTY = 1
-};
