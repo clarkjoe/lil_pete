@@ -45,6 +45,25 @@ def process_post(source_file, target_file, user_path):
     except Exception as e:
         print(f"An error occurred: {e}")
 
+def process_convert(source_file, target_file, user_path):
+    source_file, target_file = get_expanded_file_paths(source_file, target_file)
+    placeholder = "PLACEHOLDER/"
+
+    try:
+        with open(source_file, 'r', encoding='utf-8', newline="\r\n") as file:
+            content = file.read()
+
+        updated_content = content.replace(placeholder, user_path)
+
+        with open(target_file, 'w', encoding='utf-8', newline='') as file:
+            file.write(updated_content)
+
+        print(f"Replaced '{user_path}' with '{placeholder}' and saved to {target_file}.")
+    
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+
 def get_expanded_file_paths(source_file, target_file):
     source_file = os.path.expanduser(source_file)
     target_file = os.path.expanduser(target_file)
@@ -173,6 +192,10 @@ def main():
     post_parser = subparsers.add_parser('post', help="Restore user-specific path to PLACEHOLDER.")
     post_parser.add_argument("--joey", action="store_true", help="Use Joey's path for restoring.")
     post_parser.add_argument("--greg", action="store_true", help="Use Greg's path for restoring.")
+
+    post_parser = subparsers.add_parser('convert', help="Replace PLACEHOLDER with user-specific path")
+    post_parser.add_argument("--joey", action="store_true", help="Use Joey's path for restoring.")
+    post_parser.add_argument("--greg", action="store_true", help="Use Greg's path for restoring.")
     
     args = parser.parse_args()
 
@@ -187,6 +210,8 @@ def main():
         process_pre(source_file, target_file, user_path)
     elif args.operation == 'post':
         process_post(target_file, target_file, user_path)
+    elif args.operation == 'convert':
+        process_convert(target_file, target_file, user_path)
     else:
         print("Error: You must specify either 'pre' or 'post' as the operation.")
         sys.exit(1)
