@@ -6,9 +6,10 @@ import sys
 
 default_paths = {
     "joey": {
-        "source": "~/Google Drive/My Drive/Pixel Studio/LilPete/LilPete_game/Game.agf",
+        "source": "~/Google Drive/Shared drives/Lil Pete/LilPete_Game_Gold/Game.agf",
         "target": os.path.join(os.getcwd(), 'Game.agf'),
-        "user_path": "Y:/Google Drive/My Drive/Pixel Studio/"
+        "user_path": "Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/",
+        "user_path_other": "Y:/Google Drive/Shared drives/Lil Pete/Game_Assets_Gold/LilPete/"
     },
     "greg": {
         "source": "~/Google Drive/My Drive/Pixel Studio/LilPete/LilPete_game/Game_greg.agf",
@@ -17,13 +18,14 @@ default_paths = {
     }
 }
 
-source_path_to_replace = "G:\\My Drive\\Pixel Studio\\"
+source_path_to_replace = "G:\\My Drive\\Pixel Studio\\LilPete\\"
+source_path_to_replace_other = "G:\\My Drive\\Game_Assets_Gold\\LilPete\\"
 
-def process_pre(source_file, target_file, user_path):
+def process_pre(source_file, target_file, user_path, user_path_other):
     source_file, target_file = get_expanded_file_paths(source_file, target_file)
     source_root, target_root = get_roots(source_file, target_file)
 
-    replace_sprites_with_user_path(source_root, target_root, user_path)
+    replace_sprites_with_user_path(source_root, target_root, user_path, user_path_other)
     replace_views(source_root, target_root)
     write_xml_with_header(source_file, target_file, target_root, use_crlf=True)
 
@@ -76,7 +78,7 @@ def get_roots(source_file, target_file):
     target_root = target_tree.getroot()
     return source_root, target_root
 
-def replace_sprites_with_user_path(source_root, target_root, user_path):
+def replace_sprites_with_user_path(source_root, target_root, user_path, user_path_other):
     source_game = source_root.find('Game')
     target_game = target_root.find('Game')
 
@@ -94,6 +96,7 @@ def replace_sprites_with_user_path(source_root, target_root, user_path):
     for sprite in modified_sprites.findall('.//FileName'):
         if sprite.text:
             sprite.text = sprite.text.replace(source_path_to_replace, user_path)
+            sprite.text = sprite.text.replace(source_path_to_replace_other, user_path_other)
             sprite.text = sprite.text.replace("\\", "/")
 
     target_sprites = target_game.find('Sprites')
@@ -165,11 +168,18 @@ def validate_args(args):
     if not (args.joey or args.greg):
         print("Error: You must provide exactly one of --joey or --greg.")
         sys.exit(1)
-    
+
+def get_user_path(args):
     if args.joey:
         return default_paths['joey']['user_path']
     elif args.greg:
         return default_paths['greg']['user_path']
+
+def get_user_path_other(args):
+    if args.joey:
+        return default_paths['joey']['user_path_other']
+    elif args.greg:
+        return default_paths['greg']['user_path_other']
 
 def get_file_paths(args):
     if args.joey:
@@ -199,7 +209,11 @@ def main():
     
     args = parser.parse_args()
 
-    user_path = validate_args(args)
+    validate_args(args)
+
+    user_path = get_user_path(args)
+    user_path_other = get_user_path_other(args)
+
 
     source_file, target_file = get_file_paths(args)
 
@@ -207,7 +221,7 @@ def main():
     print(f"Target file: {target_file}")
 
     if args.operation == 'pre':
-        process_pre(source_file, target_file, user_path)
+        process_pre(source_file, target_file, user_path, user_path_other)
     elif args.operation == 'post':
         process_post(target_file, target_file, user_path)
     elif args.operation == 'convert':
