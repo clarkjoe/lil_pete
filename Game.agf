@@ -2473,9 +2473,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>150</StartX>
-            <StartY>148</StartY>
-            <StartingRoom>5</StartingRoom>
+            <StartX>448</StartX>
+            <StartY>142</StartY>
+            <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -3004,33 +3004,33 @@
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
             <ID>13</ID>
-            <IdleAnimationDelay>4</IdleAnimationDelay>
-            <IdleDelay>20</IdleDelay>
-            <IdleView>0</IdleView>
+            <IdleAnimationDelay>9</IdleAnimationDelay>
+            <IdleDelay>0</IdleDelay>
+            <IdleView>23</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <NormalView>1</NormalView>
+            <NormalView>23</NormalView>
             <Properties />
             <RealName>Pilot</RealName>
-            <ScriptName>Pilot</ScriptName>
+            <ScriptName>cPilot</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
-            <StartingRoom>-1</StartingRoom>
+            <StartX>133</StartX>
+            <StartY>99</StartY>
+            <StartingRoom>5</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">cPilot_Look</Event>
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cPilot_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -3046,33 +3046,33 @@
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
             <ID>14</ID>
-            <IdleAnimationDelay>4</IdleAnimationDelay>
-            <IdleDelay>20</IdleDelay>
-            <IdleView>0</IdleView>
+            <IdleAnimationDelay>9</IdleAnimationDelay>
+            <IdleDelay>0</IdleDelay>
+            <IdleView>27</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <NormalView>1</NormalView>
+            <NormalView>27</NormalView>
             <Properties />
             <RealName>Copilot</RealName>
-            <ScriptName>Copilot</ScriptName>
+            <ScriptName>cCopilot</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
-            <StartingRoom>-1</StartingRoom>
+            <StartX>187</StartX>
+            <StartY>100</StartY>
+            <StartingRoom>5</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">cCopilot_Look</Event>
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cCopilot_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -3138,8 +3138,8 @@
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>1</HotspotX>
-        <HotspotY>1</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <ID>0</ID>
         <Image>2054</Image>
         <Name xml:space="preserve">Walk to</Name>
@@ -3164,8 +3164,8 @@
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>1</HotspotX>
-        <HotspotY>1</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <ID>2</ID>
         <Image>2057</Image>
         <Name>Interact</Name>
@@ -9105,13 +9105,13 @@
                       <SpriteFolder Name="3_GrabFromFirstAidKit">
                         <SubFolders />
                         <Sprites>
-                          <Sprite Slot="364" Width="17" Height="49" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="364" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/0.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>49</ImportHeight>
-                              <ImportWidth>17</ImportWidth>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -9120,13 +9120,13 @@
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="390" Width="17" Height="49" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="390" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/1.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>49</ImportHeight>
-                              <ImportWidth>17</ImportWidth>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -9135,13 +9135,13 @@
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="391" Width="17" Height="49" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="391" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/2.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>49</ImportHeight>
-                              <ImportWidth>17</ImportWidth>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -9150,13 +9150,13 @@
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="392" Width="17" Height="49" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="392" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/3.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>49</ImportHeight>
-                              <ImportWidth>17</ImportWidth>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -9165,13 +9165,13 @@
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="393" Width="17" Height="49" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="393" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/4.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>49</ImportHeight>
-                              <ImportWidth>17</ImportWidth>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -9180,13 +9180,13 @@
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="394" Width="17" Height="49" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="394" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/5.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>49</ImportHeight>
-                              <ImportWidth>17</ImportWidth>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -9195,13 +9195,13 @@
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="395" Width="17" Height="49" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="395" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/6.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>49</ImportHeight>
-                              <ImportWidth>17</ImportWidth>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -9210,13 +9210,13 @@
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="396" Width="17" Height="49" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="396" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/7.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>49</ImportHeight>
-                              <ImportWidth>17</ImportWidth>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -9225,13 +9225,13 @@
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="397" Width="17" Height="49" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="397" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/8.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>49</ImportHeight>
-                              <ImportWidth>17</ImportWidth>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -9240,13 +9240,13 @@
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="398" Width="17" Height="49" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="398" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/9.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>49</ImportHeight>
-                              <ImportWidth>17</ImportWidth>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -9255,13 +9255,13 @@
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="399" Width="17" Height="49" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="399" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/10.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>49</ImportHeight>
-                              <ImportWidth>17</ImportWidth>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -9270,13 +9270,508 @@
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="400" Width="17" Height="49" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="400" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/11.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>49</ImportHeight>
-                              <ImportWidth>17</ImportWidth>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1036" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/12.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1037" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/13.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1038" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/14.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1039" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/15.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1040" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/16.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1041" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/17.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1042" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/18.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1043" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/19.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1044" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/20.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1045" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/21.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1046" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/22.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1047" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/23.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1048" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/24.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1049" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/25.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1050" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/26.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1051" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/27.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1052" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/28.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1053" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/29.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1054" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/30.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1055" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/31.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1056" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/32.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1057" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/33.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1058" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/34.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1059" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/35.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1060" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/36.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1061" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/37.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1062" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/38.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1063" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/39.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1064" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/40.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1065" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/41.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1066" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/42.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1067" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/43.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1068" Width="50" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/Clara_FirstAidGrabFrom.png/44.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -9768,73 +10263,11 @@
                       </SpriteFolder>
                       <SpriteFolder Name="2_ValveUp">
                         <SubFolders />
-                        <Sprites>
-                          <Sprite Slot="442" Width="21" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
-                            <Source>
-                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/ClaraFlushValve.png/10.png</FileName>
-                              <OffsetX>0</OffsetX>
-                              <OffsetY>0</OffsetY>
-                              <ImportHeight>50</ImportHeight>
-                              <ImportWidth>21</ImportWidth>
-                              <ImportAsTile>False</ImportAsTile>
-                              <Frame>0</Frame>
-                              <RemapToGamePalette>False</RemapToGamePalette>
-                              <RemapToRoomPalette>False</RemapToRoomPalette>
-                              <ImportMethod>TopLeft</ImportMethod>
-                              <ImportAlphaChannel>True</ImportAlphaChannel>
-                            </Source>
-                          </Sprite>
-                        </Sprites>
+                        <Sprites />
                       </SpriteFolder>
                       <SpriteFolder Name="3_ValveDown">
                         <SubFolders />
-                        <Sprites>
-                          <Sprite Slot="443" Width="21" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
-                            <Source>
-                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/ClaraFlushValve.png/10.png</FileName>
-                              <OffsetX>0</OffsetX>
-                              <OffsetY>0</OffsetY>
-                              <ImportHeight>50</ImportHeight>
-                              <ImportWidth>21</ImportWidth>
-                              <ImportAsTile>False</ImportAsTile>
-                              <Frame>0</Frame>
-                              <RemapToGamePalette>False</RemapToGamePalette>
-                              <RemapToRoomPalette>False</RemapToRoomPalette>
-                              <ImportMethod>TopLeft</ImportMethod>
-                              <ImportAlphaChannel>True</ImportAlphaChannel>
-                            </Source>
-                          </Sprite>
-                          <Sprite Slot="444" Width="21" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
-                            <Source>
-                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/ClaraFlushValve.png/11.png</FileName>
-                              <OffsetX>0</OffsetX>
-                              <OffsetY>0</OffsetY>
-                              <ImportHeight>50</ImportHeight>
-                              <ImportWidth>21</ImportWidth>
-                              <ImportAsTile>False</ImportAsTile>
-                              <Frame>0</Frame>
-                              <RemapToGamePalette>False</RemapToGamePalette>
-                              <RemapToRoomPalette>False</RemapToRoomPalette>
-                              <ImportMethod>TopLeft</ImportMethod>
-                              <ImportAlphaChannel>True</ImportAlphaChannel>
-                            </Source>
-                          </Sprite>
-                          <Sprite Slot="445" Width="21" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
-                            <Source>
-                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/ClaraFlushValve.png/12.png</FileName>
-                              <OffsetX>0</OffsetX>
-                              <OffsetY>0</OffsetY>
-                              <ImportHeight>50</ImportHeight>
-                              <ImportWidth>21</ImportWidth>
-                              <ImportAsTile>False</ImportAsTile>
-                              <Frame>0</Frame>
-                              <RemapToGamePalette>False</RemapToGamePalette>
-                              <RemapToRoomPalette>False</RemapToRoomPalette>
-                              <ImportMethod>TopLeft</ImportMethod>
-                              <ImportAlphaChannel>True</ImportAlphaChannel>
-                            </Source>
-                          </Sprite>
-                        </Sprites>
+                        <Sprites />
                       </SpriteFolder>
                       <SpriteFolder Name="4_FlushValve">
                         <SubFolders />
@@ -16424,13 +16857,13 @@
                       <SpriteFolder Name="0_WalkFront">
                         <SubFolders />
                         <Sprites>
-                          <Sprite Slot="138" Width="28" Height="58" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="138" Width="27" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/Carlos/ActorRestCasual.png/2.png</FileName>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/Carlos/ActorRestCasual.png/0.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>58</ImportHeight>
-                              <ImportWidth>28</ImportWidth>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>27</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -16534,13 +16967,13 @@
                       <SpriteFolder Name="1_WalkLeft">
                         <SubFolders />
                         <Sprites>
-                          <Sprite Slot="162" Width="36" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="154" Width="28" Height="58" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/Carlos/ActorWalkRightCasual.png/7.png</FileName>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/Carlos/ActorRestCasual.png/4.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>60</ImportHeight>
-                              <ImportWidth>36</ImportWidth>
+                              <ImportHeight>58</ImportHeight>
+                              <ImportWidth>28</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -16549,13 +16982,13 @@
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="154" Width="28" Height="58" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="162" Width="36" Height="60" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/Carlos/ActorRestCasual.png/4.png</FileName>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/Carlos/ActorWalkRightCasual.png/7.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>58</ImportHeight>
-                              <ImportWidth>28</ImportWidth>
+                              <ImportHeight>60</ImportHeight>
+                              <ImportWidth>36</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -16814,13 +17247,13 @@
                       <SpriteFolder Name="3_WalkBack">
                         <SubFolders />
                         <Sprites>
-                          <Sprite Slot="163" Width="28" Height="58" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="163" Width="27" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/Carlos/ActorRestCasual.png/3.png</FileName>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/Carlos/ActorRestCasual.png/1.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>58</ImportHeight>
-                              <ImportWidth>28</ImportWidth>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>27</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -18686,18 +19119,18 @@
                       <SpriteFolder Name="3_Glass">
                         <SubFolders />
                         <Sprites>
-                          <Sprite Slot="835" Width="38" Height="47" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="1077" Width="4" Height="5" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/Carlos/ActorPutDownGlass.png/3.png</FileName>
+                              <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/Carlos/CarlosWhiskeyGlass.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>47</ImportHeight>
-                              <ImportWidth>38</ImportWidth>
+                              <ImportHeight>5</ImportHeight>
+                              <ImportWidth>4</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
                               <RemapToRoomPalette>False</RemapToRoomPalette>
-                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
@@ -20965,7 +21398,7 @@
                     <Sprites>
                       <Sprite Slot="959" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/My Drive/LilPete_Game_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneSeatBack/5001_AirplaneSeatBack_v01_A.png</FileName>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneSeatBack/5001_AirplaneSeatBack_v01_A.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -20980,7 +21413,7 @@
                       </Sprite>
                       <Sprite Slot="960" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/My Drive/LilPete_Game_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneSeatBack/5001_AirplaneSeatBack_v01_B.png</FileName>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneSeatBack/5001_AirplaneSeatBack_v01_B.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -20995,7 +21428,7 @@
                       </Sprite>
                       <Sprite Slot="961" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/My Drive/LilPete_Game_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneSeatBack/5001_AirplaneSeatBack_v01_C.png</FileName>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneSeatBack/5001_AirplaneSeatBack_v01_C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -21010,7 +21443,7 @@
                       </Sprite>
                       <Sprite Slot="962" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/My Drive/LilPete_Game_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneSeatBack/5001_AirplaneSeatBack_v01_D.png</FileName>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneSeatBack/5001_AirplaneSeatBack_v01_D.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -21030,7 +21463,7 @@
                     <Sprites>
                       <Sprite Slot="963" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/My Drive/LilPete_Game_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneTrashCan/5002_AirplaneTrashCan_v01_B.png</FileName>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneTrashCan/5002_AirplaneTrashCan_v01_B.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -21045,7 +21478,7 @@
                       </Sprite>
                       <Sprite Slot="964" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/My Drive/LilPete_Game_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneTrashCan/5002_AirplaneTrashCan_v01_C.png</FileName>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneTrashCan/5002_AirplaneTrashCan_v01_C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -21065,7 +21498,7 @@
                     <Sprites>
                       <Sprite Slot="967" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/My Drive/LilPete_Game_Gold/LilPete/Views/5001_AirplaneDetails/CockpitEngineKeys/5001_CockpitEngineKey_v01_on.png</FileName>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/CockpitEngineKeys/5001_CockpitEngineKey_v01_on.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -21080,7 +21513,7 @@
                       </Sprite>
                       <Sprite Slot="968" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/My Drive/LilPete_Game_Gold/LilPete/Views/5001_AirplaneDetails/CockpitEngineKeys/5001_CockpitEngineKey_v01_off.png</FileName>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/CockpitEngineKeys/5001_CockpitEngineKey_v01_off.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -21100,7 +21533,7 @@
                     <Sprites>
                       <Sprite Slot="965" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/My Drive/LilPete_Game_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneCabinet/5001_Cabinet_v03_smallA.png</FileName>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneCabinet/5001_Cabinet_v03_smallA.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -21115,7 +21548,7 @@
                       </Sprite>
                       <Sprite Slot="966" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/My Drive/LilPete_Game_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneCabinet/5001_Cabinet_v03_smallB.png</FileName>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneCabinet/5001_Cabinet_v03_smallB.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -21290,7 +21723,7 @@
                     <Sprites>
                       <Sprite Slot="1034" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/My Drive/LilPete_Game_Gold/LilPete/Views/5001_AirplaneDetails/CockpitFirstAidKit/5001_Cockpit1stAid_v02.png</FileName>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/CockpitFirstAidKit/5001_Cockpit1stAid_v02.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -21305,7 +21738,7 @@
                       </Sprite>
                       <Sprite Slot="1035" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/My Drive/LilPete_Game_Gold/LilPete/Views/5001_AirplaneDetails/CockpitFirstAidKit/5001_Cockpit1stAid_v02_noThread.png</FileName>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/CockpitFirstAidKit/5001_Cockpit1stAid_v02_noThread.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -21510,6 +21943,201 @@
                           <OffsetY>0</OffsetY>
                           <ImportHeight>66</ImportHeight>
                           <ImportWidth>28</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="2_OpenFlip">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="1069" Width="28" Height="66" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Views/5003_AirplaneDoor/5003_AirplaneDoorFlip.png/0.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>66</ImportHeight>
+                          <ImportWidth>28</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1070" Width="28" Height="66" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Views/5003_AirplaneDoor/5003_AirplaneDoorFlip.png/1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>66</ImportHeight>
+                          <ImportWidth>28</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1071" Width="28" Height="66" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Views/5003_AirplaneDoor/5003_AirplaneDoorFlip.png/2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>66</ImportHeight>
+                          <ImportWidth>28</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1072" Width="28" Height="66" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Views/5003_AirplaneDoor/5003_AirplaneDoorFlip.png/3.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>66</ImportHeight>
+                          <ImportWidth>28</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1073" Width="28" Height="66" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Views/5003_AirplaneDoor/5003_AirplaneDoorFlip.png/4.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>66</ImportHeight>
+                          <ImportWidth>28</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                </SubFolders>
+                <Sprites />
+              </SpriteFolder>
+              <SpriteFolder Name="AirplaneBathroomDetails">
+                <SubFolders>
+                  <SpriteFolder Name="Random">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="1074" Width="26" Height="10" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/ServiceSign.png/0.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>10</ImportHeight>
+                          <ImportWidth>26</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1075" Width="26" Height="10" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/ServiceSign.png/1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>10</ImportHeight>
+                          <ImportWidth>26</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1076" Width="3" Height="45" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/BathroomChain.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>45</ImportHeight>
+                          <ImportWidth>3</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="442" Width="21" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/ClaraFlushValve.png/10.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>21</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="443" Width="21" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/ClaraFlushValve.png/10.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>21</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="444" Width="21" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/ClaraFlushValve.png/11.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>21</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="445" Width="21" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>Y:/Google Drive/Shared drives/Lil Pete/Pixel Studio/LilPete/Characters/ClaraBow/ClaraFlushValve.png/12.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>21</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -25187,7 +25815,7 @@
                     <RunNextLoop>False</RunNextLoop>
                     <Frames>
                       <ViewFrame>
-                        <Delay>0</Delay>
+                        <Delay>10</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
                         <Image>365</Image>
@@ -25197,168 +25825,49 @@
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>1</ID>
-                        <Image>366</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>2</ID>
                         <Image>367</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>3</ID>
+                        <ID>2</ID>
                         <Image>368</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>4</ID>
+                        <ID>3</ID>
                         <Image>369</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>5</ID>
+                        <ID>4</ID>
                         <Image>370</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>6</ID>
+                        <ID>5</ID>
                         <Image>371</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>7</ID>
+                        <ID>6</ID>
                         <Image>372</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
-                        <Delay>0</Delay>
+                        <Delay>10</Delay>
                         <Flipped>False</Flipped>
-                        <ID>8</ID>
+                        <ID>7</ID>
                         <Image>373</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>9</ID>
-                        <Image>374</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>10</ID>
-                        <Image>375</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>11</ID>
-                        <Image>376</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>12</ID>
-                        <Image>377</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>13</ID>
-                        <Image>378</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>14</ID>
-                        <Image>379</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>15</ID>
-                        <Image>380</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>16</ID>
-                        <Image>381</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>17</ID>
-                        <Image>382</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>18</ID>
-                        <Image>383</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>19</ID>
-                        <Image>384</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>20</ID>
-                        <Image>385</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>21</ID>
-                        <Image>386</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>22</ID>
-                        <Image>387</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>23</ID>
-                        <Image>388</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>24</ID>
-                        <Image>389</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -25366,14 +25875,71 @@
                   <Loop>
                     <ID>2</ID>
                     <RunNextLoop>False</RunNextLoop>
-                    <Frames />
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>10</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>376</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>377</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>380</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>382</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>383</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>384</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>385</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>10</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>386</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
                   </Loop>
                   <Loop>
                     <ID>3</ID>
                     <RunNextLoop>False</RunNextLoop>
                     <Frames>
                       <ViewFrame>
-                        <Delay>0</Delay>
+                        <Delay>10</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
                         <Image>364</Image>
@@ -25454,6 +26020,237 @@
                         <Flipped>False</Flipped>
                         <ID>11</ID>
                         <Image>400</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>12</ID>
+                        <Image>1036</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>13</ID>
+                        <Image>1037</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>14</ID>
+                        <Image>1038</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>15</ID>
+                        <Image>1039</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>16</ID>
+                        <Image>1040</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>17</ID>
+                        <Image>1041</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>18</ID>
+                        <Image>1042</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>19</ID>
+                        <Image>1043</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>8</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>20</ID>
+                        <Image>1044</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>21</ID>
+                        <Image>1045</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>22</ID>
+                        <Image>1046</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>23</ID>
+                        <Image>1047</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>24</ID>
+                        <Image>1048</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>25</ID>
+                        <Image>1049</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>26</ID>
+                        <Image>1050</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>27</ID>
+                        <Image>1051</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>28</ID>
+                        <Image>1052</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>29</ID>
+                        <Image>1053</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>30</ID>
+                        <Image>1054</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>31</ID>
+                        <Image>1055</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>32</ID>
+                        <Image>1056</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>33</ID>
+                        <Image>1057</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>34</ID>
+                        <Image>1058</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>35</ID>
+                        <Image>1059</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>36</ID>
+                        <Image>1060</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>37</ID>
+                        <Image>1061</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>38</ID>
+                        <Image>1062</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>39</ID>
+                        <Image>1063</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>40</ID>
+                        <Image>1064</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>41</ID>
+                        <Image>1065</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>42</ID>
+                        <Image>1066</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>43</ID>
+                        <Image>1067</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>10</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>44</ID>
+                        <Image>1068</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -25703,42 +26500,12 @@
                   <Loop>
                     <ID>2</ID>
                     <RunNextLoop>False</RunNextLoop>
-                    <Frames>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>0</ID>
-                        <Image>442</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                    </Frames>
+                    <Frames />
                   </Loop>
                   <Loop>
                     <ID>3</ID>
                     <RunNextLoop>False</RunNextLoop>
-                    <Frames>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>0</ID>
-                        <Image>443</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>1</ID>
-                        <Image>444</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>2</ID>
-                        <Image>445</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                    </Frames>
+                    <Frames />
                   </Loop>
                   <Loop>
                     <ID>4</ID>
@@ -30163,7 +30930,7 @@
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>835</Image>
+                        <Image>1077</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -31576,6 +32343,74 @@
                     <RunNextLoop>False</RunNextLoop>
                     <Frames>
                       <ViewFrame>
+                        <Delay>30</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>816</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>30</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>817</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>30</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>818</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>30</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>819</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>30</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>820</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>10</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>805</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>807</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>10</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>809</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
                         <Delay>20</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
@@ -31608,33 +32443,6 @@
                         <Flipped>False</Flipped>
                         <ID>4</ID>
                         <Image>803</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                    </Frames>
-                  </Loop>
-                  <Loop>
-                    <ID>2</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames>
-                      <ViewFrame>
-                        <Delay>10</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>0</ID>
-                        <Image>805</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>1</ID>
-                        <Image>807</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>10</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>2</ID>
-                        <Image>809</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -31678,38 +32486,59 @@
                     <RunNextLoop>False</RunNextLoop>
                     <Frames>
                       <ViewFrame>
-                        <Delay>30</Delay>
+                        <Delay>20</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>816</Image>
+                        <Image>795</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
-                        <Delay>30</Delay>
+                        <Delay>20</Delay>
                         <Flipped>False</Flipped>
                         <ID>1</ID>
-                        <Image>817</Image>
+                        <Image>797</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
-                        <Delay>30</Delay>
+                        <Delay>20</Delay>
                         <Flipped>False</Flipped>
                         <ID>2</ID>
-                        <Image>818</Image>
+                        <Image>799</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
-                        <Delay>30</Delay>
+                        <Delay>20</Delay>
                         <Flipped>False</Flipped>
                         <ID>3</ID>
-                        <Image>819</Image>
+                        <Image>801</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
-                        <Delay>30</Delay>
+                        <Delay>50</Delay>
                         <Flipped>False</Flipped>
                         <ID>4</ID>
-                        <Image>820</Image>
+                        <Image>803</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>20</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>801</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>20</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>799</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>20</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>797</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -31737,6 +32566,68 @@
                         <Flipped>True</Flipped>
                         <ID>2</ID>
                         <Image>823</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>20</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>0</ID>
+                        <Image>795</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>20</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>1</ID>
+                        <Image>797</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>20</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>2</ID>
+                        <Image>799</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>20</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>3</ID>
+                        <Image>801</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>50</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>4</ID>
+                        <Image>803</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>20</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>5</ID>
+                        <Image>801</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>20</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>6</ID>
+                        <Image>799</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>20</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>7</ID>
+                        <Image>797</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -32219,50 +33110,45 @@
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>180</Image>
+                        <Image>1069</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>1</ID>
-                        <Image>182</Image>
+                        <Image>1070</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>2</ID>
-                        <Image>184</Image>
+                        <Image>1071</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>3</ID>
-                        <Image>186</Image>
+                        <Image>1072</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>4</ID>
-                        <Image>188</Image>
+                        <Image>1073</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
                   </Loop>
-                  <Loop>
-                    <ID>2</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames />
-                  </Loop>
-                  <Loop>
-                    <ID>3</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames />
-                  </Loop>
                 </Loops>
+              </View>
+              <View>
+                <ID>53</ID>
+                <Name>AirplaneBathroomDetails</Name>
+                <Loops />
               </View>
             </Views>
           </ViewFolder>
