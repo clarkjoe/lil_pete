@@ -3203,11 +3203,11 @@
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <ID>5</ID>
         <Image>2060</Image>
-        <Name xml:space="preserve">Pick up</Name>
+        <Name>Invalid</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
       </MouseCursor>
@@ -3216,11 +3216,11 @@
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>1</HotspotX>
-        <HotspotY>1</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <ID>6</ID>
         <Image>2061</Image>
-        <Name>Pointer</Name>
+        <Name>Empty</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
       </MouseCursor>
@@ -3245,8 +3245,8 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>8</ID>
-        <Image>2055</Image>
-        <Name>Empty</Name>
+        <Image>2059</Image>
+        <Name>Pointer</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
       </MouseCursor>
@@ -22193,13 +22193,13 @@ See KeyboardMovement.txt for details.
               <SpriteFolder Name="5002_AirplaneClouds">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="992" Width="345" Height="32" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="992" Width="420" Height="89" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Pics/6001_AirplaneInterior/6001_AirplaneInterior_v06_justClouds_compressed.png</FileName>
+                      <FileName>G:/My Drive/Game_Assets_Gold/Views/5002_AirplaneClouds/5002_ExtendedClouds_v09.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>32</ImportHeight>
-                      <ImportWidth>345</ImportWidth>
+                      <ImportHeight>89</ImportHeight>
+                      <ImportWidth>420</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -22208,13 +22208,13 @@ See KeyboardMovement.txt for details.
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="993" Width="345" Height="32" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="993" Width="420" Height="89" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Pics/6001_AirplaneInterior/6001_AirplaneInterior_v06_justClouds_compressed_transparent.png</FileName>
+                      <FileName>G:/My Drive/Game_Assets_Gold/Views/5002_AirplaneClouds/5002_ExtendedClouds_v09.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>32</ImportHeight>
-                      <ImportWidth>345</ImportWidth>
+                      <ImportHeight>89</ImportHeight>
+                      <ImportWidth>420</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
