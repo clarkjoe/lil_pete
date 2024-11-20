@@ -3533,7 +3533,441 @@
     <GlobalVariables>
       <Variables />
     </GlobalVariables>
-    <Sprites>
+    <DeletedViews />
+    <Scripts>
+      <ScriptFolder Name="Main">
+        <SubFolders>
+          <ScriptFolder Name="Enums">
+            <SubFolders>
+              <ScriptFolder Name="Characters">
+                <SubFolders />
+                <ScriptAndHeaders>
+                  <ScriptAndHeader>
+                    <ScriptAndHeader_Header>
+                      <Script>
+                        <FileName>Carlos.ash</FileName>
+                        <Name />
+                        <Description />
+                        <Author />
+                        <Version />
+                        <Key>849266028</Key>
+                        <IsHeader>True</IsHeader>
+                      </Script>
+                    </ScriptAndHeader_Header>
+                    <ScriptAndHeader_Script>
+                      <Script>
+                        <FileName>Carlos.asc</FileName>
+                        <Name />
+                        <Description />
+                        <Author />
+                        <Version />
+                        <Key>849266028</Key>
+                        <IsHeader>False</IsHeader>
+                      </Script>
+                    </ScriptAndHeader_Script>
+                  </ScriptAndHeader>
+                  <ScriptAndHeader>
+                    <ScriptAndHeader_Header>
+                      <Script>
+                        <FileName>Joanna.ash</FileName>
+                        <Name />
+                        <Description />
+                        <Author />
+                        <Version />
+                        <Key>938372548</Key>
+                        <IsHeader>True</IsHeader>
+                      </Script>
+                    </ScriptAndHeader_Header>
+                    <ScriptAndHeader_Script>
+                      <Script>
+                        <FileName>Joanna.asc</FileName>
+                        <Name />
+                        <Description />
+                        <Author />
+                        <Version />
+                        <Key>938372548</Key>
+                        <IsHeader>False</IsHeader>
+                      </Script>
+                    </ScriptAndHeader_Script>
+                  </ScriptAndHeader>
+                  <ScriptAndHeader>
+                    <ScriptAndHeader_Header>
+                      <Script>
+                        <FileName>Clara.ash</FileName>
+                        <Name />
+                        <Description />
+                        <Author />
+                        <Version />
+                        <Key>244869501</Key>
+                        <IsHeader>True</IsHeader>
+                      </Script>
+                    </ScriptAndHeader_Header>
+                    <ScriptAndHeader_Script>
+                      <Script>
+                        <FileName>Clara.asc</FileName>
+                        <Name />
+                        <Description />
+                        <Author />
+                        <Version />
+                        <Key>244869501</Key>
+                        <IsHeader>False</IsHeader>
+                      </Script>
+                    </ScriptAndHeader_Script>
+                  </ScriptAndHeader>
+                </ScriptAndHeaders>
+              </ScriptFolder>
+              <ScriptFolder Name="Objects">
+                <SubFolders />
+                <ScriptAndHeaders>
+                  <ScriptAndHeader>
+                    <ScriptAndHeader_Header>
+                      <Script>
+                        <FileName>Airplane.ash</FileName>
+                        <Name />
+                        <Description />
+                        <Author />
+                        <Version />
+                        <Key>1634492318</Key>
+                        <IsHeader>True</IsHeader>
+                      </Script>
+                    </ScriptAndHeader_Header>
+                    <ScriptAndHeader_Script>
+                      <Script>
+                        <FileName>Airplane.asc</FileName>
+                        <Name />
+                        <Description />
+                        <Author />
+                        <Version />
+                        <Key>1634492318</Key>
+                        <IsHeader>False</IsHeader>
+                      </Script>
+                    </ScriptAndHeader_Script>
+                  </ScriptAndHeader>
+                </ScriptAndHeaders>
+              </ScriptFolder>
+            </SubFolders>
+            <ScriptAndHeaders />
+          </ScriptFolder>
+          <ScriptFolder Name="CustomClasses">
+            <SubFolders />
+            <ScriptAndHeaders>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>Door.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>31333815</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>Door.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>31333815</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+            </ScriptAndHeaders>
+          </ScriptFolder>
+          <ScriptFolder Name="State">
+            <SubFolders />
+            <ScriptAndHeaders>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>Prologue.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>858010826</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>Prologue.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>858010826</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+            </ScriptAndHeaders>
+          </ScriptFolder>
+        </SubFolders>
+        <ScriptAndHeaders>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>ExtenderFunctions.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>488139299</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>ExtenderFunctions.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>488139299</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>UtilFunctions.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>533486662</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>UtilFunctions.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>533486662</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>KeyboardMovement.ash</FileName>
+                <Name>KeyboardMovement</Name>
+                <Description>Allows to move the player character using the keyboard.
+
+See KeyboardMovement.txt for details.
+</Description>
+                <Author>Rui "Brisby" Pires / strazer</Author>
+                <Version>1.02</Version>
+                <Key>160503183</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>KeyboardMovement.asc</FileName>
+                <Name>KeyboardMovement</Name>
+                <Description>Allows to move the player character using the keyboard.
+
+See KeyboardMovement.txt for details.
+</Description>
+                <Author>Rui "Brisby" Pires / strazer / AGS Team</Author>
+                <Version>1.04</Version>
+                <Key>160503183</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>GlobalScript.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1959917563</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>GlobalScript.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1959917563</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+        </ScriptAndHeaders>
+      </ScriptFolder>
+    </Scripts>
+    <AudioClips>
+      <AudioClipFolder Name="Main">
+        <SubFolders>
+          <AudioClipFolder Name="Music">
+            <SubFolders />
+            <AudioClips>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>True</DefaultRepeat>
+                <DefaultVolume>30</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>1</ID>
+                <Index>2</Index>
+                <ScriptName>a6001_AirplaneMusic</ScriptName>
+                <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\Music\6001_Airplane_cropped.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-09-18 02:31:15Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>20</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>3</ID>
+                <Index>4</Index>
+                <ScriptName>a1002_CastleGrounds</ScriptName>
+                <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\Music\1002_CastleGrounds.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-09-18 02:31:15Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>10</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>4</ID>
+                <Index>5</Index>
+                <ScriptName>aSamirTheme</ScriptName>
+                <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\Music\SamirTheme.mp3</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-09-06 18:45:02Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
+            <AudioClipFolder>
+              <DefaultBundlingType>InSeparateVOX</DefaultBundlingType>
+              <DefaultPriority>Inherit</DefaultPriority>
+              <DefaultRepeat>True</DefaultRepeat>
+              <DefaultType>2</DefaultType>
+              <DefaultVolume>100</DefaultVolume>
+            </AudioClipFolder>
+          </AudioClipFolder>
+          <AudioClipFolder Name="Sounds">
+            <SubFolders />
+            <AudioClips>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>5</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>2</ID>
+                <Index>3</Index>
+                <ScriptName>aAirplane_hum</ScriptName>
+                <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\SoundEffects\Airplane_hum.mp3</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-09-06 00:44:30Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>0</ID>
+                <Index>1</Index>
+                <ScriptName>aKQ6Beach</ScriptName>
+                <SourceFileName>Sandbox/KQ6Beach.wav</SourceFileName>
+                <Type>1</Type>
+                <FileLastModifiedDate>2024-09-03 08:37:28Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>5</ID>
+                <Index>6</Index>
+                <ScriptName>aWindTrees</ScriptName>
+                <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\SoundEffects\WindTrees.mp3</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-09-06 18:47:20Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
+            <AudioClipFolder>
+              <DefaultBundlingType>InGameEXE</DefaultBundlingType>
+              <DefaultPriority>Inherit</DefaultPriority>
+              <DefaultRepeat>False</DefaultRepeat>
+              <DefaultType>3</DefaultType>
+              <DefaultVolume>100</DefaultVolume>
+            </AudioClipFolder>
+          </AudioClipFolder>
+          <AudioClipFolder Name="Videos">
+            <SubFolders />
+            <AudioClips />
+            <AudioClipFolder>
+              <DefaultBundlingType>InGameEXE</DefaultBundlingType>
+              <DefaultPriority>Inherit</DefaultPriority>
+              <DefaultRepeat>Inherit</DefaultRepeat>
+              <DefaultType>1</DefaultType>
+              <DefaultVolume>100</DefaultVolume>
+            </AudioClipFolder>
+          </AudioClipFolder>
+        </SubFolders>
+        <AudioClips />
+        <AudioClipFolder>
+          <DefaultBundlingType>InGameEXE</DefaultBundlingType>
+          <DefaultPriority>Normal</DefaultPriority>
+          <DefaultRepeat>False</DefaultRepeat>
+          <DefaultType>1</DefaultType>
+          <DefaultVolume>100</DefaultVolume>
+        </AudioClipFolder>
+      </AudioClipFolder>
+    </AudioClips>
+    <AudioClipTypes>
+      <AudioClipType>
+        <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
+        <CrossfadeClips>No</CrossfadeClips>
+        <MaxChannels>1</MaxChannels>
+        <Name xml:space="preserve">Ambient Sound</Name>
+        <TypeID>1</TypeID>
+        <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
+      </AudioClipType>
+      <AudioClipType>
+        <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
+        <CrossfadeClips>No</CrossfadeClips>
+        <MaxChannels>1</MaxChannels>
+        <Name>Music</Name>
+        <TypeID>2</TypeID>
+        <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
+      </AudioClipType>
+      <AudioClipType>
+        <BackwardsCompatibilityType>False</BackwardsCompatibilityType>
+        <CrossfadeClips>No</CrossfadeClips>
+        <MaxChannels>0</MaxChannels>
+        <Name>Sound</Name>
+        <TypeID>3</TypeID>
+        <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
+      </AudioClipType>
+    </AudioClipTypes>
+    <Translations />
+  <Sprites>
       <SpriteFolder Name="Main">
         <SubFolders>
           <SpriteFolder Name="Defaults">
@@ -22016,7 +22450,7 @@
                     <Sprites>
                       <Sprite Slot="959" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/5001_AirplaneDetails/AirplaneSeatBack/5001_AirplaneSeatBack_v01_A.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneSeatBack/5001_AirplaneSeatBack_v01_A.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -22031,7 +22465,7 @@
                       </Sprite>
                       <Sprite Slot="960" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/5001_AirplaneDetails/AirplaneSeatBack/5001_AirplaneSeatBack_v01_B.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneSeatBack/5001_AirplaneSeatBack_v01_B.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -22046,7 +22480,7 @@
                       </Sprite>
                       <Sprite Slot="961" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/5001_AirplaneDetails/AirplaneSeatBack/5001_AirplaneSeatBack_v01_C.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneSeatBack/5001_AirplaneSeatBack_v01_C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -22061,7 +22495,7 @@
                       </Sprite>
                       <Sprite Slot="962" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/5001_AirplaneDetails/AirplaneSeatBack/5001_AirplaneSeatBack_v01_D.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneSeatBack/5001_AirplaneSeatBack_v01_D.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -22081,7 +22515,7 @@
                     <Sprites>
                       <Sprite Slot="963" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/5001_AirplaneDetails/AirplaneTrashCan/5002_AirplaneTrashCan_v01_B.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneTrashCan/5002_AirplaneTrashCan_v01_B.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -22096,7 +22530,7 @@
                       </Sprite>
                       <Sprite Slot="964" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/5001_AirplaneDetails/AirplaneTrashCan/5002_AirplaneTrashCan_v01_C.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneTrashCan/5002_AirplaneTrashCan_v01_C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -22116,7 +22550,7 @@
                     <Sprites>
                       <Sprite Slot="967" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/5001_AirplaneDetails/CockpitEngineKeys/5001_CockpitEngineKey_v01_on.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/CockpitEngineKeys/5001_CockpitEngineKey_v01_on.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -22131,7 +22565,7 @@
                       </Sprite>
                       <Sprite Slot="968" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/5001_AirplaneDetails/CockpitEngineKeys/5001_CockpitEngineKey_v01_off.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/CockpitEngineKeys/5001_CockpitEngineKey_v01_off.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -22151,7 +22585,7 @@
                     <Sprites>
                       <Sprite Slot="965" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/5001_AirplaneDetails/AirplaneCabinet/5001_Cabinet_v03_smallA.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneCabinet/5001_Cabinet_v03_smallA.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -22166,7 +22600,7 @@
                       </Sprite>
                       <Sprite Slot="966" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/5001_AirplaneDetails/AirplaneCabinet/5001_Cabinet_v03_smallB.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/AirplaneCabinet/5001_Cabinet_v03_smallB.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -22341,7 +22775,7 @@
                     <Sprites>
                       <Sprite Slot="1034" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/5001_AirplaneDetails/CockpitFirstAidKit/5001_Cockpit1stAid_v02.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/CockpitFirstAidKit/5001_Cockpit1stAid_v02.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -22356,7 +22790,7 @@
                       </Sprite>
                       <Sprite Slot="1035" Width="100" Height="100" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/5001_AirplaneDetails/CockpitFirstAidKit/5001_Cockpit1stAid_v02_noThread.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5001_AirplaneDetails/CockpitFirstAidKit/5001_Cockpit1stAid_v02_noThread.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>100</ImportHeight>
@@ -22379,7 +22813,7 @@
                 <Sprites>
                   <Sprite Slot="992" Width="420" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/5002_AirplaneClouds/5002_ExtendedClouds_v09.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/5002_ExtendedClouds_v09.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>50</ImportHeight>
@@ -22394,7 +22828,7 @@
                   </Sprite>
                   <Sprite Slot="993" Width="420" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/5002_AirplaneClouds/5002_ExtendedClouds_v09.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/5002_ExtendedClouds_v09.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>50</ImportHeight>
@@ -34317,441 +34751,7 @@
         </Views>
       </ViewFolder>
     </Views>
-    <DeletedViews />
-    <Scripts>
-      <ScriptFolder Name="Main">
-        <SubFolders>
-          <ScriptFolder Name="Enums">
-            <SubFolders>
-              <ScriptFolder Name="Characters">
-                <SubFolders />
-                <ScriptAndHeaders>
-                  <ScriptAndHeader>
-                    <ScriptAndHeader_Header>
-                      <Script>
-                        <FileName>Carlos.ash</FileName>
-                        <Name />
-                        <Description />
-                        <Author />
-                        <Version />
-                        <Key>849266028</Key>
-                        <IsHeader>True</IsHeader>
-                      </Script>
-                    </ScriptAndHeader_Header>
-                    <ScriptAndHeader_Script>
-                      <Script>
-                        <FileName>Carlos.asc</FileName>
-                        <Name />
-                        <Description />
-                        <Author />
-                        <Version />
-                        <Key>849266028</Key>
-                        <IsHeader>False</IsHeader>
-                      </Script>
-                    </ScriptAndHeader_Script>
-                  </ScriptAndHeader>
-                  <ScriptAndHeader>
-                    <ScriptAndHeader_Header>
-                      <Script>
-                        <FileName>Joanna.ash</FileName>
-                        <Name />
-                        <Description />
-                        <Author />
-                        <Version />
-                        <Key>938372548</Key>
-                        <IsHeader>True</IsHeader>
-                      </Script>
-                    </ScriptAndHeader_Header>
-                    <ScriptAndHeader_Script>
-                      <Script>
-                        <FileName>Joanna.asc</FileName>
-                        <Name />
-                        <Description />
-                        <Author />
-                        <Version />
-                        <Key>938372548</Key>
-                        <IsHeader>False</IsHeader>
-                      </Script>
-                    </ScriptAndHeader_Script>
-                  </ScriptAndHeader>
-                  <ScriptAndHeader>
-                    <ScriptAndHeader_Header>
-                      <Script>
-                        <FileName>Clara.ash</FileName>
-                        <Name />
-                        <Description />
-                        <Author />
-                        <Version />
-                        <Key>244869501</Key>
-                        <IsHeader>True</IsHeader>
-                      </Script>
-                    </ScriptAndHeader_Header>
-                    <ScriptAndHeader_Script>
-                      <Script>
-                        <FileName>Clara.asc</FileName>
-                        <Name />
-                        <Description />
-                        <Author />
-                        <Version />
-                        <Key>244869501</Key>
-                        <IsHeader>False</IsHeader>
-                      </Script>
-                    </ScriptAndHeader_Script>
-                  </ScriptAndHeader>
-                </ScriptAndHeaders>
-              </ScriptFolder>
-              <ScriptFolder Name="Objects">
-                <SubFolders />
-                <ScriptAndHeaders>
-                  <ScriptAndHeader>
-                    <ScriptAndHeader_Header>
-                      <Script>
-                        <FileName>Airplane.ash</FileName>
-                        <Name />
-                        <Description />
-                        <Author />
-                        <Version />
-                        <Key>1634492318</Key>
-                        <IsHeader>True</IsHeader>
-                      </Script>
-                    </ScriptAndHeader_Header>
-                    <ScriptAndHeader_Script>
-                      <Script>
-                        <FileName>Airplane.asc</FileName>
-                        <Name />
-                        <Description />
-                        <Author />
-                        <Version />
-                        <Key>1634492318</Key>
-                        <IsHeader>False</IsHeader>
-                      </Script>
-                    </ScriptAndHeader_Script>
-                  </ScriptAndHeader>
-                </ScriptAndHeaders>
-              </ScriptFolder>
-            </SubFolders>
-            <ScriptAndHeaders />
-          </ScriptFolder>
-          <ScriptFolder Name="CustomClasses">
-            <SubFolders />
-            <ScriptAndHeaders>
-              <ScriptAndHeader>
-                <ScriptAndHeader_Header>
-                  <Script>
-                    <FileName>Door.ash</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>31333815</Key>
-                    <IsHeader>True</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Header>
-                <ScriptAndHeader_Script>
-                  <Script>
-                    <FileName>Door.asc</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>31333815</Key>
-                    <IsHeader>False</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Script>
-              </ScriptAndHeader>
-            </ScriptAndHeaders>
-          </ScriptFolder>
-          <ScriptFolder Name="State">
-            <SubFolders />
-            <ScriptAndHeaders>
-              <ScriptAndHeader>
-                <ScriptAndHeader_Header>
-                  <Script>
-                    <FileName>Prologue.ash</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>858010826</Key>
-                    <IsHeader>True</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Header>
-                <ScriptAndHeader_Script>
-                  <Script>
-                    <FileName>Prologue.asc</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>858010826</Key>
-                    <IsHeader>False</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Script>
-              </ScriptAndHeader>
-            </ScriptAndHeaders>
-          </ScriptFolder>
-        </SubFolders>
-        <ScriptAndHeaders>
-          <ScriptAndHeader>
-            <ScriptAndHeader_Header>
-              <Script>
-                <FileName>ExtenderFunctions.ash</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>488139299</Key>
-                <IsHeader>True</IsHeader>
-              </Script>
-            </ScriptAndHeader_Header>
-            <ScriptAndHeader_Script>
-              <Script>
-                <FileName>ExtenderFunctions.asc</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>488139299</Key>
-                <IsHeader>False</IsHeader>
-              </Script>
-            </ScriptAndHeader_Script>
-          </ScriptAndHeader>
-          <ScriptAndHeader>
-            <ScriptAndHeader_Header>
-              <Script>
-                <FileName>UtilFunctions.ash</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>533486662</Key>
-                <IsHeader>True</IsHeader>
-              </Script>
-            </ScriptAndHeader_Header>
-            <ScriptAndHeader_Script>
-              <Script>
-                <FileName>UtilFunctions.asc</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>533486662</Key>
-                <IsHeader>False</IsHeader>
-              </Script>
-            </ScriptAndHeader_Script>
-          </ScriptAndHeader>
-          <ScriptAndHeader>
-            <ScriptAndHeader_Header>
-              <Script>
-                <FileName>KeyboardMovement.ash</FileName>
-                <Name>KeyboardMovement</Name>
-                <Description>Allows to move the player character using the keyboard.
-
-See KeyboardMovement.txt for details.
-</Description>
-                <Author>Rui "Brisby" Pires / strazer</Author>
-                <Version>1.02</Version>
-                <Key>160503183</Key>
-                <IsHeader>True</IsHeader>
-              </Script>
-            </ScriptAndHeader_Header>
-            <ScriptAndHeader_Script>
-              <Script>
-                <FileName>KeyboardMovement.asc</FileName>
-                <Name>KeyboardMovement</Name>
-                <Description>Allows to move the player character using the keyboard.
-
-See KeyboardMovement.txt for details.
-</Description>
-                <Author>Rui "Brisby" Pires / strazer / AGS Team</Author>
-                <Version>1.04</Version>
-                <Key>160503183</Key>
-                <IsHeader>False</IsHeader>
-              </Script>
-            </ScriptAndHeader_Script>
-          </ScriptAndHeader>
-          <ScriptAndHeader>
-            <ScriptAndHeader_Header>
-              <Script>
-                <FileName>GlobalScript.ash</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>1959917563</Key>
-                <IsHeader>True</IsHeader>
-              </Script>
-            </ScriptAndHeader_Header>
-            <ScriptAndHeader_Script>
-              <Script>
-                <FileName>GlobalScript.asc</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>1959917563</Key>
-                <IsHeader>False</IsHeader>
-              </Script>
-            </ScriptAndHeader_Script>
-          </ScriptAndHeader>
-        </ScriptAndHeaders>
-      </ScriptFolder>
-    </Scripts>
-    <AudioClips>
-      <AudioClipFolder Name="Main">
-        <SubFolders>
-          <AudioClipFolder Name="Music">
-            <SubFolders />
-            <AudioClips>
-              <AudioClip>
-                <BundlingType>InSeparateVOX</BundlingType>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>True</DefaultRepeat>
-                <DefaultVolume>30</DefaultVolume>
-                <FileType>MP3</FileType>
-                <ID>1</ID>
-                <Index>2</Index>
-                <ScriptName>a6001_AirplaneMusic</ScriptName>
-                <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\Music\6001_Airplane_cropped.mp3</SourceFileName>
-                <Type>2</Type>
-                <FileLastModifiedDate>2024-09-18 02:31:15Z</FileLastModifiedDate>
-              </AudioClip>
-              <AudioClip>
-                <BundlingType>InSeparateVOX</BundlingType>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
-                <DefaultVolume>20</DefaultVolume>
-                <FileType>MP3</FileType>
-                <ID>3</ID>
-                <Index>4</Index>
-                <ScriptName>a1002_CastleGrounds</ScriptName>
-                <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\Music\1002_CastleGrounds.mp3</SourceFileName>
-                <Type>2</Type>
-                <FileLastModifiedDate>2024-09-18 02:31:15Z</FileLastModifiedDate>
-              </AudioClip>
-              <AudioClip>
-                <BundlingType>InGameEXE</BundlingType>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
-                <DefaultVolume>10</DefaultVolume>
-                <FileType>MP3</FileType>
-                <ID>4</ID>
-                <Index>5</Index>
-                <ScriptName>aSamirTheme</ScriptName>
-                <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\Music\SamirTheme.mp3</SourceFileName>
-                <Type>3</Type>
-                <FileLastModifiedDate>2024-09-06 18:45:02Z</FileLastModifiedDate>
-              </AudioClip>
-            </AudioClips>
-            <AudioClipFolder>
-              <DefaultBundlingType>InSeparateVOX</DefaultBundlingType>
-              <DefaultPriority>Inherit</DefaultPriority>
-              <DefaultRepeat>True</DefaultRepeat>
-              <DefaultType>2</DefaultType>
-              <DefaultVolume>100</DefaultVolume>
-            </AudioClipFolder>
-          </AudioClipFolder>
-          <AudioClipFolder Name="Sounds">
-            <SubFolders />
-            <AudioClips>
-              <AudioClip>
-                <BundlingType>InGameEXE</BundlingType>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
-                <DefaultVolume>5</DefaultVolume>
-                <FileType>MP3</FileType>
-                <ID>2</ID>
-                <Index>3</Index>
-                <ScriptName>aAirplane_hum</ScriptName>
-                <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\SoundEffects\Airplane_hum.mp3</SourceFileName>
-                <Type>3</Type>
-                <FileLastModifiedDate>2024-09-06 00:44:30Z</FileLastModifiedDate>
-              </AudioClip>
-              <AudioClip>
-                <BundlingType>InGameEXE</BundlingType>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
-                <DefaultVolume>-1</DefaultVolume>
-                <FileType>WAV</FileType>
-                <ID>0</ID>
-                <Index>1</Index>
-                <ScriptName>aKQ6Beach</ScriptName>
-                <SourceFileName>Sandbox/KQ6Beach.wav</SourceFileName>
-                <Type>1</Type>
-                <FileLastModifiedDate>2024-09-03 08:37:28Z</FileLastModifiedDate>
-              </AudioClip>
-              <AudioClip>
-                <BundlingType>InGameEXE</BundlingType>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
-                <DefaultVolume>-1</DefaultVolume>
-                <FileType>MP3</FileType>
-                <ID>5</ID>
-                <Index>6</Index>
-                <ScriptName>aWindTrees</ScriptName>
-                <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\SoundEffects\WindTrees.mp3</SourceFileName>
-                <Type>3</Type>
-                <FileLastModifiedDate>2024-09-06 18:47:20Z</FileLastModifiedDate>
-              </AudioClip>
-            </AudioClips>
-            <AudioClipFolder>
-              <DefaultBundlingType>InGameEXE</DefaultBundlingType>
-              <DefaultPriority>Inherit</DefaultPriority>
-              <DefaultRepeat>False</DefaultRepeat>
-              <DefaultType>3</DefaultType>
-              <DefaultVolume>100</DefaultVolume>
-            </AudioClipFolder>
-          </AudioClipFolder>
-          <AudioClipFolder Name="Videos">
-            <SubFolders />
-            <AudioClips />
-            <AudioClipFolder>
-              <DefaultBundlingType>InGameEXE</DefaultBundlingType>
-              <DefaultPriority>Inherit</DefaultPriority>
-              <DefaultRepeat>Inherit</DefaultRepeat>
-              <DefaultType>1</DefaultType>
-              <DefaultVolume>100</DefaultVolume>
-            </AudioClipFolder>
-          </AudioClipFolder>
-        </SubFolders>
-        <AudioClips />
-        <AudioClipFolder>
-          <DefaultBundlingType>InGameEXE</DefaultBundlingType>
-          <DefaultPriority>Normal</DefaultPriority>
-          <DefaultRepeat>False</DefaultRepeat>
-          <DefaultType>1</DefaultType>
-          <DefaultVolume>100</DefaultVolume>
-        </AudioClipFolder>
-      </AudioClipFolder>
-    </AudioClips>
-    <AudioClipTypes>
-      <AudioClipType>
-        <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
-        <CrossfadeClips>No</CrossfadeClips>
-        <MaxChannels>1</MaxChannels>
-        <Name xml:space="preserve">Ambient Sound</Name>
-        <TypeID>1</TypeID>
-        <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
-      </AudioClipType>
-      <AudioClipType>
-        <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
-        <CrossfadeClips>No</CrossfadeClips>
-        <MaxChannels>1</MaxChannels>
-        <Name>Music</Name>
-        <TypeID>2</TypeID>
-        <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
-      </AudioClipType>
-      <AudioClipType>
-        <BackwardsCompatibilityType>False</BackwardsCompatibilityType>
-        <CrossfadeClips>No</CrossfadeClips>
-        <MaxChannels>0</MaxChannels>
-        <Name>Sound</Name>
-        <TypeID>3</TypeID>
-        <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
-      </AudioClipType>
-    </AudioClipTypes>
-    <Translations />
-  </Game>
+    </Game>
   <Component Name="FileCommands" />
   <Component Name="BuildCommands" />
   <Component Name="HelpCommands" />

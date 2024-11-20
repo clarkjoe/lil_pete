@@ -14,7 +14,7 @@ daniel_pixel_studio_path = "G:\\My Drive\\Pixel Studio\\LilPete\\"
 daniel_game_assets_path = "G:\\My Drive\\Game_Assets_Gold\\LilPete\\" 
 
 greg_pixel_studio_path = "G:\\.shortcut-targets-by-id\\1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016\\Pixel Studio\\LilPete\\"
-greg_game_assets_path = "G:\\.shortcut-targets-by-id\\1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp\\\\Game_Assets_Gold\\LilPete\\"
+greg_game_assets_path = "G:\\.shortcut-targets-by-id\\1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp\\Game_Assets_Gold\\LilPete\\"
 
 def find_and_replace(source_file, target_file, first_replacement_path, second_replacement_path, first_match_path, second_match_path):
     source_file, target_file = get_expanded_file_paths(source_file, target_file)
