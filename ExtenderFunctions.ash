@@ -9,5 +9,3 @@ import bool IsOverNothing(static Mouse);
 import bool IsUnderMouse(this Object*);
 
 // Character
-import bool IsSitting(this Character*);
-import bool SetIsSitting(this Character*, bool isSitting);

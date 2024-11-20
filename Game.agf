@@ -143,30 +143,7 @@
         <CharsForFrame />
       </Frames>
     </LipSync>
-    <PropertyDefinitions>
-      <CustomPropertySchemaItem>
-        <AppliesToCharacters>True</AppliesToCharacters>
-        <AppliesToHotspots>False</AppliesToHotspots>
-        <AppliesToInvItems>False</AppliesToInvItems>
-        <AppliesToObjects>False</AppliesToObjects>
-        <AppliesToRooms>False</AppliesToRooms>
-        <DefaultValue>0</DefaultValue>
-        <Description />
-        <Name>isSitting</Name>
-        <Type>Boolean</Type>
-      </CustomPropertySchemaItem>
-      <CustomPropertySchemaItem>
-        <AppliesToCharacters>True</AppliesToCharacters>
-        <AppliesToHotspots>False</AppliesToHotspots>
-        <AppliesToInvItems>False</AppliesToInvItems>
-        <AppliesToObjects>False</AppliesToObjects>
-        <AppliesToRooms>False</AppliesToRooms>
-        <DefaultValue>-1</DefaultValue>
-        <Description xml:space="preserve">Number of chair in which character is sitting</Description>
-        <Name>chairNumber</Name>
-        <Type>Number</Type>
-      </CustomPropertySchemaItem>
-    </PropertyDefinitions>
+    <PropertyDefinitions />
     <GlobalMessages>
       <Message ID="500" />
       <Message ID="501" />
@@ -15344,16 +15321,16 @@ See KeyboardMovement.txt for details.
                   </SpriteFolder>
                   <SpriteFolder Name="1153_QuennieIdleSit">
                     <SubFolders>
-                      <SpriteFolder Name="0_Smoking">
+                      <SpriteFolder Name="0_SmokeLoop">
                         <SubFolders />
                         <Sprites>
-                          <Sprite Slot="860" Width="26" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="860" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitIdle.png/0.png</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeLoop.png/0.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>57</ImportHeight>
-                              <ImportWidth>26</ImportWidth>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15362,13 +15339,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="861" Width="26" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="861" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitIdle.png/1.png</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeLoop.png/1.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>57</ImportHeight>
-                              <ImportWidth>26</ImportWidth>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15377,13 +15354,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="862" Width="26" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="862" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitIdle.png/2.png</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeLoop.png/2.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>57</ImportHeight>
-                              <ImportWidth>26</ImportWidth>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15392,13 +15369,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="863" Width="26" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="863" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitIdle.png/3.png</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeLoop.png/3.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>57</ImportHeight>
-                              <ImportWidth>26</ImportWidth>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15407,13 +15384,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="864" Width="26" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="864" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitIdle.png/4.png</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeLoop.png/4.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>57</ImportHeight>
-                              <ImportWidth>26</ImportWidth>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15422,13 +15399,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="865" Width="26" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="865" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitIdle.png/5.png</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeLoop.png/5.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>57</ImportHeight>
-                              <ImportWidth>26</ImportWidth>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15437,13 +15414,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="866" Width="26" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="866" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitIdle.png/6.png</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeLoop.png/6.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>57</ImportHeight>
-                              <ImportWidth>26</ImportWidth>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15452,13 +15429,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="867" Width="26" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="867" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitIdle.png/7.png</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeLoop.png/7.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>57</ImportHeight>
-                              <ImportWidth>26</ImportWidth>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15467,13 +15444,103 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="868" Width="26" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="868" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitIdle.png/8.png</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeLoop.png/8.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>57</ImportHeight>
-                              <ImportWidth>26</ImportWidth>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="835" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeLoop.png/9.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1078" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeLoop.png/10.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1079" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeLoop.png/11.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1080" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeLoop.png/12.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1081" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeLoop.png/13.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1082" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeLoop.png/14.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15484,35 +15551,246 @@ See KeyboardMovement.txt for details.
                           </Sprite>
                         </Sprites>
                       </SpriteFolder>
-                      <SpriteFolder Name="1_Talking">
+                      <SpriteFolder Name="1_SmokeDrift">
                         <SubFolders />
-                        <Sprites />
+                        <Sprites>
+                          <Sprite Slot="869" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeDrift.png/0.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="871" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeDrift.png/1.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="873" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeDrift.png/2.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="875" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeDrift.png/3.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="877" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeDrift.png/4.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="879" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeDrift.png/5.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="881" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeDrift.png/6.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="883" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeDrift.png/7.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="885" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeDrift.png/8.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="887" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeDrift.png/9.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1083" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeDrift.png/10.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1084" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeDrift.png/11.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1085" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeDrift.png/12.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1086" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeDrift.png/13.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1087" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmokeDrift.png/14.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                        </Sprites>
                       </SpriteFolder>
                       <SpriteFolder Name="2_StandUp">
                         <SubFolders />
                         <Sprites>
-                          <Sprite Slot="869" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
-                            <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/00.png</FileName>
-                              <OffsetX>0</OffsetX>
-                              <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
-                              <ImportAsTile>False</ImportAsTile>
-                              <Frame>0</Frame>
-                              <RemapToGamePalette>False</RemapToGamePalette>
-                              <RemapToRoomPalette>False</RemapToRoomPalette>
-                              <ImportMethod>TopLeft</ImportMethod>
-                              <ImportAlphaChannel>True</ImportAlphaChannel>
-                            </Source>
-                          </Sprite>
-                          <Sprite Slot="870" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="870" Width="31" Height="51" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/0.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
+                              <ImportHeight>51</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15521,28 +15799,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="871" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
-                            <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/01.png</FileName>
-                              <OffsetX>0</OffsetX>
-                              <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
-                              <ImportAsTile>False</ImportAsTile>
-                              <Frame>0</Frame>
-                              <RemapToGamePalette>False</RemapToGamePalette>
-                              <RemapToRoomPalette>False</RemapToRoomPalette>
-                              <ImportMethod>TopLeft</ImportMethod>
-                              <ImportAlphaChannel>True</ImportAlphaChannel>
-                            </Source>
-                          </Sprite>
-                          <Sprite Slot="872" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="872" Width="31" Height="51" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/1.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
+                              <ImportHeight>51</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15551,28 +15814,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="873" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
-                            <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/02.png</FileName>
-                              <OffsetX>0</OffsetX>
-                              <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
-                              <ImportAsTile>False</ImportAsTile>
-                              <Frame>0</Frame>
-                              <RemapToGamePalette>False</RemapToGamePalette>
-                              <RemapToRoomPalette>False</RemapToRoomPalette>
-                              <ImportMethod>TopLeft</ImportMethod>
-                              <ImportAlphaChannel>True</ImportAlphaChannel>
-                            </Source>
-                          </Sprite>
-                          <Sprite Slot="874" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="874" Width="31" Height="51" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/2.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
+                              <ImportHeight>51</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15581,28 +15829,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="875" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
-                            <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/03.png</FileName>
-                              <OffsetX>0</OffsetX>
-                              <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
-                              <ImportAsTile>False</ImportAsTile>
-                              <Frame>0</Frame>
-                              <RemapToGamePalette>False</RemapToGamePalette>
-                              <RemapToRoomPalette>False</RemapToRoomPalette>
-                              <ImportMethod>TopLeft</ImportMethod>
-                              <ImportAlphaChannel>True</ImportAlphaChannel>
-                            </Source>
-                          </Sprite>
-                          <Sprite Slot="876" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="876" Width="31" Height="51" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/3.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
+                              <ImportHeight>51</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15611,28 +15844,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="877" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
-                            <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/04.png</FileName>
-                              <OffsetX>0</OffsetX>
-                              <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
-                              <ImportAsTile>False</ImportAsTile>
-                              <Frame>0</Frame>
-                              <RemapToGamePalette>False</RemapToGamePalette>
-                              <RemapToRoomPalette>False</RemapToRoomPalette>
-                              <ImportMethod>TopLeft</ImportMethod>
-                              <ImportAlphaChannel>True</ImportAlphaChannel>
-                            </Source>
-                          </Sprite>
-                          <Sprite Slot="878" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="878" Width="31" Height="51" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/4.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
+                              <ImportHeight>51</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15641,28 +15859,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="879" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
-                            <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/05.png</FileName>
-                              <OffsetX>0</OffsetX>
-                              <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
-                              <ImportAsTile>False</ImportAsTile>
-                              <Frame>0</Frame>
-                              <RemapToGamePalette>False</RemapToGamePalette>
-                              <RemapToRoomPalette>False</RemapToRoomPalette>
-                              <ImportMethod>TopLeft</ImportMethod>
-                              <ImportAlphaChannel>True</ImportAlphaChannel>
-                            </Source>
-                          </Sprite>
-                          <Sprite Slot="880" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="880" Width="31" Height="51" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/5.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
+                              <ImportHeight>51</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15671,28 +15874,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="881" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
-                            <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/06.png</FileName>
-                              <OffsetX>0</OffsetX>
-                              <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
-                              <ImportAsTile>False</ImportAsTile>
-                              <Frame>0</Frame>
-                              <RemapToGamePalette>False</RemapToGamePalette>
-                              <RemapToRoomPalette>False</RemapToRoomPalette>
-                              <ImportMethod>TopLeft</ImportMethod>
-                              <ImportAlphaChannel>True</ImportAlphaChannel>
-                            </Source>
-                          </Sprite>
-                          <Sprite Slot="882" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="882" Width="31" Height="51" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/6.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
+                              <ImportHeight>51</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15701,28 +15889,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="883" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
-                            <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/07.png</FileName>
-                              <OffsetX>0</OffsetX>
-                              <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
-                              <ImportAsTile>False</ImportAsTile>
-                              <Frame>0</Frame>
-                              <RemapToGamePalette>False</RemapToGamePalette>
-                              <RemapToRoomPalette>False</RemapToRoomPalette>
-                              <ImportMethod>TopLeft</ImportMethod>
-                              <ImportAlphaChannel>True</ImportAlphaChannel>
-                            </Source>
-                          </Sprite>
-                          <Sprite Slot="884" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="884" Width="31" Height="51" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/7.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
+                              <ImportHeight>51</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15731,28 +15904,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="885" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
-                            <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/08.png</FileName>
-                              <OffsetX>0</OffsetX>
-                              <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
-                              <ImportAsTile>False</ImportAsTile>
-                              <Frame>0</Frame>
-                              <RemapToGamePalette>False</RemapToGamePalette>
-                              <RemapToRoomPalette>False</RemapToRoomPalette>
-                              <ImportMethod>TopLeft</ImportMethod>
-                              <ImportAlphaChannel>True</ImportAlphaChannel>
-                            </Source>
-                          </Sprite>
-                          <Sprite Slot="886" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="886" Width="31" Height="51" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/8.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
+                              <ImportHeight>51</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15761,28 +15919,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="887" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
-                            <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/09.png</FileName>
-                              <OffsetX>0</OffsetX>
-                              <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
-                              <ImportAsTile>False</ImportAsTile>
-                              <Frame>0</Frame>
-                              <RemapToGamePalette>False</RemapToGamePalette>
-                              <RemapToRoomPalette>False</RemapToRoomPalette>
-                              <ImportMethod>TopLeft</ImportMethod>
-                              <ImportAlphaChannel>True</ImportAlphaChannel>
-                            </Source>
-                          </Sprite>
-                          <Sprite Slot="888" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="888" Width="31" Height="51" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/9.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
+                              <ImportHeight>51</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15791,13 +15934,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="889" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="889" Width="31" Height="51" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/10.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
+                              <ImportHeight>51</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15806,13 +15949,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="890" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="890" Width="31" Height="51" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/11.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
+                              <ImportHeight>51</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15821,13 +15964,13 @@ See KeyboardMovement.txt for details.
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="891" Width="46" Height="59" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="891" Width="31" Height="51" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
                               <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieStandup.png/12.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>59</ImportHeight>
-                              <ImportWidth>46</ImportWidth>
+                              <ImportHeight>51</ImportHeight>
+                              <ImportWidth>31</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -15903,6 +16046,481 @@ See KeyboardMovement.txt for details.
                               <OffsetY>0</OffsetY>
                               <ImportHeight>59</ImportHeight>
                               <ImportWidth>46</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                        </Sprites>
+                      </SpriteFolder>
+                      <SpriteFolder Name="3_TurnHead">
+                        <SubFolders />
+                        <Sprites>
+                          <Sprite Slot="1088" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightHeadturn.png/0.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1089" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightHeadturn.png/1.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1090" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightHeadturn.png/2.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1091" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightHeadturn.png/7.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1092" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightHeadturn.png/8.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1093" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightHeadturn.png/9.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                        </Sprites>
+                      </SpriteFolder>
+                      <SpriteFolder Name="4_BlowSmoke">
+                        <SubFolders />
+                        <Sprites>
+                          <Sprite Slot="1094" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/0.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1095" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/1.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1096" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/2.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1097" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/3.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1098" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/4.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1099" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/5.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1100" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/6.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1101" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/7.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1102" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/8.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1103" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/9.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1104" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/10.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1105" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/11.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1106" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/12.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1107" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/13.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1108" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/14.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1109" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/15.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1110" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/16.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1111" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/17.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1112" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/18.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1113" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/19.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1114" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/20.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1115" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/21.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1116" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/22.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1117" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/23.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1118" Width="35" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSitRightSmoke.png/24.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>35</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -22193,12 +22811,12 @@ See KeyboardMovement.txt for details.
               <SpriteFolder Name="5002_AirplaneClouds">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="992" Width="420" Height="89" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="992" Width="420" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/My Drive/Game_Assets_Gold/Views/5002_AirplaneClouds/5002_ExtendedClouds_v09.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/5002_AirplaneClouds/5002_ExtendedClouds_v09.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>89</ImportHeight>
+                      <ImportHeight>50</ImportHeight>
                       <ImportWidth>420</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -22208,12 +22826,12 @@ See KeyboardMovement.txt for details.
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="993" Width="420" Height="89" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="993" Width="420" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/My Drive/Game_Assets_Gold/Views/5002_AirplaneClouds/5002_ExtendedClouds_v09.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/5002_AirplaneClouds/5002_ExtendedClouds_v09.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>89</ImportHeight>
+                      <ImportHeight>50</ImportHeight>
                       <ImportWidth>420</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -25769,55 +26387,62 @@ See KeyboardMovement.txt for details.
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>0</ID>
-                        <Image>307</Image>
+                        <Image>306</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>1</ID>
-                        <Image>308</Image>
+                        <Image>307</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>2</ID>
-                        <Image>309</Image>
+                        <Image>308</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>3</ID>
-                        <Image>310</Image>
+                        <Image>309</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>4</ID>
-                        <Image>311</Image>
+                        <Image>310</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>5</ID>
-                        <Image>312</Image>
+                        <Image>311</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>6</ID>
-                        <Image>313</Image>
+                        <Image>312</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>7</ID>
+                        <Image>313</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>8</ID>
                         <Image>314</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
@@ -25831,55 +26456,62 @@ See KeyboardMovement.txt for details.
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>307</Image>
+                        <Image>306</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>1</ID>
-                        <Image>308</Image>
+                        <Image>307</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>2</ID>
-                        <Image>309</Image>
+                        <Image>308</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>3</ID>
-                        <Image>310</Image>
+                        <Image>309</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>4</ID>
-                        <Image>311</Image>
+                        <Image>310</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>5</ID>
-                        <Image>312</Image>
+                        <Image>311</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>6</ID>
-                        <Image>313</Image>
+                        <Image>312</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>7</ID>
+                        <Image>313</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
                         <Image>314</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
@@ -28585,23 +29217,45 @@ See KeyboardMovement.txt for details.
                         <Image>868</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
-                    </Frames>
-                  </Loop>
-                  <Loop>
-                    <ID>1</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>0</ID>
-                        <Image>0</Image>
+                        <ID>9</ID>
+                        <Image>1078</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>10</ID>
+                        <Image>1079</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>11</ID>
+                        <Image>1080</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>12</ID>
+                        <Image>1081</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>13</ID>
+                        <Image>1082</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
                   </Loop>
                   <Loop>
-                    <ID>2</ID>
+                    <ID>1</ID>
                     <RunNextLoop>False</RunNextLoop>
                     <Frames>
                       <ViewFrame>
@@ -28615,189 +29269,195 @@ See KeyboardMovement.txt for details.
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>1</ID>
-                        <Image>870</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>2</ID>
                         <Image>871</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>3</ID>
-                        <Image>872</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>4</ID>
+                        <ID>2</ID>
                         <Image>873</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>5</ID>
-                        <Image>874</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>6</ID>
+                        <ID>3</ID>
                         <Image>875</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>7</ID>
-                        <Image>876</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>8</ID>
+                        <ID>4</ID>
                         <Image>877</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>9</ID>
-                        <Image>878</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>10</ID>
+                        <ID>5</ID>
                         <Image>879</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>11</ID>
-                        <Image>880</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>12</ID>
+                        <ID>6</ID>
                         <Image>881</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>13</ID>
-                        <Image>882</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>14</ID>
+                        <ID>7</ID>
                         <Image>883</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>15</ID>
-                        <Image>884</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>16</ID>
+                        <ID>8</ID>
                         <Image>885</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>17</ID>
-                        <Image>886</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>18</ID>
+                        <ID>9</ID>
                         <Image>887</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>19</ID>
+                        <ID>10</ID>
+                        <Image>1083</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>11</ID>
+                        <Image>1084</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>12</ID>
+                        <Image>1085</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>13</ID>
+                        <Image>1086</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>20</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>14</ID>
+                        <Image>1087</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>10</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>870</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>872</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>874</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>876</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>878</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>880</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>882</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>884</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>886</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>9</ID>
                         <Image>888</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>20</ID>
+                        <ID>10</ID>
                         <Image>889</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>21</ID>
+                        <ID>11</ID>
                         <Image>890</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
-                        <Delay>0</Delay>
+                        <Delay>10</Delay>
                         <Flipped>False</Flipped>
-                        <ID>22</ID>
+                        <ID>12</ID>
                         <Image>891</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>23</ID>
-                        <Image>892</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>24</ID>
-                        <Image>893</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>25</ID>
-                        <Image>894</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>26</ID>
-                        <Image>895</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>27</ID>
-                        <Image>896</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -28805,7 +29465,252 @@ See KeyboardMovement.txt for details.
                   <Loop>
                     <ID>3</ID>
                     <RunNextLoop>False</RunNextLoop>
-                    <Frames />
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>10</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>1088</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>1089</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>50</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>1090</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>1089</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>100</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>1088</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>1092</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>75</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>1093</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>1092</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>50</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>1088</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>4</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>1094</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>1095</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>1096</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>1097</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>1098</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>1099</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>1100</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>1101</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>1102</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>9</ID>
+                        <Image>1103</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>50</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>10</ID>
+                        <Image>1104</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>11</ID>
+                        <Image>1105</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>12</ID>
+                        <Image>1106</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>13</ID>
+                        <Image>1107</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>14</ID>
+                        <Image>1108</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>15</ID>
+                        <Image>1109</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>16</ID>
+                        <Image>1110</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>17</ID>
+                        <Image>1111</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>18</ID>
+                        <Image>1112</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>19</ID>
+                        <Image>1113</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>20</ID>
+                        <Image>1114</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>21</ID>
+                        <Image>1115</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>15</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>22</ID>
+                        <Image>1116</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>10</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>23</ID>
+                        <Image>1117</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>50</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>24</ID>
+                        <Image>1118</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
                   </Loop>
                 </Loops>
               </View>
