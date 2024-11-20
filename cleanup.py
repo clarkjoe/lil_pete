@@ -140,14 +140,14 @@ def main():
         print(f"Second replacement path: {joey_game_assets_path}")
         print(f"First match path: {greg_pixel_studio_path}")
         print(f"Second match path: {greg_game_assets_path}")
-        find_and_replace(shared_drive_game_file, local_game_file, joey_pixel_studio_path, joey_game_assets_path, greg_pixel_studio_path, greg_game_assets_path)
+        find_and_replace(local_game_file, local_game_file, joey_pixel_studio_path, joey_game_assets_path, greg_pixel_studio_path, greg_game_assets_path)
         print(f"First replacement path: {joey_pixel_studio_path}")
         print(f"Second replacement path: {joey_game_assets_path}")
         print(f"First match path: {daniel_pixel_studio_path}")
         print(f"Second match path: {daniel_game_assets_path}")
         find_and_replace(shared_drive_game_file, local_game_file, joey_pixel_studio_path, joey_game_assets_path, daniel_pixel_studio_path, daniel_game_assets_path)
     elif args.operation == 'post':
-        find_and_replace(local_game_file, local_game_file, greg_pixel_studio_path, greg_pixel_studio_path, joey_pixel_studio_path, joey_game_assets_path)
+        find_and_replace(local_game_file, local_game_file, greg_pixel_studio_path, greg_game_assets_path, joey_pixel_studio_path, joey_game_assets_path)
     else:
         print("Error: You must specify either 'pre' or 'post' as the operation.")
         sys.exit(1)
