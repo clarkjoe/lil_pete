@@ -1,7 +1,0 @@
-enum JoannaViews {
-  JOANNA_NORMAL = 8,
-  JOANNA_IDLE = 9, 
-  JOANNA_SIT = 38,
-  JOANNA_BATHROOM = 45,
-  JOANNA_BLINK = 46
-};
