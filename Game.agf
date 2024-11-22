@@ -2522,9 +2522,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>394</StartX>
-            <StartY>148</StartY>
-            <StartingRoom>3</StartingRoom>
+            <StartX>95</StartX>
+            <StartY>147</StartY>
+            <StartingRoom>6</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -4047,9 +4047,369 @@ See KeyboardMovement.txt for details.
               <SpriteFolder Name="Verbs">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="2100" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2100" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_walk_normal.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/0.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2101" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2102" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>True</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2103" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/0.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2104" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/3.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2105" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/4.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2106" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/5.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2107" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/3.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2108" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/6.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2109" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/7.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2110" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/8.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2111" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/6.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2112" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/9.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2113" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/10.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2114" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/11.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2115" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/9.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2116" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/12.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2117" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/13.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2118" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/14.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2119" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/12.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2120" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/15.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2121" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/16.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2122" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/17.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2123" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/15.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>30</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2124" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/18.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4062,9 +4422,9 @@ See KeyboardMovement.txt for details.
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2101" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2126" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_walk_over.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/20.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4077,9 +4437,9 @@ See KeyboardMovement.txt for details.
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2102" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2127" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_walk_pressed.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/18.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4092,24 +4452,9 @@ See KeyboardMovement.txt for details.
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2103" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2128" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_walk_icon.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>32</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2104" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_look_normal.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/21.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4118,13 +4463,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2105" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2129" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_look_over.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/22.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4133,13 +4478,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2106" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2130" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_look_pressed.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/23.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4148,28 +4493,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2107" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2131" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_look_icon.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>32</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2108" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_interact_normal.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/21.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4178,13 +4508,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2109" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2132" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_interact_over.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/24.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4193,13 +4523,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2110" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2133" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_interact_pressed.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/25.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4208,28 +4538,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2111" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2134" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_interact_icon.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>32</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2112" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_talk_normal.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/26.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4238,13 +4553,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2113" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2135" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_talk_over.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/24.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4253,13 +4568,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2114" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2136" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_talkj_pressed.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/27.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4268,28 +4583,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2115" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2137" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_talk_icon.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>32</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2116" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_pointer_normal.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/28.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4298,13 +4598,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2117" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2138" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_pointer_over.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/29.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4313,13 +4613,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2118" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2139" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_pointer_pressed.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/27.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4328,28 +4628,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2119" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2140" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_pointer_icon.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>32</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2120" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_inventory_normal.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/30.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4358,13 +4643,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2121" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2141" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_inventory_over.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/31.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4373,13 +4658,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2122" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2142" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_inventory_pressed.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/32.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4388,28 +4673,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2123" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2143" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_inventory_icon.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>32</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2124" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_empty_normal.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/30.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4418,13 +4688,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2126" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2144" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_empty_pressed.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/33.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4433,28 +4703,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2127" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2145" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_empty_icon.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>32</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2128" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_save_normal.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/34.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4463,13 +4718,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2129" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2146" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_save_over.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/35.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4478,13 +4733,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2130" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2147" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_save_pressed.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/36.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4493,28 +4748,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2131" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2148" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_save_icon.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>32</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2132" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_load_normal.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/37.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4523,13 +4763,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2133" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2149" Width="30" Height="27" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_load_over.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Verbs/Verbs.png/38.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
@@ -4538,247 +4778,7 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2134" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_load_pressed.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>30</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2135" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_load_icon.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>32</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2136" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_settings_normal.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>30</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2137" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_settings_over.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>30</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2138" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_settings_pressed.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>30</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2139" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_settings_icon.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>32</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2140" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_quit_normal.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>30</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2141" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_quit_over.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>30</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2142" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_quit_pressed.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>30</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2143" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_quit_icon.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>32</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2144" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_arrowdown_normal.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>30</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2145" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_arrowdown_over.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>30</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2146" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_arrowdown_pressed.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>30</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2147" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_arrowup_normal.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>30</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2148" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_arrowup_over.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>30</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2149" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/Verbs/btn_arrowup_pressed.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
-                      <ImportWidth>30</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
@@ -4787,9 +4787,9 @@ See KeyboardMovement.txt for details.
               <SpriteFolder Name="TextWindow">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="2150" Width="4" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2150" Width="4" Height="4" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/TextWindow/textbox_topleft_corner.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/TextWindow/TextBoxSquare.png/0.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>4</ImportHeight>
@@ -4802,84 +4802,9 @@ See KeyboardMovement.txt for details.
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2151" Width="1" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2151" Width="1" Height="4" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/TextWindow/textbox_top_border.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>4</ImportHeight>
-                      <ImportWidth>1</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2152" Width="4" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/TextWindow/textbox_topright_corner.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>4</ImportHeight>
-                      <ImportWidth>4</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2153" Width="4" Height="1" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/TextWindow/textbox_left_border.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>1</ImportHeight>
-                      <ImportWidth>4</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2154" Width="4" Height="1" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/TextWindow/textbox_right_border.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>1</ImportHeight>
-                      <ImportWidth>4</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2155" Width="4" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/TextWindow/textbox_bottomleft_corner.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>4</ImportHeight>
-                      <ImportWidth>4</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2156" Width="1" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/TextWindow/textbox_bottom_border.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/TextWindow/TextBoxTall.png/0.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>4</ImportHeight>
@@ -4892,9 +4817,84 @@ See KeyboardMovement.txt for details.
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2157" Width="4" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2152" Width="4" Height="4" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/TextWindow/textbox_bottomright_corner.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/TextWindow/TextBoxSquare.png/1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>4</ImportHeight>
+                      <ImportWidth>4</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2153" Width="4" Height="1" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/TextWindow/TextBoxWide.png/0.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>1</ImportHeight>
+                      <ImportWidth>4</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2154" Width="4" Height="1" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/TextWindow/TextBoxWide.png/1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>1</ImportHeight>
+                      <ImportWidth>4</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2155" Width="4" Height="4" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/TextWindow/TextBoxSquare.png/2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>4</ImportHeight>
+                      <ImportWidth>4</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2156" Width="1" Height="4" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/TextWindow/TextBoxTall.png/1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>4</ImportHeight>
+                      <ImportWidth>1</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2157" Width="4" Height="4" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/TextWindow/TextBoxSquare.png/3.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>4</ImportHeight>
@@ -4912,9 +4912,24 @@ See KeyboardMovement.txt for details.
               <SpriteFolder Name="UI">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="2160" Width="71" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2160" Width="71" Height="19" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/UI/button_medium_normal.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/UI/ButtonMedium.png/0.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>19</ImportHeight>
+                      <ImportWidth>71</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2161" Width="71" Height="19" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/UI/ButtonMedium.png/1.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>19</ImportHeight>
@@ -4927,24 +4942,24 @@ See KeyboardMovement.txt for details.
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2161" Width="71" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2162" Width="105" Height="19" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/UI/button_medium_pressed.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/UI/ButtonLarge.png/0.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>19</ImportHeight>
-                      <ImportWidth>71</ImportWidth>
+                      <ImportWidth>105</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2162" Width="105" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2163" Width="105" Height="19" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/UI/buttom_large_normal.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/UI/ButtonLarge.png/1.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>19</ImportHeight>
@@ -4957,24 +4972,9 @@ See KeyboardMovement.txt for details.
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2163" Width="105" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2165" Width="99" Height="4" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/UI/button_large_pressed.png</FileName>
-                      <OffsetX>0</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>19</ImportHeight>
-                      <ImportWidth>105</ImportWidth>
-                      <ImportAsTile>False</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="2165" Width="99" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Sprites/Defaults/UI/slider_bar.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/UI/SliderBar.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>4</ImportHeight>
@@ -4983,13 +4983,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2166" Width="9" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2166" Width="9" Height="11" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/UI/slider_handle.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/UI/Pointer.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>11</ImportHeight>
@@ -4998,13 +4998,13 @@ See KeyboardMovement.txt for details.
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2167" Width="259" Height="157" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2167" Width="259" Height="157" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/UI/background_saverestore.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/UI/BackgroundSaveRestore.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>157</ImportHeight>
@@ -5017,9 +5017,9 @@ See KeyboardMovement.txt for details.
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2168" Width="205" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2168" Width="205" Height="65" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/UI/background_modal_yesno.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/UI/BackgroundModalYesNo.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>65</ImportHeight>
@@ -5032,9 +5032,9 @@ See KeyboardMovement.txt for details.
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2169" Width="223" Height="133" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2169" Width="223" Height="133" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>Sprites/Defaults/UI/background_inventory.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/UI/BackgroundInventory.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>133</ImportHeight>
@@ -5160,6 +5160,21 @@ See KeyboardMovement.txt for details.
                   <Sprite Slot="2061" Width="22" Height="22" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Cursor.png/0.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>22</ImportHeight>
+                      <ImportWidth>22</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopRight</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1183" Width="22" Height="22" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                    <Source>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Views/Icons/Cursor.png/12.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>22</ImportHeight>
