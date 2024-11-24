@@ -2522,9 +2522,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>95</StartX>
-            <StartY>147</StartY>
-            <StartingRoom>6</StartingRoom>
+            <StartX>308</StartX>
+            <StartY>145</StartY>
+            <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -3026,8 +3026,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>374</StartX>
-            <StartY>154</StartY>
+            <StartX>404</StartX>
+            <StartY>153</StartY>
             <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -6521,151 +6521,151 @@ See KeyboardMovement.txt for details.
                       <SpriteFolder Name="0_ClaraIdleFront">
                         <SubFolders />
                         <Sprites>
-                          <Sprite Slot="591" Width="20" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="591" Width="15" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront_extended (1).gif</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront.png/0.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>50</ImportHeight>
-                              <ImportWidth>20</ImportWidth>
+                              <ImportWidth>15</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
-                              <RemapToGamePalette>True</RemapToGamePalette>
+                              <RemapToGamePalette>False</RemapToGamePalette>
                               <RemapToRoomPalette>False</RemapToRoomPalette>
                               <ImportMethod>TopLeft</ImportMethod>
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="592" Width="20" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="592" Width="15" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront_extended (1).gif</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront.png/1.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>50</ImportHeight>
-                              <ImportWidth>20</ImportWidth>
+                              <ImportWidth>15</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>1</Frame>
-                              <RemapToGamePalette>True</RemapToGamePalette>
+                              <RemapToGamePalette>False</RemapToGamePalette>
                               <RemapToRoomPalette>False</RemapToRoomPalette>
                               <ImportMethod>TopLeft</ImportMethod>
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="593" Width="20" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="593" Width="15" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront_extended (1).gif</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront.png/2.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>50</ImportHeight>
-                              <ImportWidth>20</ImportWidth>
+                              <ImportWidth>15</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>2</Frame>
-                              <RemapToGamePalette>True</RemapToGamePalette>
+                              <RemapToGamePalette>False</RemapToGamePalette>
                               <RemapToRoomPalette>False</RemapToRoomPalette>
                               <ImportMethod>TopLeft</ImportMethod>
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="594" Width="20" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="594" Width="15" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront_extended (1).gif</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront.png/3.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>50</ImportHeight>
-                              <ImportWidth>20</ImportWidth>
+                              <ImportWidth>15</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>3</Frame>
-                              <RemapToGamePalette>True</RemapToGamePalette>
+                              <RemapToGamePalette>False</RemapToGamePalette>
                               <RemapToRoomPalette>False</RemapToRoomPalette>
                               <ImportMethod>TopLeft</ImportMethod>
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="595" Width="20" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="595" Width="15" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront_extended (1).gif</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront.png/4.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>50</ImportHeight>
-                              <ImportWidth>20</ImportWidth>
+                              <ImportWidth>15</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>4</Frame>
-                              <RemapToGamePalette>True</RemapToGamePalette>
+                              <RemapToGamePalette>False</RemapToGamePalette>
                               <RemapToRoomPalette>False</RemapToRoomPalette>
                               <ImportMethod>TopLeft</ImportMethod>
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="596" Width="20" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="596" Width="15" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront_extended (1).gif</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront.png/5.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>50</ImportHeight>
-                              <ImportWidth>20</ImportWidth>
+                              <ImportWidth>15</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>5</Frame>
-                              <RemapToGamePalette>True</RemapToGamePalette>
+                              <RemapToGamePalette>False</RemapToGamePalette>
                               <RemapToRoomPalette>False</RemapToRoomPalette>
                               <ImportMethod>TopLeft</ImportMethod>
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="597" Width="20" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="597" Width="15" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront_extended (1).gif</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront.png/6.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>50</ImportHeight>
-                              <ImportWidth>20</ImportWidth>
+                              <ImportWidth>15</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>6</Frame>
-                              <RemapToGamePalette>True</RemapToGamePalette>
+                              <RemapToGamePalette>False</RemapToGamePalette>
                               <RemapToRoomPalette>False</RemapToRoomPalette>
                               <ImportMethod>TopLeft</ImportMethod>
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="598" Width="20" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="598" Width="15" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront_extended (1).gif</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront.png/7.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>50</ImportHeight>
-                              <ImportWidth>20</ImportWidth>
+                              <ImportWidth>15</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>7</Frame>
-                              <RemapToGamePalette>True</RemapToGamePalette>
+                              <RemapToGamePalette>False</RemapToGamePalette>
                               <RemapToRoomPalette>False</RemapToRoomPalette>
                               <ImportMethod>TopLeft</ImportMethod>
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="599" Width="20" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="599" Width="15" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront_extended (1).gif</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront.png/8.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>50</ImportHeight>
-                              <ImportWidth>20</ImportWidth>
+                              <ImportWidth>15</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>8</Frame>
-                              <RemapToGamePalette>True</RemapToGamePalette>
+                              <RemapToGamePalette>False</RemapToGamePalette>
                               <RemapToRoomPalette>False</RemapToRoomPalette>
                               <ImportMethod>TopLeft</ImportMethod>
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="600" Width="20" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                          <Sprite Slot="600" Width="15" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                             <Source>
-                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront_extended (1).gif</FileName>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowIdleFront.png/9.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>50</ImportHeight>
-                              <ImportWidth>20</ImportWidth>
+                              <ImportWidth>15</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>9</Frame>
-                              <RemapToGamePalette>True</RemapToGamePalette>
+                              <RemapToGamePalette>False</RemapToGamePalette>
                               <RemapToRoomPalette>False</RemapToRoomPalette>
                               <ImportMethod>TopLeft</ImportMethod>
                               <ImportAlphaChannel>True</ImportAlphaChannel>
@@ -25056,836 +25056,31 @@ See KeyboardMovement.txt for details.
                     <RunNextLoop>False</RunNextLoop>
                     <Frames>
                       <ViewFrame>
-                        <Delay>0</Delay>
+                        <Delay>200</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
                         <Image>591</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
-                        <Delay>0</Delay>
+                        <Delay>200</Delay>
                         <Flipped>False</Flipped>
                         <ID>1</ID>
-                        <Image>592</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>2</ID>
-                        <Image>593</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>3</ID>
-                        <Image>594</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>4</ID>
-                        <Image>595</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>5</ID>
                         <Image>596</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
-                        <Delay>0</Delay>
+                        <Delay>150</Delay>
                         <Flipped>False</Flipped>
-                        <ID>6</ID>
-                        <Image>597</Image>
+                        <ID>2</ID>
+                        <Image>591</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
-                        <Delay>0</Delay>
+                        <Delay>250</Delay>
                         <Flipped>False</Flipped>
-                        <ID>7</ID>
-                        <Image>598</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>8</ID>
-                        <Image>599</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>9</ID>
+                        <ID>3</ID>
                         <Image>600</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>10</ID>
-                        <Image>619</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>11</ID>
-                        <Image>620</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>12</ID>
-                        <Image>621</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>13</ID>
-                        <Image>622</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>14</ID>
-                        <Image>623</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>15</ID>
-                        <Image>624</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>16</ID>
-                        <Image>625</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>17</ID>
-                        <Image>626</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>18</ID>
-                        <Image>627</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>19</ID>
-                        <Image>628</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>20</ID>
-                        <Image>629</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>21</ID>
-                        <Image>630</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>22</ID>
-                        <Image>631</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>23</ID>
-                        <Image>632</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>24</ID>
-                        <Image>633</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>25</ID>
-                        <Image>634</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>26</ID>
-                        <Image>635</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>27</ID>
-                        <Image>636</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>28</ID>
-                        <Image>637</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>29</ID>
-                        <Image>638</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>30</ID>
-                        <Image>639</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>31</ID>
-                        <Image>640</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>32</ID>
-                        <Image>641</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>33</ID>
-                        <Image>642</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>34</ID>
-                        <Image>643</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>35</ID>
-                        <Image>644</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>36</ID>
-                        <Image>645</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>37</ID>
-                        <Image>646</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>38</ID>
-                        <Image>647</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>39</ID>
-                        <Image>648</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>40</ID>
-                        <Image>649</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>41</ID>
-                        <Image>650</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>42</ID>
-                        <Image>651</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>43</ID>
-                        <Image>652</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>44</ID>
-                        <Image>653</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>45</ID>
-                        <Image>654</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>46</ID>
-                        <Image>655</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>47</ID>
-                        <Image>656</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>48</ID>
-                        <Image>657</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>49</ID>
-                        <Image>658</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>50</ID>
-                        <Image>659</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>51</ID>
-                        <Image>660</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>52</ID>
-                        <Image>661</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>53</ID>
-                        <Image>662</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>54</ID>
-                        <Image>663</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>55</ID>
-                        <Image>664</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>56</ID>
-                        <Image>665</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>57</ID>
-                        <Image>666</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>58</ID>
-                        <Image>667</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>59</ID>
-                        <Image>668</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>60</ID>
-                        <Image>669</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>61</ID>
-                        <Image>670</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>62</ID>
-                        <Image>671</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>63</ID>
-                        <Image>672</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>64</ID>
-                        <Image>673</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>65</ID>
-                        <Image>674</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>66</ID>
-                        <Image>675</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>67</ID>
-                        <Image>676</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>68</ID>
-                        <Image>677</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>69</ID>
-                        <Image>678</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>70</ID>
-                        <Image>679</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>71</ID>
-                        <Image>680</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>72</ID>
-                        <Image>681</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>73</ID>
-                        <Image>682</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>74</ID>
-                        <Image>683</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>75</ID>
-                        <Image>684</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>76</ID>
-                        <Image>685</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>77</ID>
-                        <Image>686</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>78</ID>
-                        <Image>687</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>79</ID>
-                        <Image>688</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>80</ID>
-                        <Image>689</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>81</ID>
-                        <Image>690</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>82</ID>
-                        <Image>691</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>83</ID>
-                        <Image>692</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>84</ID>
-                        <Image>693</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>85</ID>
-                        <Image>694</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>86</ID>
-                        <Image>695</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>87</ID>
-                        <Image>696</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>88</ID>
-                        <Image>697</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>89</ID>
-                        <Image>698</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>90</ID>
-                        <Image>699</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>91</ID>
-                        <Image>700</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>92</ID>
-                        <Image>701</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>93</ID>
-                        <Image>702</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>94</ID>
-                        <Image>703</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>95</ID>
-                        <Image>704</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>96</ID>
-                        <Image>705</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>97</ID>
-                        <Image>706</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>98</ID>
-                        <Image>707</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>99</ID>
-                        <Image>708</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>100</ID>
-                        <Image>709</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>101</ID>
-                        <Image>710</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>102</ID>
-                        <Image>711</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>103</ID>
-                        <Image>712</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>104</ID>
-                        <Image>713</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>105</ID>
-                        <Image>714</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>106</ID>
-                        <Image>715</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>107</ID>
-                        <Image>716</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>108</ID>
-                        <Image>717</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>109</ID>
-                        <Image>718</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>110</ID>
-                        <Image>719</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>111</ID>
-                        <Image>720</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>112</ID>
-                        <Image>721</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>113</ID>
-                        <Image>722</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>114</ID>
-                        <Image>723</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>115</ID>
-                        <Image>724</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>116</ID>
-                        <Image>725</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>117</ID>
-                        <Image>726</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>118</ID>
-                        <Image>727</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
