@@ -1,5 +1,6 @@
-import void choose_cursor();
-import void handle_time();
+import function choose_cursor();
+//import function handle_overlays();
+import function handle_time();
 
 import function StartTimerByLoops(int timerID, int durationInLoops);
 import function StartTimerBySeconds(int timerID, float durationInSeconds);

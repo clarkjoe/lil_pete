@@ -9,3 +9,7 @@ import bool IsOverNothing(static Mouse);
 import bool IsUnderMouse(this Object*);
 
 // Character
+import function TalkerSay(this Character*, const string text);
+import function ShowDetails(this Character*);
+
+import function handle_overlays();
