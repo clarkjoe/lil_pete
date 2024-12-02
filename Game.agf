@@ -30,7 +30,7 @@
       <DialogOptionsBullet>0</DialogOptionsBullet>
       <DialogOptionsGUI>0</DialogOptionsGUI>
       <DialogOptionsGap>0</DialogOptionsGap>
-      <DialogScriptNarrateFunction>MyNarrate</DialogScriptNarrateFunction>
+      <DialogScriptNarrateFunction />
       <DialogScriptSayFunction>TalkerSay</DialogScriptSayFunction>
       <DisplayMultipleInventory>False</DisplayMultipleInventory>
       <EnforceNewAudio>True</EnforceNewAudio>
@@ -721,7 +721,335 @@
     </Rooms>
     <GUIs>
       <GUIFolder Name="Main">
-        <SubFolders />
+        <SubFolders>
+          <GUIFolder Name="notebook">
+            <SubFolders />
+            <GUIs>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>0</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>9</ID>
+                  <Left>0</Left>
+                  <Name>gNotebook1</Name>
+                  <OnClick>gNotebook1_OnClick</OnClick>
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>True</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>0</ID>
+                    <Image>1197</Image>
+                    <Left>55</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1233</MouseoverImage>
+                    <Name>claraNotebook</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>claraNotebook_OnClick</OnClick>
+                    <PushedImage>1233</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>15</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>50</Width>
+                    <ZOrder>0</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>1</ID>
+                    <Image>1198</Image>
+                    <Left>106</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1210</MouseoverImage>
+                    <Name>stoneNotebook</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>stoneNotebook_OnClick</OnClick>
+                    <PushedImage>1234</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>15</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>50</Width>
+                    <ZOrder>1</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>2</ID>
+                    <Image>1199</Image>
+                    <Left>157</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1211</MouseoverImage>
+                    <Name>veraNotebook</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>veraNotebook_OnClick</OnClick>
+                    <PushedImage>1235</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>15</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>50</Width>
+                    <ZOrder>2</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>3</ID>
+                    <Image>1200</Image>
+                    <Left>208</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1212</MouseoverImage>
+                    <Name>joannaNotebook</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>joannaNotebook_OnClick</OnClick>
+                    <PushedImage>1236</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>15</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>50</Width>
+                    <ZOrder>3</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>4</ID>
+                    <Image>1201</Image>
+                    <Left>55</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1213</MouseoverImage>
+                    <Name>salvatoreNotebook</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>salvatoreNotebook_OnClick</OnClick>
+                    <PushedImage>1237</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>70</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>50</Width>
+                    <ZOrder>4</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>5</ID>
+                    <Image>1202</Image>
+                    <Left>106</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1214</MouseoverImage>
+                    <Name>queenieNotebook</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>queenieNotebook_OnClick</OnClick>
+                    <PushedImage>1238</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>70</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>50</Width>
+                    <ZOrder>5</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>6</ID>
+                    <Image>1203</Image>
+                    <Left>157</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1215</MouseoverImage>
+                    <Name>maxNotebook</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>maxNotebook_OnClick</OnClick>
+                    <PushedImage>1239</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>70</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>50</Width>
+                    <ZOrder>6</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>7</ID>
+                    <Image>1204</Image>
+                    <Left>208</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1216</MouseoverImage>
+                    <Name>teresaNotebook</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>teresaNotebook_OnClick</OnClick>
+                    <PushedImage>1240</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>70</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>50</Width>
+                    <ZOrder>7</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>8</ID>
+                    <Image>1205</Image>
+                    <Left>55</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1217</MouseoverImage>
+                    <Name>lucindaNotebook</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>lucindaNotebook_OnClick</OnClick>
+                    <PushedImage>1241</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>127</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>50</Width>
+                    <ZOrder>8</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>9</ID>
+                    <Image>1206</Image>
+                    <Left>106</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1218</MouseoverImage>
+                    <Name>samirNotebook</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>samirNotebook_OnClick</OnClick>
+                    <PushedImage>1242</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>127</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>50</Width>
+                    <ZOrder>9</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>10</ID>
+                    <Image>1207</Image>
+                    <Left>157</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1219</MouseoverImage>
+                    <Name>drkhanNotebook</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>drkhanNotebook_OnClick</OnClick>
+                    <PushedImage>1243</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>127</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>50</Width>
+                    <ZOrder>10</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>11</ID>
+                    <Image>1208</Image>
+                    <Left>208</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1220</MouseoverImage>
+                    <Name>carlosNotebook</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>carlosNotebook_OnClick</OnClick>
+                    <PushedImage>1244</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>127</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>50</Width>
+                    <ZOrder>11</ZOrder>
+                  </GUIButton>
+                </Controls>
+              </GUIMain>
+            </GUIs>
+          </GUIFolder>
+        </SubFolders>
         <GUIs>
           <GUIMain>
             <NormalGUI>
@@ -2591,7 +2919,7 @@
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
-            <SpeechView>0</SpeechView>
+            <SpeechView>58</SpeechView>
             <StartX>89</StartX>
             <StartY>150</StartY>
             <StartingRoom>3</StartingRoom>
@@ -2614,29 +2942,71 @@
           <Character>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <AnimationDelay>9</AnimationDelay>
+            <AnimationDelay>4</AnimationDelay>
             <BlinkingView>0</BlinkingView>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
             <ID>1</ID>
-            <IdleAnimationDelay>40</IdleAnimationDelay>
-            <IdleDelay>0</IdleDelay>
-            <IdleView>5</IdleView>
+            <IdleAnimationDelay>4</IdleAnimationDelay>
+            <IdleDelay>20</IdleDelay>
+            <IdleView>0</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>2</MovementSpeed>
+            <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <NormalView>40</NormalView>
+            <NormalView>1</NormalView>
             <Properties />
-            <RealName>Queenie</RealName>
-            <ScriptName>cQueenie</ScriptName>
+            <RealName>Stone</RealName>
+            <ScriptName>Stone</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>346</StartX>
-            <StartY>156</StartY>
-            <StartingRoom>3</StartingRoom>
+            <StartX>160</StartX>
+            <StartY>120</StartY>
+            <StartingRoom>-1</StartingRoom>
+            <ThinkingView>0</ThinkingView>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <AnimationDelay>4</AnimationDelay>
+            <BlinkingView>0</BlinkingView>
+            <Clickable>True</Clickable>
+            <DiagonalLoops>True</DiagonalLoops>
+            <ID>2</ID>
+            <IdleAnimationDelay>4</IdleAnimationDelay>
+            <IdleDelay>20</IdleDelay>
+            <IdleView>0</IdleView>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <NormalView>1</NormalView>
+            <Properties />
+            <RealName>Vera</RealName>
+            <ScriptName>cVera</ScriptName>
+            <Solid>True</Solid>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <SpeechView>0</SpeechView>
+            <StartX>160</StartX>
+            <StartY>120</StartY>
+            <StartingRoom>-1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -2660,7 +3030,7 @@
             <BlinkingView>0</BlinkingView>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
-            <ID>2</ID>
+            <ID>3</ID>
             <IdleAnimationDelay>0</IdleAnimationDelay>
             <IdleDelay>0</IdleDelay>
             <IdleView>38</IdleView>
@@ -2698,48 +3068,6 @@
           <Character>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <AnimationDelay>9</AnimationDelay>
-            <BlinkingView>0</BlinkingView>
-            <Clickable>True</Clickable>
-            <DiagonalLoops>False</DiagonalLoops>
-            <ID>3</ID>
-            <IdleAnimationDelay>10</IdleAnimationDelay>
-            <IdleDelay>0</IdleDelay>
-            <IdleView>37</IdleView>
-            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>5</MovementSpeed>
-            <MovementSpeedX>0</MovementSpeedX>
-            <MovementSpeedY>0</MovementSpeedY>
-            <NormalView>37</NormalView>
-            <Properties />
-            <RealName>Carlos</RealName>
-            <ScriptName>cCarlos</ScriptName>
-            <Solid>True</Solid>
-            <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
-            <SpeechView>0</SpeechView>
-            <StartX>433</StartX>
-            <StartY>134</StartY>
-            <StartingRoom>3</StartingRoom>
-            <ThinkingView>0</ThinkingView>
-            <TurnBeforeWalking>True</TurnBeforeWalking>
-            <UniformMovementSpeed>True</UniformMovementSpeed>
-            <UseRoomAreaLighting>True</UseRoomAreaLighting>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
-            <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-              <Event Index="5" />
-              <Event Index="6" />
-              <Event Index="7" />
-            </Interactions>
-          </Character>
-          <Character>
-            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
-            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
             <AnimationDelay>4</AnimationDelay>
             <BlinkingView>0</BlinkingView>
             <Clickable>True</Clickable>
@@ -2752,17 +3080,17 @@
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <NormalView>17</NormalView>
+            <NormalView>1</NormalView>
             <Properties />
-            <RealName>Samir</RealName>
-            <ScriptName>Samir</ScriptName>
+            <RealName>Salvatore</RealName>
+            <ScriptName>cSalvatore</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>80</StartX>
-            <StartY>126</StartY>
-            <StartingRoom>10</StartingRoom>
+            <StartX>160</StartX>
+            <StartY>120</StartY>
+            <StartingRoom>-1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -2782,29 +3110,29 @@
           <Character>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <AnimationDelay>4</AnimationDelay>
+            <AnimationDelay>9</AnimationDelay>
             <BlinkingView>0</BlinkingView>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
             <ID>5</ID>
-            <IdleAnimationDelay>4</IdleAnimationDelay>
-            <IdleDelay>20</IdleDelay>
-            <IdleView>0</IdleView>
+            <IdleAnimationDelay>40</IdleAnimationDelay>
+            <IdleDelay>0</IdleDelay>
+            <IdleView>5</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeed>2</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <NormalView>1</NormalView>
+            <NormalView>40</NormalView>
             <Properties />
-            <RealName>Boxer</RealName>
-            <ScriptName>Boxer</ScriptName>
+            <RealName>Queenie</RealName>
+            <ScriptName>cQueenie</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
-            <SpeechView>0</SpeechView>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
-            <StartingRoom>-1</StartingRoom>
+            <SpeechView>57</SpeechView>
+            <StartX>346</StartX>
+            <StartY>156</StartY>
+            <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -2838,8 +3166,8 @@
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>1</NormalView>
             <Properties />
-            <RealName>Actress</RealName>
-            <ScriptName>Actress</ScriptName>
+            <RealName>Max</RealName>
+            <ScriptName>cMax</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
@@ -2880,8 +3208,8 @@
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>1</NormalView>
             <Properties />
-            <RealName>Writer</RealName>
-            <ScriptName>Writer</ScriptName>
+            <RealName>Teresa</RealName>
+            <ScriptName>cTeresa</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
@@ -2922,8 +3250,8 @@
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>1</NormalView>
             <Properties />
-            <RealName>Reporter</RealName>
-            <ScriptName>Reporter</ScriptName>
+            <RealName>Lucinda</RealName>
+            <ScriptName>cLucinda</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
@@ -2962,17 +3290,17 @@
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <NormalView>1</NormalView>
+            <NormalView>17</NormalView>
             <Properties />
-            <RealName>Magician</RealName>
-            <ScriptName>Magician</ScriptName>
+            <RealName>Samir</RealName>
+            <ScriptName>cSamir</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
-            <StartingRoom>-1</StartingRoom>
+            <StartX>80</StartX>
+            <StartY>126</StartY>
+            <StartingRoom>10</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -3006,8 +3334,8 @@
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>1</NormalView>
             <Properties />
-            <RealName>Botanist</RealName>
-            <ScriptName>Botanist</ScriptName>
+            <RealName xml:space="preserve">Dr. Khan</RealName>
+            <ScriptName>cDrkhan</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
@@ -3034,29 +3362,29 @@
           <Character>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <AnimationDelay>4</AnimationDelay>
+            <AnimationDelay>9</AnimationDelay>
             <BlinkingView>0</BlinkingView>
             <Clickable>True</Clickable>
-            <DiagonalLoops>True</DiagonalLoops>
+            <DiagonalLoops>False</DiagonalLoops>
             <ID>11</ID>
-            <IdleAnimationDelay>4</IdleAnimationDelay>
-            <IdleDelay>20</IdleDelay>
-            <IdleView>0</IdleView>
+            <IdleAnimationDelay>10</IdleAnimationDelay>
+            <IdleDelay>0</IdleDelay>
+            <IdleView>37</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeed>5</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <NormalView>1</NormalView>
+            <NormalView>37</NormalView>
             <Properties />
-            <RealName>Stone</RealName>
-            <ScriptName>Stone</ScriptName>
+            <RealName>Carlos</RealName>
+            <ScriptName>cCarlos</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
-            <SpeechView>0</SpeechView>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
-            <StartingRoom>-1</StartingRoom>
+            <SpeechView>59</SpeechView>
+            <StartX>433</StartX>
+            <StartY>134</StartY>
+            <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -3247,7 +3575,23 @@
     <PlayerCharacter>0</PlayerCharacter>
     <Dialogs>
       <DialogFolder Name="Main">
-        <SubFolders />
+        <SubFolders>
+          <DialogFolder Name="notebook">
+            <SubFolders />
+            <Dialogs>
+              <Dialog>
+                <ID>1</ID>
+                <Name>dNotebookCharacters</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script>@S
+narrator: You have not met this person.
+return
+</Script>
+                <DialogOptions />
+              </Dialog>
+            </Dialogs>
+          </DialogFolder>
+        </SubFolders>
         <Dialogs>
           <Dialog>
             <ID>0</ID>
@@ -3255,10 +3599,10 @@
             <ShowTextParser>False</ShowTextParser>
             <Script>// Dialog script file
 @S  // Dialog startup entry point
-cEgo: Hello
-joanna: how are you?
+cEgo: The Quick red fox jumped over the brown lazy dog.
 Joanna: The Quick red fox jumped over the brown lazy dog.
-
+Carlos: The Quick red fox jumped over the brown lazy dog.
+Queenie: The Quick red fox jumped over the brown lazy dog.
 return
 </Script>
             <DialogOptions />
@@ -3389,8 +3733,8 @@ return
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>11</HotspotX>
+        <HotspotY>11</HotspotY>
         <ID>9</ID>
         <Image>1183</Image>
         <Name>Exit</Name>
@@ -3835,6 +4179,30 @@ return
               <ScriptAndHeader>
                 <ScriptAndHeader_Header>
                   <Script>
+                    <FileName>CharacterButton.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1536029210</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>CharacterButton.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1536029210</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
                     <FileName>Door.ash</FileName>
                     <Name />
                     <Description />
@@ -3858,37 +4226,38 @@ return
               </ScriptAndHeader>
             </ScriptAndHeaders>
           </ScriptFolder>
-          <ScriptFolder Name="State">
-            <SubFolders />
-            <ScriptAndHeaders>
-              <ScriptAndHeader>
-                <ScriptAndHeader_Header>
-                  <Script>
-                    <FileName>Prologue.ash</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>858010826</Key>
-                    <IsHeader>True</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Header>
-                <ScriptAndHeader_Script>
-                  <Script>
-                    <FileName>Prologue.asc</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>858010826</Key>
-                    <IsHeader>False</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Script>
-              </ScriptAndHeader>
-            </ScriptAndHeaders>
-          </ScriptFolder>
         </SubFolders>
         <ScriptAndHeaders>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>KeyboardMovement.ash</FileName>
+                <Name>KeyboardMovement</Name>
+                <Description>Allows to move the player character using the keyboard.
+
+See KeyboardMovement.txt for details.
+</Description>
+                <Author>Rui "Brisby" Pires / strazer</Author>
+                <Version>1.02</Version>
+                <Key>160503183</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>KeyboardMovement.asc</FileName>
+                <Name>KeyboardMovement</Name>
+                <Description>Allows to move the player character using the keyboard.
+
+See KeyboardMovement.txt for details.
+</Description>
+                <Author>Rui "Brisby" Pires / strazer / AGS Team</Author>
+                <Version>1.04</Version>
+                <Key>160503183</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
@@ -3916,6 +4285,30 @@ return
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
+                <FileName>NotebookScript.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>2108388728</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>NotebookScript.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>2108388728</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
                 <FileName>UtilFunctions.ash</FileName>
                 <Name />
                 <Description />
@@ -3933,36 +4326,6 @@ return
                 <Author />
                 <Version />
                 <Key>533486662</Key>
-                <IsHeader>False</IsHeader>
-              </Script>
-            </ScriptAndHeader_Script>
-          </ScriptAndHeader>
-          <ScriptAndHeader>
-            <ScriptAndHeader_Header>
-              <Script>
-                <FileName>KeyboardMovement.ash</FileName>
-                <Name>KeyboardMovement</Name>
-                <Description>Allows to move the player character using the keyboard.
-
-See KeyboardMovement.txt for details.
-</Description>
-                <Author>Rui "Brisby" Pires / strazer</Author>
-                <Version>1.02</Version>
-                <Key>160503183</Key>
-                <IsHeader>True</IsHeader>
-              </Script>
-            </ScriptAndHeader_Header>
-            <ScriptAndHeader_Script>
-              <Script>
-                <FileName>KeyboardMovement.asc</FileName>
-                <Name>KeyboardMovement</Name>
-                <Description>Allows to move the player character using the keyboard.
-
-See KeyboardMovement.txt for details.
-</Description>
-                <Author>Rui "Brisby" Pires / strazer / AGS Team</Author>
-                <Version>1.04</Version>
-                <Key>160503183</Key>
                 <IsHeader>False</IsHeader>
               </Script>
             </ScriptAndHeader_Script>
@@ -14303,13 +14666,13 @@ See KeyboardMovement.txt for details.
                   </SpriteFolder>
                 </SubFolders>
                 <Sprites>
-                  <Sprite Slot="1119" Width="89" Height="134" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1119" Width="90" Height="140" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalker.png/ClaraTalker.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalker.png/0.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>134</ImportHeight>
-                      <ImportWidth>89</ImportWidth>
+                      <ImportHeight>140</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -14318,213 +14681,213 @@ See KeyboardMovement.txt for details.
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1120" Width="39" Height="13" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1120" Width="90" Height="140" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalkerBlink.png/0.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalker.png/11.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>13</ImportHeight>
-                      <ImportWidth>39</ImportWidth>
+                      <ImportHeight>140</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1121" Width="39" Height="13" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1121" Width="90" Height="140" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalkerBlink.png/1.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalker.png/12.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>13</ImportHeight>
-                      <ImportWidth>39</ImportWidth>
+                      <ImportHeight>140</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1122" Width="39" Height="13" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1122" Width="90" Height="140" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalkerBlink.png/2.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalker.png/13.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>13</ImportHeight>
-                      <ImportWidth>39</ImportWidth>
+                      <ImportHeight>140</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1123" Width="57" Height="33" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1123" Width="90" Height="140" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalkerMouth.png/0.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalker.png/0.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>33</ImportHeight>
-                      <ImportWidth>57</ImportWidth>
+                      <ImportHeight>140</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>PaletteIndex0</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1124" Width="57" Height="33" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1124" Width="90" Height="140" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalkerMouth.png/1.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalker.png/1.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>33</ImportHeight>
-                      <ImportWidth>57</ImportWidth>
+                      <ImportHeight>140</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>PaletteIndex0</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1125" Width="57" Height="33" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1125" Width="90" Height="140" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalkerMouth.png/2.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalker.png/2.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>33</ImportHeight>
-                      <ImportWidth>57</ImportWidth>
+                      <ImportHeight>140</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>PaletteIndex0</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1126" Width="57" Height="33" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1126" Width="90" Height="140" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalkerMouth.png/3.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalker.png/3.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>33</ImportHeight>
-                      <ImportWidth>57</ImportWidth>
+                      <ImportHeight>140</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>PaletteIndex0</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1127" Width="57" Height="33" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1127" Width="90" Height="140" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalkerMouth.png/4.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalker.png/4.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>33</ImportHeight>
-                      <ImportWidth>57</ImportWidth>
+                      <ImportHeight>140</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>PaletteIndex0</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1128" Width="57" Height="33" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1128" Width="90" Height="140" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalkerMouth.png/5.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalker.png/5.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>33</ImportHeight>
-                      <ImportWidth>57</ImportWidth>
+                      <ImportHeight>140</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>PaletteIndex0</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1129" Width="57" Height="33" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1129" Width="90" Height="140" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalkerMouth.png/6.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalker.png/6.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>33</ImportHeight>
-                      <ImportWidth>57</ImportWidth>
+                      <ImportHeight>140</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>PaletteIndex0</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1130" Width="57" Height="33" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1130" Width="90" Height="140" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalkerMouth.png/7.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalker.png/7.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>33</ImportHeight>
-                      <ImportWidth>57</ImportWidth>
+                      <ImportHeight>140</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>PaletteIndex0</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1131" Width="57" Height="33" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1131" Width="90" Height="140" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalkerMouth.png/8.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalker.png/8.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>33</ImportHeight>
-                      <ImportWidth>57</ImportWidth>
+                      <ImportHeight>140</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>PaletteIndex0</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1132" Width="57" Height="33" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1132" Width="90" Height="140" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalkerMouth.png/9.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalker.png/9.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>33</ImportHeight>
-                      <ImportWidth>57</ImportWidth>
+                      <ImportHeight>140</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>PaletteIndex0</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1133" Width="57" Height="33" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1133" Width="90" Height="140" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalkerMouth.png/10.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraTalker.png/10.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>33</ImportHeight>
-                      <ImportWidth>57</ImportWidth>
+                      <ImportHeight>140</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>PaletteIndex0</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
@@ -16142,13 +16505,13 @@ See KeyboardMovement.txt for details.
                   </SpriteFolder>
                 </SubFolders>
                 <Sprites>
-                  <Sprite Slot="1134" Width="91" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1134" Width="93" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeak.png/AnnaWongSpeakBase.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeak.png/0.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>132</ImportHeight>
-                      <ImportWidth>91</ImportWidth>
+                      <ImportWidth>93</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -16157,228 +16520,228 @@ See KeyboardMovement.txt for details.
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1135" Width="47" Height="17" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1135" Width="93" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeakEyes.png/0.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeak.png/11.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>17</ImportHeight>
-                      <ImportWidth>47</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>93</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1136" Width="47" Height="17" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1136" Width="93" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeakEyes.png/1.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeak.png/12.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>17</ImportHeight>
-                      <ImportWidth>47</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>93</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1137" Width="47" Height="17" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1137" Width="93" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeakEyes.png/2.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeak.png/13.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>17</ImportHeight>
-                      <ImportWidth>47</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>93</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1138" Width="46" Height="31" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1138" Width="93" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeakMouth.png/0.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeak.png/0.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>31</ImportHeight>
-                      <ImportWidth>46</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>93</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1139" Width="46" Height="31" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1139" Width="93" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeakMouth.png/1.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeak.png/1.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>31</ImportHeight>
-                      <ImportWidth>46</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>93</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1140" Width="46" Height="31" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1140" Width="93" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeakMouth.png/2.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeak.png/2.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>31</ImportHeight>
-                      <ImportWidth>46</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>93</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1141" Width="46" Height="31" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1141" Width="93" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeakMouth.png/3.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeak.png/3.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>31</ImportHeight>
-                      <ImportWidth>46</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>93</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1142" Width="46" Height="31" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1142" Width="93" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeakMouth.png/4.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeak.png/4.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>31</ImportHeight>
-                      <ImportWidth>46</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>93</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1143" Width="46" Height="31" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1143" Width="93" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeakMouth.png/5.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeak.png/5.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>31</ImportHeight>
-                      <ImportWidth>46</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>93</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1144" Width="46" Height="31" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1144" Width="93" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeakMouth.png/6.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeak.png/6.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>31</ImportHeight>
-                      <ImportWidth>46</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>93</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1145" Width="46" Height="31" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1145" Width="93" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeakMouth.png/7.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeak.png/7.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>31</ImportHeight>
-                      <ImportWidth>46</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>93</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1146" Width="46" Height="31" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1146" Width="93" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeakMouth.png/8.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeak.png/8.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>31</ImportHeight>
-                      <ImportWidth>46</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>93</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1147" Width="46" Height="31" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1147" Width="93" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeakMouth.png/9.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeak.png/9.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>31</ImportHeight>
-                      <ImportWidth>46</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>93</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1148" Width="46" Height="31" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1148" Width="93" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeakMouth.png/10.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeak.png/10.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>31</ImportHeight>
-                      <ImportWidth>46</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>93</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1149" Width="46" Height="31" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1149" Width="93" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeakMouth.png/11.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Joanna/AnnaWongSpeak.png/11.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>31</ImportHeight>
-                      <ImportWidth>46</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>93</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
@@ -19352,7 +19715,7 @@ See KeyboardMovement.txt for details.
                 <Sprites>
                   <Sprite Slot="1150" Width="100" Height="127" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeak.png/QueenieSpeakBase.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeak.png/0.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>127</ImportHeight>
@@ -19365,213 +19728,213 @@ See KeyboardMovement.txt for details.
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1151" Width="32" Height="14" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1151" Width="100" Height="127" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeakBlink.png/0.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeak.png/11.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>14</ImportHeight>
-                      <ImportWidth>32</ImportWidth>
+                      <ImportHeight>127</ImportHeight>
+                      <ImportWidth>100</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1152" Width="32" Height="14" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1152" Width="100" Height="127" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeakBlink.png/1.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeak.png/12.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>14</ImportHeight>
-                      <ImportWidth>32</ImportWidth>
+                      <ImportHeight>127</ImportHeight>
+                      <ImportWidth>100</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1153" Width="32" Height="14" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1153" Width="100" Height="127" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeakBlink.png/2.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeak.png/13.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>14</ImportHeight>
-                      <ImportWidth>32</ImportWidth>
+                      <ImportHeight>127</ImportHeight>
+                      <ImportWidth>100</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1154" Width="39" Height="32" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1154" Width="100" Height="127" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeakMouth.png/0.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeak.png/0.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>32</ImportHeight>
-                      <ImportWidth>39</ImportWidth>
+                      <ImportHeight>127</ImportHeight>
+                      <ImportWidth>100</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1155" Width="39" Height="32" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1155" Width="100" Height="127" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeakMouth.png/1.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeak.png/1.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>32</ImportHeight>
-                      <ImportWidth>39</ImportWidth>
+                      <ImportHeight>127</ImportHeight>
+                      <ImportWidth>100</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1156" Width="39" Height="32" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1156" Width="100" Height="127" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeakMouth.png/2.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeak.png/2.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>32</ImportHeight>
-                      <ImportWidth>39</ImportWidth>
+                      <ImportHeight>127</ImportHeight>
+                      <ImportWidth>100</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1157" Width="39" Height="32" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1157" Width="100" Height="127" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeakMouth.png/3.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeak.png/3.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>32</ImportHeight>
-                      <ImportWidth>39</ImportWidth>
+                      <ImportHeight>127</ImportHeight>
+                      <ImportWidth>100</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1158" Width="39" Height="32" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1158" Width="100" Height="127" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeakMouth.png/4.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeak.png/4.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>32</ImportHeight>
-                      <ImportWidth>39</ImportWidth>
+                      <ImportHeight>127</ImportHeight>
+                      <ImportWidth>100</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1159" Width="39" Height="32" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1159" Width="100" Height="127" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeakMouth.png/5.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeak.png/5.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>32</ImportHeight>
-                      <ImportWidth>39</ImportWidth>
+                      <ImportHeight>127</ImportHeight>
+                      <ImportWidth>100</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1160" Width="39" Height="32" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1160" Width="100" Height="127" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeakMouth.png/6.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeak.png/6.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>32</ImportHeight>
-                      <ImportWidth>39</ImportWidth>
+                      <ImportHeight>127</ImportHeight>
+                      <ImportWidth>100</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1161" Width="39" Height="32" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1161" Width="100" Height="127" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeakMouth.png/7.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeak.png/7.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>32</ImportHeight>
-                      <ImportWidth>39</ImportWidth>
+                      <ImportHeight>127</ImportHeight>
+                      <ImportWidth>100</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1162" Width="39" Height="32" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1162" Width="100" Height="127" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeakMouth.png/8.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeak.png/8.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>32</ImportHeight>
-                      <ImportWidth>39</ImportWidth>
+                      <ImportHeight>127</ImportHeight>
+                      <ImportWidth>100</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1163" Width="39" Height="32" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1163" Width="100" Height="127" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeakMouth.png/9.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeak.png/9.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>32</ImportHeight>
-                      <ImportWidth>39</ImportWidth>
+                      <ImportHeight>127</ImportHeight>
+                      <ImportWidth>100</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1164" Width="39" Height="32" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1164" Width="100" Height="127" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeakMouth.png/10.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieSpeak.png/10.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>32</ImportHeight>
-                      <ImportWidth>39</ImportWidth>
+                      <ImportHeight>127</ImportHeight>
+                      <ImportWidth>100</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
@@ -22095,7 +22458,7 @@ See KeyboardMovement.txt for details.
                   </Sprite>
                   <Sprite Slot="1354" Width="90" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeaker.png/ActorSpeakerBase.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeaker.png/0.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>132</ImportHeight>
@@ -22108,213 +22471,213 @@ See KeyboardMovement.txt for details.
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1355" Width="37" Height="12" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1355" Width="90" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeakerBlink.png/0.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeaker.png/11.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>12</ImportHeight>
-                      <ImportWidth>37</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1356" Width="37" Height="12" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1356" Width="90" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeakerBlink.png/1.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeaker.png/12.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>12</ImportHeight>
-                      <ImportWidth>37</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1357" Width="37" Height="12" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1357" Width="90" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeakerBlink.png/2.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeaker.png/13.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>12</ImportHeight>
-                      <ImportWidth>37</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1358" Width="48" Height="38" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1358" Width="90" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeakerMouth.png/0.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeaker.png/0.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>38</ImportHeight>
-                      <ImportWidth>48</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1359" Width="48" Height="38" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1359" Width="90" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeakerMouth.png/1.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeaker.png/1.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>38</ImportHeight>
-                      <ImportWidth>48</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1360" Width="48" Height="38" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1360" Width="90" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeakerMouth.png/2.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeaker.png/2.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>38</ImportHeight>
-                      <ImportWidth>48</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1361" Width="48" Height="38" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1361" Width="90" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeakerMouth.png/3.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeaker.png/3.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>38</ImportHeight>
-                      <ImportWidth>48</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1362" Width="48" Height="38" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1362" Width="90" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeakerMouth.png/4.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeaker.png/4.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>38</ImportHeight>
-                      <ImportWidth>48</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1363" Width="48" Height="38" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1363" Width="90" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeakerMouth.png/5.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeaker.png/5.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>38</ImportHeight>
-                      <ImportWidth>48</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1364" Width="48" Height="38" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1364" Width="90" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeakerMouth.png/6.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeaker.png/6.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>38</ImportHeight>
-                      <ImportWidth>48</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1365" Width="48" Height="38" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1365" Width="90" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeakerMouth.png/7.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeaker.png/7.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>38</ImportHeight>
-                      <ImportWidth>48</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1366" Width="48" Height="38" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1366" Width="90" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeakerMouth.png/8.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeaker.png/8.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>38</ImportHeight>
-                      <ImportWidth>48</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1367" Width="48" Height="38" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1367" Width="90" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeakerMouth.png/9.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeaker.png/9.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>38</ImportHeight>
-                      <ImportWidth>48</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="1368" Width="48" Height="38" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="1368" Width="90" Height="132" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
-                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeakerMouth.png/10.png</FileName>
+                      <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Carlos/ActorSpeaker.png/10.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>38</ImportHeight>
-                      <ImportWidth>48</ImportWidth>
+                      <ImportHeight>132</ImportHeight>
+                      <ImportWidth>90</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
@@ -27590,6 +27953,135 @@ See KeyboardMovement.txt for details.
             <SubFolders />
             <Views>
               <View>
+                <ID>58</ID>
+                <Name>ClaraTalker</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>1123</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>1124</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>1125</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>1126</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>1127</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>1128</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>1129</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>1130</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>1131</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>9</ID>
+                        <Image>1132</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>10</ID>
+                        <Image>1133</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>62</ID>
+                <Name>ClaraBlink</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>1120</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>1121</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>1122</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>1121</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
                 <ID>2</ID>
                 <Name>ClaraNormal_1001</Name>
                 <Loops>
@@ -30612,6 +31104,135 @@ See KeyboardMovement.txt for details.
             <SubFolders />
             <Views>
               <View>
+                <ID>57</ID>
+                <Name>QueenieTalker</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>1154</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>1161</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>1164</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>1160</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>1157</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>1163</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>1159</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>1162</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>1158</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>9</ID>
+                        <Image>1156</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>10</ID>
+                        <Image>1155</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>61</ID>
+                <Name>QueenieBlink</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>1151</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>1152</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>1153</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>1152</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
                 <ID>4</ID>
                 <Name>QueenieNormal_1151</Name>
                 <Loops>
@@ -32246,70 +32867,117 @@ See KeyboardMovement.txt for details.
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>1139</Image>
+                        <Image>1134</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>1</ID>
-                        <Image>1140</Image>
+                        <Image>1139</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>2</ID>
-                        <Image>1141</Image>
+                        <Image>1140</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>3</ID>
-                        <Image>1142</Image>
+                        <Image>1141</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>4</ID>
-                        <Image>1143</Image>
+                        <Image>1142</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>5</ID>
-                        <Image>1144</Image>
+                        <Image>1143</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>6</ID>
-                        <Image>1145</Image>
+                        <Image>1144</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>7</ID>
-                        <Image>1146</Image>
+                        <Image>1145</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>8</ID>
-                        <Image>1147</Image>
+                        <Image>1146</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>9</ID>
+                        <Image>1147</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>10</ID>
                         <Image>1148</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>46</ID>
+                <Name>JoannaBlink_1105</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>1135</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>1136</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>1137</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>1136</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -33144,32 +33812,6 @@ See KeyboardMovement.txt for details.
                 </Loops>
               </View>
               <View>
-                <ID>46</ID>
-                <Name>JoannaBlink_1105</Name>
-                <Loops>
-                  <Loop>
-                    <ID>0</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames>
-                      <ViewFrame>
-                        <Delay>100</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>0</ID>
-                        <Image>1006</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>1</ID>
-                        <Image>1007</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                    </Frames>
-                  </Loop>
-                </Loops>
-              </View>
-              <View>
                 <ID>55</ID>
                 <Name>JoannaSpeakSit</Name>
                 <Loops>
@@ -33235,6 +33877,135 @@ See KeyboardMovement.txt for details.
           <ViewFolder Name="Carlos">
             <SubFolders />
             <Views>
+              <View>
+                <ID>59</ID>
+                <Name>CarlosTalker</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>1358</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>1359</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>1360</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>1361</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>1362</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>1363</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>1364</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>1365</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>1366</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>9</ID>
+                        <Image>1367</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>10</ID>
+                        <Image>1368</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>60</ID>
+                <Name>CarlosBlink</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>1355</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>1356</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>1357</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>1356</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
               <View>
                 <ID>6</ID>
                 <Name>CarlosNormal_1201</Name>
