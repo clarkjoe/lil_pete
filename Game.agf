@@ -2583,7 +2583,7 @@
             <ID>3</ID>
             <Image>1172</Image>
             <Name>iMagazine</Name>
-            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <Properties />
             <Interactions>
               <Event Index="0" />
@@ -2596,12 +2596,12 @@
           <InventoryItem>
             <CursorImage>793</CursorImage>
             <Description xml:space="preserve">Green Thread</Description>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>1</HotspotX>
+            <HotspotY>1</HotspotY>
             <ID>4</ID>
             <Image>791</Image>
             <Name>iGreenThread</Name>
-            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <Properties />
             <Interactions>
               <Event Index="0" />
@@ -2632,8 +2632,8 @@
           <InventoryItem>
             <CursorImage>1182</CursorImage>
             <Description xml:space="preserve">Crumpled Magazine Page</Description>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>1</HotspotX>
+            <HotspotY>1</HotspotY>
             <ID>6</ID>
             <Image>1181</Image>
             <Name>iCrumpledMagazine</Name>
@@ -2650,8 +2650,8 @@
           <InventoryItem>
             <CursorImage>1177</CursorImage>
             <Description>Tape</Description>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>1</HotspotX>
+            <HotspotY>1</HotspotY>
             <ID>7</ID>
             <Image>1173</Image>
             <Name>iTape</Name>
@@ -2668,8 +2668,8 @@
           <InventoryItem>
             <CursorImage>1179</CursorImage>
             <Description>Compact</Description>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>1</HotspotX>
+            <HotspotY>1</HotspotY>
             <ID>8</ID>
             <Image>1175</Image>
             <Name>iCompact</Name>
@@ -2686,12 +2686,12 @@
           <InventoryItem>
             <CursorImage>1167</CursorImage>
             <Description>Notebook</Description>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>1</HotspotX>
+            <HotspotY>1</HotspotY>
             <ID>9</ID>
             <Image>1166</Image>
             <Name>iNotebook</Name>
-            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <Properties />
             <Interactions>
               <Event Index="0" />
@@ -3072,7 +3072,7 @@
               <Event Index="3">cJoanna_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
-              <Event Index="6">cJoanna_Mode8</Event>
+              <Event Index="6" />
               <Event Index="7" />
             </Interactions>
           </Character>
@@ -3153,7 +3153,7 @@
               <Event Index="0">cQueenie_Look</Event>
               <Event Index="1" />
               <Event Index="2">cQueenie_Talk</Event>
-              <Event Index="3" />
+              <Event Index="3">cQueenie_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
               <Event Index="6" />
@@ -3763,18 +3763,42 @@ stop
                   </Dialog>
                   <Dialog>
                     <ID>4</ID>
-                    <Name>dPrologue_CarlosCigar</Name>
+                    <Name>dPrologue_CarlosInv</Name>
                     <ShowTextParser>False</ShowTextParser>
                     <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
   cEgo.Walk(cCarlos.x-30,cCarlos.y,eBlock);
   cEgo.FaceCharacter(cCarlos);
-  cCarlos.AddInventory(iCigar);
-  cEgo.LoseInventory(iCigar);
-cEgo: You look like a man who could use one of these.
-Carlos: Now that's more like it. Didn't think there were any of these on board.
-Carlos: Thanks, Clara.
-cEgo: Don't mention it.
+  
+  if (cEgo.ActiveInventory == iCigar)
+  {
+    cCarlos.AddInventory(iCigar);
+    cEgo.LoseInventory(iCigar);
+    cEgo.Say("You look like a man who could use one of these.");
+    cCarlos.Say("Now that's more like it. Didn't think there were any of these on board.");
+    cCarlos.Say("Thanks, Clara.");
+    cEgo.Say("Don't mention it.");
+  }
+  else
+  {
+    if (cCarlos.HasInventory(iCigar))
+      {       
+        if (cEgo.ActiveInventory == iMagazine)
+          {
+            cEgo.Say("So, what’s the deal with Gilded Shadows? I’ve heard some... less-than-complimentary things about it.");
+            cCarlos.Say("It flopped because Stone insisted on casting his wife as the lead, even though she couldn’t act to save her life. It was a mess. Honestly, you would've been perfect for the role, but, well... guess Stone has his reasons.");
+          }
+        else
+          {
+            cCarlos.Say("That’s got nothing to do with me.");
+          }
+      }
+    else
+      {
+        cCarlos.Say("Not in the mood for a conversation, sweetheart.");
+      }
+  }
+
   cCarlos.SetProperty("haveSpokenTo",true);
 stop]]></Script>
                     <DialogOptions />
@@ -3942,6 +3966,31 @@ stop
                       </DialogOption>
                     </DialogOptions>
                   </Dialog>
+                  <Dialog>
+                    <ID>6</ID>
+                    <Name>dPrologue_JoannaInv</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  cEgo.Walk(cJoanna.x+30,cJoanna.y,eBlock);
+  cEgo.FaceCharacter(cJoanna);
+  
+  if (cEgo.ActiveInventory == iMagazine)
+  {
+    cEgo.Say("I saw a terrible review about Vera's last performance. Written by a woman named Lucinda, I believe?");
+    cJoanna.Say("You know, it’s such a shame you didn’t land the lead role in the movie. I mean, with your charm, you’d have been perfect!");
+    cEgo.Say("Oh, believe me, I thought the same thing. But you know how this business works—sometimes it’s not about talent, it’s about politics.");
+  }
+  else
+  {
+    cJoanna.Say("I’m not sure what you want me to do with that.");
+  }
+
+  cJoanna.SetProperty("haveSpokenTo",true);
+stop
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
                 </Dialogs>
               </DialogFolder>
               <DialogFolder Name="Queenie">
@@ -3978,7 +4027,7 @@ stop
 return
   
 @1
-  if (cEgo.Room == 6)
+  if (cEgo.Room != 6)
   {
     cEgo.Say("What’s your take on me? I’d love to know what you think.");
     cQueenie.Say("You’re a smart one, Clara. Got the look, got the charm. But, like I said, this town’s full of them.");
@@ -3990,7 +4039,7 @@ return
   }
 stop
 @2
-  if (cEgo.Room == 6)
+  if (cEgo.Room != 6)
   {
     cEgo.Say("What’s your take on Stone? He seems like a man with big plans.");
     cQueenie.Say("Stone’s just another man with big ideas and a bigger ego. Nothing new there.");
@@ -4003,9 +4052,14 @@ stop
     cQueenie.Say("Because it's not just about the actress. The Dragon Blossom could still mean something, if it's done right.");
     cQueenie.Say("Besides, sometimes it's better to be the one holding the purse strings. You get to set the rules, decide what really matters.");
     
-    // Queenie gives Clara her compact
+    // Queenie pulls out her compact and starts to hand it to Clara
+    Wait(GetGameSpeed()/2);
+    cQueenie.Say("Here. Your face is a bit shiny must be this California heat.");
     
-    cQueenie.Say("Here. Your face is a bit shiny—must be this California heat.");
+    // Queenie gives Clara her compact
+    cEgo.AddInventory(iCompact);
+    cQueenie.LoseInventory(iCompact);
+    
     cQueenie.Say("Not used to it, are you? New York City girl and all?");
     cEgo.Say("Yes! Growing up in Brooklyn didn't prepare me for these summers.");
     cQueenie.Say("I'm sure. Keep that powder.");
@@ -4190,6 +4244,44 @@ stop
                         <Text xml:space="preserve">Stonecliff Manor</Text>
                       </DialogOption>
                     </DialogOptions>
+                  </Dialog>
+                  <Dialog>
+                    <ID>7</ID>
+                    <Name>dPrologue_QueenieInv</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  cEgo.Walk(cQueenie.x+30,cQueenie.y,eBlock);
+  cEgo.FaceCharacter(cQueenie);
+  
+  if (cEgo.ActiveInventory == iCompact)
+  {
+    cQueenie.Say("Ah, my compact. Hope it’s working out for you, darling.");
+  }
+  else
+  {
+    if (cEgo.ActiveInventory == iMagazine)
+      {       
+        if (cEgo.Room != 6)
+          {
+            cEgo.Say("So, Gilded Shadows… I’ve heard some whispers about it. Seems like it didn’t quite land as expected.");
+            cQueenie.Say("Oh, Gilded Shadows? Let’s just say it didn’t quite live up to the hype.");
+          }
+          else
+          {
+            cEgo.Say("So, Gilded Shadows… I’ve heard some whispers about it. Seems like it didn’t quite land as expected.");
+            cQueenie.Say("Oh, you could say that. Stone’s obsession with making his wife a star did the movie no favors. She couldn’t act her way out of a paper bag, but he’s too blinded by his own ambition to see it.");
+          }
+      }
+    else
+      {
+        cQueenie.Say("I don’t see how that’s my business.");
+      }
+  }
+
+  cQueenie.SetProperty("haveSpokenTo",true);
+stop]]></Script>
+                    <DialogOptions />
                   </Dialog>
                 </Dialogs>
               </DialogFolder>
