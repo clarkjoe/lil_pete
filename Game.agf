@@ -3609,29 +3609,35 @@ return
                 <Dialogs>
                   <Dialog>
                     <ID>2</ID>
-                    <Name>dPrologue_CarlosIntro</Name>
+                    <Name>dPrologue_Carlos</Name>
                     <ShowTextParser>False</ShowTextParser>
-                    <Script><![CDATA[// Dialog script file
+                    <Script><![CDATA[// Dialog script file for Carlos's intro dialog and his dialog from the notebook
 @S  // Dialog startup entry point
   cEgo.Walk(cCarlos.x-30,cCarlos.y,eBlock);
   cEgo.FaceCharacter(cCarlos);
   Wait(GetGameSpeed()/4);
-  bool haveSpokenTo = cCarlos.GetProperty("haveSpokenTo");
-ceGo: Carlos, mind if I ask you something? 
-  if (cCarlos.HasInventory(iCigar))
-  {
-    cCarlos.Say("Go ahead. I could use a distraction.");
-    cCarlos.SetProperty("haveSpokenTo",true);
-    // cEgo.ChangeRoom(19);
-  }
+  bool haveSpokenTo = cCarlos.GetProperty("haveSpokenTo"); 
+  
+  if (cCarlos.GetProperty("haveSpokenTo") == false)
+    {
+      cEgo.Say("Mind if I join you, Carlos?");
+      cCarlos.Say("Not in the mood for a conversation, sweetheart.");
+      cCarlos.SetProperty("haveSpokenTo",true);
+      return RUN_DIALOG_STOP_DIALOG;
+    }
   else
-  {
-    cCarlos.Say("Not in the mood for a conversation, sweetheart.");
-    cCarlos.SetProperty("haveSpokenTo",true);
-    return RUN_DIALOG_STOP_DIALOG;
-  }
-//cEgo: Mind if I join you, Carlos?
-//Carlos: Suit yourself, but I'm not much for chit-chat.
+    {
+      if (cCarlos.HasInventory(iCigar) == false)
+        {
+          cCarlos.Say("Not in the mood for a conversation, sweetheart.");
+          return RUN_DIALOG_STOP_DIALOG;
+        }
+       else
+       {
+         //cEgo.ChangeRoom(19);
+       }
+    }
+    
 return
 @1
 cEgo: Alright, Carlos, be honest, what do you think of me? First impressions and all.
@@ -3684,7 +3690,8 @@ stop
 @11
 cEgo: What can you tell me about Stonecliff Manor? It’s got a bit of a reputation, doesn’t it?
 Carlos: Stonecliff Manor? It’s as over-the-top as its owner. Big, flashy, and full of secrets. Perfect for a guy like Stone to play king of the castle.
-stop]]></Script>
+stop
+]]></Script>
                     <DialogOptions>
                       <DialogOption>
                         <ID>1</ID>
@@ -3756,18 +3763,20 @@ stop]]></Script>
                   </Dialog>
                   <Dialog>
                     <ID>4</ID>
-                    <Name>dPrologue_CarlosCigar01</Name>
+                    <Name>dPrologue_CarlosCigar</Name>
                     <ShowTextParser>False</ShowTextParser>
                     <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
+  cEgo.Walk(cCarlos.x-30,cCarlos.y,eBlock);
+  cEgo.FaceCharacter(cCarlos);
   cCarlos.AddInventory(iCigar);
   cEgo.LoseInventory(iCigar);
 cEgo: You look like a man who could use one of these.
 Carlos: Now that's more like it. Didn't think there were any of these on board.
 Carlos: Thanks, Clara.
 cEgo: Don't mention it.
-stop
-]]></Script>
+  cCarlos.SetProperty("haveSpokenTo",true);
+stop]]></Script>
                     <DialogOptions />
                   </Dialog>
                 </Dialogs>
@@ -3777,36 +3786,412 @@ stop
                 <Dialogs>
                   <Dialog>
                     <ID>3</ID>
-                    <Name>dPrologue_JoannaIntro</Name>
+                    <Name>dPrologue_Joanna</Name>
                     <ShowTextParser>False</ShowTextParser>
-                    <Script><![CDATA[// Dialog script file
+                    <Script><![CDATA[// Dialog script file for Joaana's intro dialog and her dialog from the notebook
 @S  // Dialog startup entry point
-  cEgo.Walk(cJoanna.x-30,cJoanna.y,eBlock);
+  cEgo.Walk(cJoanna.x+30,cJoanna.y,eBlock);
   cEgo.FaceCharacter(cJoanna);
   Wait(GetGameSpeed()/4);
-  bool haveSpokenTo = cCarlos.GetProperty("haveSpokenTo");
-  if (haveSpokenTo)
-  {
-    cEgo.ChangeRoom(19);
-    return RUN_DIALOG_STOP_DIALOG;
-  }
-cEgo: Hello there.
-Joanna: Clara Bow, right? So exciting to finally meet you! I'm Joanna Wong. 
-cEgo: Joanna Wong- great to meet you. I've seen your work. You're terrific.
-Joanna: Oh really?! What have you seen?
-cEgo: Uhh.. your latest one!
-Joanna: Ugh, that was terrible. I only did it because Stone threatened to cancel my contract.
-Joanna: But tonight! It's the big one. Stone's unveiling his new project, ""The Dragon Blossom."" It's an adaptation of the folktale, ""Madam White Snake.""
-Joanna: I have a great feeling about it.
-cEgo: I think you'd make a fantastic Madam White Snake.
-Joanna: That's so kind.]]></Script>
-                    <DialogOptions />
+  bool haveSpokenTo = cJoanna.GetProperty("haveSpokenTo");
+  if (cJoanna.GetProperty("haveSpokenTo") == false)
+    {
+      cEgo.Say("Hello there.");
+      cJoanna.Say("Clara Bow, right? So exciting to finally meet you! I'm Joanna Wong.");
+      cEgo.Say("Joanna Wong, great to meet you. I've seen your work. You're terrific.");
+      cJoanna.Say("Oh really?! What have you seen?");
+      cEgo.Say("Uhh.. your latest one!");
+      cJoanna.Say("Ugh, that was terrible. I only did it because Stone threatened to cancel my contract.");
+      cJoanna.Say("But tonight! It's the big one. Stone's unveiling his new project, The Dragon Blossom. It's an adaptation of the folktale, Madam White Snake.");
+      cJoanna.Say("I have a great feeling about it.");
+      cEgo.Say("I think you'd make a fantastic Madam White Snake.");
+      cJoanna.Say("That's so kind.");
+      cJoanna.SetProperty("haveSpokenTo",true);
+      return RUN_DIALOG_STOP_DIALOG;
+    }
+  else
+    {
+      //cEgo.ChangeRoom(19);
+    }
+ 
+return
+@1
+cEgo: What’s your impression of me? Be honest, I can take it.
+Joanna: Oh, you’re the Clara Bow! I mean, what’s not to like? You’ve got that effortless charm, the kind everyone in Hollywood wishes they had. Honestly, I’d kill to have even half your poise.
+stop
+@2
+cEgo: What’s your take on Stone? He seems... a bit obsessed with his own vision.
+Joanna: Obsessed is one word for it. He’s always got some grand idea, but half the time, it’s more about what he wants for Vera than what’s actually good for the film. It’s frustrating, but hey, that’s Hollywood for you.
+stop
+@3
+cEgo: Vera seems to be at the center of a lot. What’s your take on her?
+Joanna: Vera? Oh, she’s got her own world, alright. Stone’s muse, but she can’t act to save her life. Still, she struts around like she owns the place, and somehow, people still buy it. I guess that's Hollywood for you.
+stop
+@4
+cEgo: So, Joanna, tell me about yourself. What’s driving you to make it in this crazy business?
+Joanna: What’s driving me? Simple—I want to be more than just another face in the crowd. I’ve got talent, ambition, and I’m not afraid to fight for my spot. It’s all about making it, no matter what it takes.
+stop
+@5
+cEgo: I heard someone mention a magician named Salvatore. Do you know anything about him?
+Joanna: Salvatore? I’ve only heard his name in passing. He’s supposed to be up-and-coming, but honestly, I don’t know much more than that.
+stop
+@6
+cEgo: Queenie… she’s a bit of an enigma, isn’t she? What’s your impression of her?
+Joanna: Now, she's something else. I haven't met her, but I've heard the stories. The woman's fierce. Doesn't care what anyone thinks of her, doesn't play by anyone's rules but her own. You'd think she'd be the last person to bankroll one of Stone's pet projects.
+cEgo: Why do you think she's doing it?
+Joanna: Could be she's got a soft spot for lost causes. Or maybe she just enjoys watching Stone squirm. Either way, Queenie doesn't need Stone, and she makes sure he knows it.
+stop
+@7
+cEgo: Lucinda seems to have quite the opinion about Stone and Vera. What’s she like?
+Joanna: Lucinda Price. She's a gossip columnist who thinks she's some kind of Hollywood oracle. Loves to dig up dirt on anyone who's anyone. Rumor has it Stone can't stand her.
+Joanna: She's supposed to be at the mansion tonight too. No idea why she's invited. Probably just hoping to stir up trouble or find some juicy story. It's what she lives for.
+Joanna: But who knows? Maybe tonight will surprise us all.
+stop
+@8
+cEgo: Carlos… he seems like an interesting character. What’s your take on him?
+Joanna: Moody, charming when he wants to be, but always a bit of a scoundrel. I think he's tired of it all. Hollywood, the whole game. But he's not going anywhere. Couldn't live without the attention.
+cEgo: Sounds complicated.
+Joanna: That's Carlos. But we get on well enough. In this business, you don't have to be friends to be allies.
+cEgo: It seems like he doesn't even want me as an acquaintance.
+Joanna: Oh, he's always like this when he can't get a cigar. Stone keeps them all in his minibar up there by the Flight Attandant.
+stop
+@9
+cEgo: So, the ""Dragon Blossom"". It sounds like a special project. Stone must have high hopes for it.
+Joanna: Oh, Stone always has ""high hopes"" when it comes to his projects.. including his pets.
+Joanna: His wife, Vera. He's practically obsessed with making her a star. But everyone knows she can't sing, can't act… It's like watching someone try to turn lead into gold.
+Joanna: And Vera just eats it up. She acts like she's Hollywood royalty, like the world should be grateful just to watch her walk across a screen.
+cEgo: Sounds... intense.
+Joanna: That's one way to put it.
+stop
+@10
+cEgo: I saw a terrible review about Vera's last performance. Written by a woman named Lucinda, I believe?
+Joanna: You know, it’s such a shame you didn’t land the lead role in the movie. I mean, with your charm, you’d have been perfect!
+cEgo: Oh, believe me, I thought the same thing. But you know how this business works—sometimes it’s not about talent, it’s about politics.
+stop
+@11
+cEgo: Stonecliff Manor… seems like quite the place. What’s the story behind it?
+Joanna: Stonecliff Manor? It’s as grand and over-the-top as Stone himself. Honestly, it’s the perfect reflection of him—big, flashy, and full of drama. But between you and me, it’s more about the image than the substance.
+stop
+]]></Script>
+                    <DialogOptions>
+                      <DialogOption>
+                        <ID>1</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text>Clara</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>2</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text>Stone</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>3</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text>Vera</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>4</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text>Joanna</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>5</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text>Salvatore</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>6</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text>Queenie</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>7</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text>Lucinda</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>8</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text>Carlos</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>9</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text xml:space="preserve">Dragon Blossom Film</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>10</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text xml:space="preserve">Gilded Shadows</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>11</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text xml:space="preserve">Stonecliff Manor</Text>
+                      </DialogOption>
+                    </DialogOptions>
                   </Dialog>
                 </Dialogs>
               </DialogFolder>
               <DialogFolder Name="Queenie">
                 <SubFolders />
-                <Dialogs />
+                <Dialogs>
+                  <Dialog>
+                    <ID>5</ID>
+                    <Name>dPrologue_Queenie</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file for Queenie's intro dialog and her dialog from the notebook
+@S  // Dialog startup entry point
+  cEgo.Walk(cQueenie.x+30,cQueenie.y,eBlock);
+  cEgo.FaceCharacter(cQueenie);
+  Wait(GetGameSpeed()/4);
+  bool haveSpokenTo = cQueenie.GetProperty("haveSpokenTo"); 
+  
+  if (cQueenie.GetProperty("haveSpokenTo") == false)
+    {
+      cEgo.Say("Hello there. I'm Clara Bow.");
+      cQueenie.Say("Of course you are.");
+      cQueenie.Say("My name is Maria P. Williams, though most people just call me Queenie.");
+      cEgo.Say("I've heard a lot about you. Can't imagine the nerve it takes to start your own production company. That's quite an achievement.");
+      cQueenie.Say("Thank you. It hasn't been easy, but I believe in what I'm doing.");
+      cEgo.Say("Well, for what it's worth, I admire your courage. Hollywood isn't an easy place to make your own rules.");
+      cQueenie.Say("It isn't. But sometimes, you do what you have to, regardless of who's watching.");
+      cQueenie.SetProperty("haveSpokenTo",true);
+      return RUN_DIALOG_STOP_DIALOG;
+    }
+  else
+    {
+      //cEgo.ChangeRoom(19);
+    }
+ 
+return
+  
+@1
+  if (cEgo.Room == 6)
+  {
+    cEgo.Say("What’s your take on me? I’d love to know what you think.");
+    cQueenie.Say("You’re a smart one, Clara. Got the look, got the charm. But, like I said, this town’s full of them.");
+  }
+  else
+  {
+    cEgo.Say("What’s your take on me? I’d love to know what you think.");
+    cQueenie.Say("You? You’ve got something different, Clara. It’s not just the beauty or the fame, it’s how you carry yourself. You’re not just playing the part; you’re in control. I’ve seen plenty come and go, but I think you might just be the real deal. Hollywood can swallow you whole, but I think you’ve got the fire to survive it.");
+  }
+stop
+@2
+  if (cEgo.Room == 6)
+  {
+    cEgo.Say("What’s your take on Stone? He seems like a man with big plans.");
+    cQueenie.Say("Stone’s just another man with big ideas and a bigger ego. Nothing new there.");
+  }
+  else
+  {
+    cEgo.Say("What’s your take on Stone? He seems like a man with big plans.");
+    cQueenie.Say("Stone's more concerned with propping up Vera than making a decent film. Thinks he can just throw money at her and make her a star. Doesn't matter that the poor woman can't act her way out of a paper bag.");
+    cEgo.Say("So, if you think Vera's such a bad actress… why invest in the project?");
+    cQueenie.Say("Because it's not just about the actress. The Dragon Blossom could still mean something, if it's done right.");
+    cQueenie.Say("Besides, sometimes it's better to be the one holding the purse strings. You get to set the rules, decide what really matters.");
+    
+    // Queenie gives Clara her compact
+    
+    cQueenie.Say("Here. Your face is a bit shiny—must be this California heat.");
+    cQueenie.Say("Not used to it, are you? New York City girl and all?");
+    cEgo.Say("Yes! Growing up in Brooklyn didn't prepare me for these summers.");
+    cQueenie.Say("I'm sure. Keep that powder.");
+    cEgo.Say("Thank you.");
+    cQueenie.Say("Don't mention it. Keep your eyes open tonight. You'll do alright.");
+  }
+stop
+@3
+  if (cEgo.Room != 6)
+  {
+    cEgo.Say("What do you think of Vera? She seems to be at the center of everything.");
+    cQueenie.Say("Vera’s... exactly what Stone wants her to be. Nothing more, nothing less.");
+  }
+  else
+  {
+    cEgo.Say("What do you think of Vera? She seems to be at the center of everything.");
+    cQueenie.Say("Vera? She’s Stone’s obsession, no question. The poor girl’s talent is as thin as a dime, but Stone’s pushing her into every spotlight he can find. It's a shame, really. She’s got looks, but no depth. The whole thing’s more about Stone’s ego than her abilities, if you ask me.");
+  }
+stop
+@4
+  if (cEgo.Room != 6)
+  {
+    cEgo.Say("Joanna must be thrilled about tonight's announcement.");
+    cQueenie.Say("Joanna's talented. I'm sure she'll make her own mark, in her own way.");
+  }
+  else
+  {
+    cEgo.Say("Joanna seems excited about tonight.");
+    cQueenie.Say("Joanna's got plenty of ambition-and plenty of temper to go with it. Talented, sure. But she's always thinking the world owes her something. Doesn't win her many friends.");
+  }
+stop
+@5
+  if (cEgo.Room != 6)
+  {
+    cEgo.Say("Do you know anything about a magician named Salvatore? I’ve heard his name come up a few times.");
+    cQueenie.Say("Can’t say I’ve heard much. Doesn’t ring a bell.");
+  }
+  else
+  {
+    cEgo.Say("Do you know anything about a magician named Salvatore? I’ve heard his name come up a few times.");
+    cQueenie.Say("Salvatore? I really don’t know anything about him. I’ve heard the name tossed around, but that’s about it. Probably just another eager young guy trying to make a name for himself.");
+  }
+stop
+@6
+  if (cEgo.Room != 6)
+  {
+    cEgo.Say("So, Queenie, what’s your story? You don’t strike me as someone who likes to sit on the sidelines.");
+    cQueenie.Say("I don’t like to play by anyone else’s rules. That’s all you need to know.");
+  }
+  else
+  {
+    cEgo.Say("So, Queenie, what’s your story? You don’t strike me as someone who likes to sit on the sidelines.");
+    cQueenie.Say("My story? I’m not interested in following the crowd. I do things my way—whether that’s making my own mark in Hollywood or running my own production company. I’ve learned that the only way to get ahead is to stop waiting for permission.");
+  } 
+stop
+@7
+  if (cEgo.Room != 6)
+  {
+    cEgo.Say("What do you think of Lucinda Price? She seems to have her finger on the pulse of Hollywood gossip.");
+    cQueenie.Say("Lucinda? She knows how to stir the pot, that’s for sure.");
+  }
+  else
+  {
+    cEgo.Say("What do you think of Lucinda Price? She seems to have her finger on the pulse of Hollywood gossip.");
+    cQueenie.Say("Lucinda’s a character, alright. She thrives on drama and thrives on other people’s misfortunes. She’s got her place in this town, but I wouldn’t trust her any further than I could throw her. Still, she gets people talking, which is exactly what she wants.");
+  } 
+stop
+@8
+  if (cEgo.Room != 6)
+  {
+    cEgo.Say("Carlos seems... intense, doesn't he?");
+    cQueenie.Say("Carlos is dedicated to his craft. Beyond that, I wouldn't presume to judge.");
+  }
+  else
+  {
+    cEgo.Say("Carlos seems to keep to himself.");
+    cQueenie.Say("Carlos is a mystery, alright. Got charm when he wants, but always acting like he's above it all. Just another man who thinks Hollywood's beneath him, yet here he is, soaking in all the perks.");
+  }
+stop
+@9
+  if (cEgo.Room != 6)
+  {
+    cEgo.Say("The Dragon Blossom sounds like a project with a lot riding on it.");
+    cQueenie.Say("Every project has its risks. This one's no different.");
+  }
+  else
+  {
+    cEgo.Say("The Dragon Blossom sounds like a project with a lot riding on it.");
+    cQueenie.Say("The Dragon Blossom film? It’s Stone’s latest obsession. He’s pouring all his hopes into it, but I’m not sure it's going to pay off. He’s got Vera in the lead, and we both know she’s not exactly a natural talent. But Stone’s got this vision, and he’s going to push it, no matter the cost. It could be a hit, or it could flop spectacularly. Either way, it’s his ego on the line.");
+  }
+stop
+@10
+  if (cEgo.Room != 6)
+  {
+    cEgo.Say("So, Gilded Shadows… I’ve heard some whispers about it. Seems like it didn’t quite land as expected.");
+    cQueenie.Say("Oh, Gilded Shadows? Let’s just say it didn’t quite live up to the hype.");
+  }
+  else
+  {
+    cEgo.Say("So, Gilded Shadows… I’ve heard some whispers about it. Seems like it didn’t quite land as expected.");
+    cQueenie.Say("Oh, you could say that. Stone’s obsession with making his wife a star did the movie no favors. She couldn’t act her way out of a paper bag, but he’s too blinded by his own ambition to see it.");
+  }
+stop
+@11
+  if (cEgo.Room != 6)
+  {
+    cEgo.Say("Stonecliff Manor... What’s it really like? It’s got a certain reputation, doesn’t it?");
+    cQueenie.Say("It’s big, it’s flashy, and it’s exactly what you’d expect from Stone.");
+  }
+  else
+  {
+    cEgo.Say("Stonecliff Manor... What’s it really like? It’s got a certain reputation, doesn’t it?");
+    cQueenie.Say("Stonecliff Manor? It’s a monument to Stone’s ego. Huge, over the top, full of things that don’t really matter. It’s got all the trappings of wealth and power, but there’s something about it that feels... cold. Maybe it’s the way Stone insists on controlling every inch of it. But hey, it’s his playground—he can do what he wants.");
+  }
+stop
+]]></Script>
+                    <DialogOptions>
+                      <DialogOption>
+                        <ID>1</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text>Clara</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>2</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text>Stone</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>3</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text>Vera</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>4</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text>Joanna</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>5</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text>Salvatore</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>6</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text>Queenie</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>7</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text>Lucinda</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>8</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text>Carlos</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>9</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text xml:space="preserve">Dragon Blossom Film</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>10</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text xml:space="preserve">Gilded Shadows</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>11</ID>
+                        <Say>False</Say>
+                        <Show>True</Show>
+                        <Text xml:space="preserve">Stonecliff Manor</Text>
+                      </DialogOption>
+                    </DialogOptions>
+                  </Dialog>
+                </Dialogs>
               </DialogFolder>
             </SubFolders>
             <Dialogs />
