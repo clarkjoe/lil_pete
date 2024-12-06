@@ -10,6 +10,8 @@ import bool IsUnderMouse(this Object*);
 
 // Character
 import function TalkerSay(this Character*, const string text);
-import function ShowDetails(this Character*);
+import function TurnOnDetails(this Character*);
+import function TurnOffDetails(this Character*);
+import bool ShowDetails(this Character*);
 
 import function handle_overlays();
