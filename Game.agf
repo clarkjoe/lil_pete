@@ -4848,7 +4848,7 @@ return
                     <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 
-Narrator: The bathroom door is simple with a small handle. It’s clear where it leads—an essential space for passengers during long flights.
+Narrator: The bathroom door is simple with a small handle. It's clear where it leads—an essential space for passengers during long flights.
 return
 ]]></Script>
                     <DialogOptions />
@@ -4860,7 +4860,67 @@ return
                     <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 
-Narrator: Clara examines Carlos's glass and spots a faint fingerprint on the side, left behind in the condensation. It’s an easy clue to overlook, but not for her sharp eye.
+Narrator: Clara examines Carlos's glass and spots a faint fingerprint on the side, left behind in the condensation. It's an easy clue to overlook, but not for her sharp eye.
+return
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
+                  <Dialog>
+                    <ID>34</ID>
+                    <Name>dPrologue_CockpitDoorDesc</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+Narrator: The cockpit door is sturdy and unremarkable, its polished handle catching the light. Behind it, Clara can hear the faint murmur of activity as the pilot and copilot work to guide the plane safely toward Stonecliff Manor.
+return
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
+                  <Dialog>
+                    <ID>35</ID>
+                    <Name>dPrologue_CouchDesc</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+Narrator: The sleek, curved couch exudes luxury, a far cry from anything found on a typical passenger flight. Its pristine upholstery is unsurprising—nothing less would be expected from Xavier Montague Stone's private jet.
+return
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
+                  <Dialog>
+                    <ID>36</ID>
+                    <Name>dPrologue_TableDesc</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+Narrator: A polished table stands in front of the couch, its gleaming surface catching the overhead light. It complements the lavish couch perfectly, adding to the air of refined elegance.
+return
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
+                  <Dialog>
+                    <ID>37</ID>
+                    <Name>dPrologue_EmergencyDoorDesc</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+Narrator: The emergency door looms as a stark reminder of the fragility of air travel. Clara has no intention of opening it… unless, of course, there's an emergency—or perhaps curiosity to quench.
+return
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
+                  <Dialog>
+                    <ID>38</ID>
+                    <Name>dPrologue_CabinWindowsDesc</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+Narrator: The windows offer a picturesque view of the sky, with soft clouds rolling past like a living painting. The sunlight streams through, giving the cabin a warm, serene glow. It's a peaceful moment, but Clara's investigative instincts remind her to stay alert.
 return
 ]]></Script>
                     <DialogOptions />
