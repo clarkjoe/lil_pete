@@ -1566,7 +1566,7 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>5</Top>
+                <Top>8</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>30</Width>
@@ -2637,7 +2637,7 @@
             <ID>6</ID>
             <Image>1181</Image>
             <Name>iCrumpledMagazine</Name>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
               <Event Index="0">iCrumpledMagazine_Look</Event>
@@ -4797,6 +4797,27 @@ stop
                 <DialogOptions />
               </Dialog>
             </Dialogs>
+          </DialogFolder>
+          <DialogFolder Name="Rooms">
+            <SubFolders>
+              <DialogFolder Name="AirplaneCabin">
+                <SubFolders />
+                <Dialogs>
+                  <Dialog>
+                    <ID>29</ID>
+                    <Name>dInsideWastebasket</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+return
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
+                </Dialogs>
+              </DialogFolder>
+            </SubFolders>
+            <Dialogs />
           </DialogFolder>
         </SubFolders>
         <Dialogs />
