@@ -4804,11 +4804,63 @@ stop
                 <Dialogs>
                   <Dialog>
                     <ID>29</ID>
-                    <Name>dInsideWastebasket</Name>
+                    <Name>dPrologue_CabinDesc</Name>
                     <ShowTextParser>False</ShowTextParser>
                     <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 
+  mouse.Mode = eModeLookat;
+  Display("The cabin radiates understated luxury, with polished wood accents and the gentle hum of the engines setting a tranquil tone. Rows of seats align with windows that reveal a pastel sky, while a lounge area, complete with a plush couch and sleek table, makes it clear this is no ordinary flight.");
+  choose_cursor();
+  ClaimEvent();
+return
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
+                  <Dialog>
+                    <ID>30</ID>
+                    <Name>dPrologue_CabinChairDesc</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+Narrator: The airplane seats are neatly arranged in rows, each featuring adjustable armrests and immaculate cushions. A magazine rests in each seat pocket, its cover tempting Clara to take a closer look.
+return
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
+                  <Dialog>
+                    <ID>31</ID>
+                    <Name>dPrologue_MiniBarDec</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+Narrator: The minibar is a compact, unassuming cabinet, seamlessly blending into the cabin's refined decor. Its contents are neatly tucked away behind closed doors.
+return
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
+                  <Dialog>
+                    <ID>32</ID>
+                    <Name>dPrologue_BathroomDoorDesc</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+Narrator: The bathroom door is simple with a small handle. It’s clear where it leads—an essential space for passengers during long flights.
+return
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
+                  <Dialog>
+                    <ID>33</ID>
+                    <Name>dPrologue_CarlosGlassDesc</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+Narrator: Clara examines Carlos's glass and spots a faint fingerprint on the side, left behind in the condensation. It’s an easy clue to overlook, but not for her sharp eye.
 return
 ]]></Script>
                     <DialogOptions />
