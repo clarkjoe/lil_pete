@@ -3656,7 +3656,6 @@ Lucinda: Darlings, Xavier Montagu Stone's once golden touch has sadly tarnished.
 Lucinda: And Vera Stone. Her warbling would be better suited to scaring off crows than serenading swooning moviegoers. Her acting? Pinocchio was less wooden. Her performance limps long like a flapper after a long night at the speakeasy.
 Lucinda: Truly, dears, Stone has offered up a visual feast fit for a king but forgot that even royalty prefers their meals with a little substance. It's a glittering mess, my lovelies, proving once again that all that glitters is not gold.
 Narrator: Clara smirks, piecing together Stone's attempt to control his reputation.
-cEgo: Lucinda Price... no wonder he tore these out.
 
   if (cEgo.HasInventory(iCrumpledMagazine))
   {
