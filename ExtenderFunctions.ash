@@ -22,3 +22,6 @@ import function MyWalk(this Character*, int x, int y, BlockingStyle blockingStyl
 import function SendToCharacterNear(this Character*, Character* target, int maxDistance = 15);
 
 import function handle_overlays();
+
+// Hotspot
+import bool IsInteractable(this Hotspot*);
