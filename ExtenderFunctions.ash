@@ -4,7 +4,6 @@ import bool IsOverHotspot(static Mouse);
 import bool IsOverCharacter(static Mouse);
 import bool IsOverObject(static Mouse);
 import bool IsOverNothing(static Mouse);
-import Character* GetOverCharacter(static Mouse);
 
 // Object
 import bool IsUnderMouse(this Object*);
@@ -14,11 +13,5 @@ import function TalkerSay(this Character*, const string text);
 import function TurnOnDetails(this Character*);
 import function TurnOffDetails(this Character*);
 import bool ShowDetails(this Character*);
-import Point* GetDestination(this Character*);
-import function SetDestination(this Character*, int x, int y);
-import bool HasReachedDestination(this Character*);
-import function MyWalk(this Character*, int x, int y, BlockingStyle blockingStyle = eBlock, WalkWhere walkWhere = eWalkableAreas);
-
-import function SendToCharacterNear(this Character*, Character* target, int maxDistance = 15);
 
 import function handle_overlays();

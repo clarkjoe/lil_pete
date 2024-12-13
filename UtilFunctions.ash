@@ -8,10 +8,4 @@ import function StartTimerBySeconds(int timerID, float durationInSeconds);
 import int GetTimeRemainingInLoops(int timerID);
 import float GetTimeRemainingInSeconds(int timerID);
 
-import function PauseTimer(int timerID);
-import function ResumeTimer(int timerID);
-
 import int GetCurrentLoop();
-
-import int GetMax(int a, int b);
-import int GetMin(int a, int b);
