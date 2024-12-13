@@ -3447,7 +3447,7 @@
               <Event Index="0">cFlAttend_Look</Event>
               <Event Index="1" />
               <Event Index="2">cFlAttend_Talk</Event>
-              <Event Index="3" />
+              <Event Index="3">cFlAttend_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
               <Event Index="6" />
@@ -3489,7 +3489,7 @@
               <Event Index="0">cPilot_Look</Event>
               <Event Index="1" />
               <Event Index="2">cPilot_Talk</Event>
-              <Event Index="3" />
+              <Event Index="3">cPilot_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
               <Event Index="6" />
@@ -3531,7 +3531,7 @@
               <Event Index="0">cCopilot_Look</Event>
               <Event Index="1" />
               <Event Index="2">cCopilot_Talk</Event>
-              <Event Index="3" />
+              <Event Index="3">cCopilot_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
               <Event Index="6" />
@@ -3601,7 +3601,7 @@ return
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>19</ID>
+                <ID>16</ID>
                 <Name>dNotebookTopics</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -3703,7 +3703,7 @@ stop
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>24</ID>
+                <ID>21</ID>
                 <Name>dAll_Cigar</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -3713,16 +3713,12 @@ stop
   {
     Display("There are no fingerprints here to collect.");
   }
-  else
-  {
-    Display("This doesn't seem to have any purpose here.");
-  }
 return
 ]]></Script>
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>23</ID>
+                <ID>20</ID>
                 <Name>dAll_Compact</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -3761,16 +3757,12 @@ return
   {
     Display("You’ve already collected fingerprints from here. There’s no need to gather more.");
   }*/
-  else
-  {
-    Display("This doesn't seem to have any purpose here.");
-  }
 return
 ]]></Script>
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>25</ID>
+                <ID>22</ID>
                 <Name>dAll_Magazine</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -3780,16 +3772,12 @@ return
   {
     Display("There are no fingerprints here to collect.");
   }
-  else
-  {
-    Display("This doesn't seem to have any purpose here.");
-  }
 return
 ]]></Script>
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>26</ID>
+                <ID>23</ID>
                 <Name>dAll_Notebook</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -3799,16 +3787,12 @@ return
   {
     Display("There are no fingerprints here to collect.");
   }
-  else
-  {
-    Display("This doesn't seem to have any purpose here.");
-  }
 return
 ]]></Script>
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>27</ID>
+                <ID>24</ID>
                 <Name>dAll_Tape</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -3818,16 +3802,12 @@ return
   {
     Display("There are no fingerprints here to collect.");
   }
-  else
-  {
-    Display("This doesn't seem to have any purpose here.");
-  }
 return
 ]]></Script>
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>28</ID>
+                <ID>25</ID>
                 <Name>dAll_Thread</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -3836,10 +3816,6 @@ return
   if (cEgo.ActiveInventory == iCompact || cEgo.ActiveInventory == iTape /*|| cEgo.ActiveInventory == iCompact&Tape*/) 
   {
     Display("There are no fingerprints here to collect.");
-  }
-  else
-  {
-    Display("This doesn't seem to have any purpose here.");
   }
 return
 ]]></Script>
@@ -4019,7 +3995,7 @@ return
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>20</ID>
+                <ID>17</ID>
                 <Name>dPrologue_CarlosTopics</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4296,7 +4272,7 @@ stop
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>21</ID>
+                <ID>18</ID>
                 <Name>dPrologue_JoannaTopics</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4629,7 +4605,7 @@ return
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>22</ID>
+                <ID>19</ID>
                 <Name>dPrologue_QueenieTopics</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4760,38 +4736,28 @@ stop
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>16</ID>
-                <Name>dPrologue_FlAttendDesc</Name>
+                <ID>36</ID>
+                <Name>dPrologue_Pilot</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 
-Narrator: The flight attendant's demeanor polite yet distant. Her uniform is pristine, and her expression is carefully neutral, as though she's seen it all before and is simply doing her job.
-stop
+cEgo:  Everything running smoothly up here?
+Pilot: All smooth. Please, take a seat.
+return
 ]]></Script>
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>17</ID>
-                <Name>dPrologue_PilotDesc</Name>
+                <ID>37</ID>
+                <Name>dPrologue_Copilot</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 
-Narrator: The pilot sits with focused precision, hands steady on the controls. His expression is calm, yet his eyes never stray from the instrument panel, carefully guiding the plane through the skies with practiced expertise.
-stop
-]]></Script>
-                <DialogOptions />
-              </Dialog>
-              <Dialog>
-                <ID>18</ID>
-                <Name>dPrologue_CopilotDesc</Name>
-                <ShowTextParser>False</ShowTextParser>
-                <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-
-Narrator: The copilot sits beside the pilot, equally focused on the instrument panel. His posture is alert, fingers occasionally adjusting dials, while his eyes scan the horizon and the gauges, ensuring a smooth and steady flight.
-stop
+cEgo: Busy day for you boys?
+Copilot: Always is. We've got a quick turnaround after this flight. Back to Hollywood for another supply run. No rest around here.
+return
 ]]></Script>
                 <DialogOptions />
               </Dialog>
@@ -4799,11 +4765,11 @@ stop
           </DialogFolder>
           <DialogFolder Name="Rooms">
             <SubFolders>
-              <DialogFolder Name="AirplaneCabin">
+              <DialogFolder Name="Cabin">
                 <SubFolders />
                 <Dialogs>
                   <Dialog>
-                    <ID>29</ID>
+                    <ID>26</ID>
                     <Name>dPrologue_CabinDesc</Name>
                     <ShowTextParser>False</ShowTextParser>
                     <Script><![CDATA[// Dialog script file
@@ -4818,7 +4784,7 @@ return
                     <DialogOptions />
                   </Dialog>
                   <Dialog>
-                    <ID>30</ID>
+                    <ID>27</ID>
                     <Name>dPrologue_CabinChairDesc</Name>
                     <ShowTextParser>False</ShowTextParser>
                     <Script><![CDATA[// Dialog script file
@@ -4830,7 +4796,7 @@ return
                     <DialogOptions />
                   </Dialog>
                   <Dialog>
-                    <ID>31</ID>
+                    <ID>28</ID>
                     <Name>dPrologue_MiniBarDec</Name>
                     <ShowTextParser>False</ShowTextParser>
                     <Script><![CDATA[// Dialog script file
@@ -4842,7 +4808,7 @@ return
                     <DialogOptions />
                   </Dialog>
                   <Dialog>
-                    <ID>32</ID>
+                    <ID>29</ID>
                     <Name>dPrologue_BathroomDoorDesc</Name>
                     <ShowTextParser>False</ShowTextParser>
                     <Script><![CDATA[// Dialog script file
@@ -4854,7 +4820,7 @@ return
                     <DialogOptions />
                   </Dialog>
                   <Dialog>
-                    <ID>33</ID>
+                    <ID>30</ID>
                     <Name>dPrologue_CarlosGlassDesc</Name>
                     <ShowTextParser>False</ShowTextParser>
                     <Script><![CDATA[// Dialog script file
@@ -4866,7 +4832,7 @@ return
                     <DialogOptions />
                   </Dialog>
                   <Dialog>
-                    <ID>34</ID>
+                    <ID>31</ID>
                     <Name>dPrologue_CockpitDoorDesc</Name>
                     <ShowTextParser>False</ShowTextParser>
                     <Script><![CDATA[// Dialog script file
@@ -4878,7 +4844,7 @@ return
                     <DialogOptions />
                   </Dialog>
                   <Dialog>
-                    <ID>35</ID>
+                    <ID>32</ID>
                     <Name>dPrologue_CouchDesc</Name>
                     <ShowTextParser>False</ShowTextParser>
                     <Script><![CDATA[// Dialog script file
@@ -4890,7 +4856,7 @@ return
                     <DialogOptions />
                   </Dialog>
                   <Dialog>
-                    <ID>36</ID>
+                    <ID>33</ID>
                     <Name>dPrologue_TableDesc</Name>
                     <ShowTextParser>False</ShowTextParser>
                     <Script><![CDATA[// Dialog script file
@@ -4902,7 +4868,7 @@ return
                     <DialogOptions />
                   </Dialog>
                   <Dialog>
-                    <ID>37</ID>
+                    <ID>34</ID>
                     <Name>dPrologue_EmergencyDoorDesc</Name>
                     <ShowTextParser>False</ShowTextParser>
                     <Script><![CDATA[// Dialog script file
@@ -4914,8 +4880,86 @@ return
                     <DialogOptions />
                   </Dialog>
                   <Dialog>
-                    <ID>38</ID>
+                    <ID>35</ID>
                     <Name>dPrologue_CabinWindowsDesc</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+Narrator: The windows offer a picturesque view of the sky, with soft clouds rolling past like a living painting. The sunlight streams through, giving the cabin a warm, serene glow. It's a peaceful moment, but Clara's investigative instincts remind her to stay alert.
+return
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
+                </Dialogs>
+              </DialogFolder>
+              <DialogFolder Name="Cockpit">
+                <SubFolders />
+                <Dialogs>
+                  <Dialog>
+                    <ID>38</ID>
+                    <Name>dPrologue_FirstAidKitDesc</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+Narrator: The first aid kit is neatly secured, its contents well-organized behind a sturdy, red exterior. A sense of reassurance comes from its presence.
+return
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
+                  <Dialog>
+                    <ID>39</ID>
+                    <Name>dPrologue_InstrumentPanelDesc</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+Narrator: The instrument panel is a maze of buttons, switches, and glowing gauges, each vital to the pilot's precise navigation.
+return
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
+                  <Dialog>
+                    <ID>40</ID>
+                    <Name>dPrologue_EngineSwitchDesc</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+Narrator: A sturdy switch labeled 'Engine' stands out among the controls. Flipping it might hold power over the plane's fate, but Clara knows better than to meddle with it.
+return
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
+                  <Dialog>
+                    <ID>41</ID>
+                    <Name>dPrologue_CockpitDesc</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+//Need this to trigger still
+Narrator: The cockpit is a well-organized maze of buttons, dials, and flickering lights. The controls are precise and intricate, each gauge serving a specific purpose in keeping the plane on course. The atmosphere is one of focused professionalism, with the hum of the engines and the steady movements of the pilot and copilot creating a rhythm of calm authority.
+return
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
+                  <Dialog>
+                    <ID>42</ID>
+                    <Name>dPrologue_CockpitChairDesc</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+Narrator: The seats in the cockpit are large and ergonomic, designed for long hours of precise control. Below the copilot's seat, you spot something attached to the underside.
+return
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
+                  <Dialog>
+                    <ID>43</ID>
+                    <Name>dPrologue_CockpitWindowDesc</Name>
                     <ShowTextParser>False</ShowTextParser>
                     <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
@@ -40019,7 +40063,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>a6001_AirplaneMusic</ScriptName>
                 <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\Music\6001_Airplane_cropped.mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-09-18 02:31:15Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-11-06 06:10:22Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -40032,7 +40076,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>a1002_CastleGrounds</ScriptName>
                 <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\Music\1002_CastleGrounds.mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-09-18 02:31:15Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-11-06 06:10:22Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InGameEXE</BundlingType>
