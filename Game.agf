@@ -3898,6 +3898,7 @@ return
     cEgo.Say("Mind if I join you, Carlos?");
     cCarlos.Say("Not in the mood for a conversation, sweetheart.");
     cCarlos.SetProperty("haveSpokenTo",true);
+    cCarlos.ColorNotebookButton();
     return RUN_DIALOG_STOP_DIALOG;
   }
   else
@@ -4196,6 +4197,7 @@ return
     cEgo.Say("I think you'd make a fantastic Madam White Snake.");
     cJoanna.Say("That's so kind.");
     cJoanna.SetProperty("haveSpokenTo",true);
+    cJoanna.ColorNotebookButton();
     return RUN_DIALOG_STOP_DIALOG;
   }
   else
@@ -4462,6 +4464,7 @@ stop
     cEgo.Say("Well, for what it's worth, I admire your courage. Hollywood isn't an easy place to make your own rules.");
     cQueenie.Say("It isn't. But sometimes, you do what you have to, regardless of who's watching.");
     cQueenie.SetProperty("haveSpokenTo",true);
+    cQueenie.ColorNotebookButton();
     return RUN_DIALOG_STOP_DIALOG;
   }
   else
@@ -4602,7 +4605,7 @@ stop
     cEgo.Say("Carlos seems to keep to himself.");
     cQueenie.Say("Carlos is a mystery, alright. Got charm when he wants, but always acting like he's above it all. Just another man who thinks Hollywood's beneath him, yet here he is, soaking in all the perks.");
   }
-return
+stop
 </Script>
                 <DialogOptions>
                   <DialogOption>
@@ -5703,6 +5706,88 @@ return
             </SubFolders>
             <ScriptAndHeaders />
           </ScriptFolder>
+          <ScriptFolder Name="CustomClasses">
+            <SubFolders />
+            <ScriptAndHeaders>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>CharacterButton.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1536029210</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>CharacterButton.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1536029210</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>Door.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>31333815</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>Door.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>31333815</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+            </ScriptAndHeaders>
+          </ScriptFolder>
+          <ScriptFolder Name="NotebookScript">
+            <SubFolders />
+            <ScriptAndHeaders>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>NotebookScript.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>2108388728</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>NotebookScript.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>2108388728</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+            </ScriptAndHeaders>
+          </ScriptFolder>
           <ScriptFolder Name="ExtenderFunctions">
             <SubFolders />
             <ScriptAndHeaders>
@@ -5755,59 +5840,6 @@ return
                     <Author />
                     <Version />
                     <Key>533486662</Key>
-                    <IsHeader>False</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Script>
-              </ScriptAndHeader>
-            </ScriptAndHeaders>
-          </ScriptFolder>
-          <ScriptFolder Name="CustomClasses">
-            <SubFolders />
-            <ScriptAndHeaders>
-              <ScriptAndHeader>
-                <ScriptAndHeader_Header>
-                  <Script>
-                    <FileName>CharacterButton.ash</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>1536029210</Key>
-                    <IsHeader>True</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Header>
-                <ScriptAndHeader_Script>
-                  <Script>
-                    <FileName>CharacterButton.asc</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>1536029210</Key>
-                    <IsHeader>False</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Script>
-              </ScriptAndHeader>
-              <ScriptAndHeader>
-                <ScriptAndHeader_Header>
-                  <Script>
-                    <FileName>Door.ash</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>31333815</Key>
-                    <IsHeader>True</IsHeader>
-                  </Script>
-                </ScriptAndHeader_Header>
-                <ScriptAndHeader_Script>
-                  <Script>
-                    <FileName>Door.asc</FileName>
-                    <Name />
-                    <Description />
-                    <Author />
-                    <Version />
-                    <Key>31333815</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
@@ -6214,30 +6246,6 @@ See KeyboardMovement.txt for details.
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
-                <FileName>NotebookScript.ash</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>2108388728</Key>
-                <IsHeader>True</IsHeader>
-              </Script>
-            </ScriptAndHeader_Header>
-            <ScriptAndHeader_Script>
-              <Script>
-                <FileName>NotebookScript.asc</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>2108388728</Key>
-                <IsHeader>False</IsHeader>
-              </Script>
-            </ScriptAndHeader_Script>
-          </ScriptAndHeader>
-          <ScriptAndHeader>
-            <ScriptAndHeader_Header>
-              <Script>
                 <FileName>GlobalScript.ash</FileName>
                 <Name />
                 <Description />
@@ -6279,7 +6287,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>a6001_AirplaneMusic</ScriptName>
                 <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\Music\6001_Airplane_cropped.mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-11-06 06:10:22Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-09-18 02:31:15Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -6292,7 +6300,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>a1002_CastleGrounds</ScriptName>
                 <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\Music\1002_CastleGrounds.mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-11-06 06:10:22Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-09-18 02:31:15Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InGameEXE</BundlingType>

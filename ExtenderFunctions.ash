@@ -22,11 +22,12 @@ import Point* GetDestination(this Character*);
 import function SetDestination(this Character*, int x, int y);
 import bool HasReachedDestination(this Character*);
 import function MyWalk(this Character*, int x, int y, BlockingStyle blockingStyle = eBlock, WalkWhere walkWhere = eWalkableAreas);
-
 import function SendToCharacterNear(this Character*, Character* target, int maxDistance = 15);
-
-import function handle_overlays();
+import function ColorNotebookButton(this Character*);
 
 // Hotspot
 import bool IsInteractable(this Hotspot*);
 import int Baseline(this Hotspot*);
+
+// Other
+import function handle_overlays();
