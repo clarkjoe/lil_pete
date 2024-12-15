@@ -3,4 +3,4 @@
 // place import definitions and #define names here to be used by all
 // scripts.
 
-#define NUMBER_SECS_SHOW_INVALID_CURSOR 1
+#define NUMBER_SECS_SHOW_INVALID_CURSOR 5
