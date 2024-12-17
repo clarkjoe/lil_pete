@@ -1163,9 +1163,9 @@
         <GUIs>
           <GUIMain>
             <NormalGUI>
-              <BackgroundColor>32089</BackgroundColor>
+              <BackgroundColor>16384</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <BorderColor>32089</BorderColor>
+              <BorderColor>16384</BorderColor>
               <Clickable>True</Clickable>
               <Height>14</Height>
               <ID>0</ID>
@@ -1239,9 +1239,9 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <BackgroundColor>32089</BackgroundColor>
+              <BackgroundColor>10304</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <BorderColor>0</BorderColor>
+              <BorderColor>52422</BorderColor>
               <Clickable>True</Clickable>
               <Height>29</Height>
               <ID>1</ID>
@@ -1555,7 +1555,7 @@
                 <Height>27</Height>
                 <ID>1</ID>
                 <Image>2116</Image>
-                <Left>39</Left>
+                <Left>21</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2117</MouseoverImage>
                 <Name>btnInvSelect</Name>
@@ -1565,7 +1565,7 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>101</Top>
+                <Top>100</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>32</Width>
@@ -1579,8 +1579,8 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>2</ID>
-                <Image>2104</Image>
-                <Left>8</Left>
+                <Image>2105</Image>
+                <Left>56</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2105</MouseoverImage>
                 <Name>btnInvLook</Name>
@@ -1590,10 +1590,10 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>101</Top>
+                <Top>100</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>32</Width>
+                <Width>30</Width>
                 <ZOrder>2</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1605,7 +1605,7 @@
                 <Height>19</Height>
                 <ID>3</ID>
                 <Image>2160</Image>
-                <Left>147</Left>
+                <Left>132</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnInvOK</Name>
@@ -1615,7 +1615,7 @@
                 <Text>Close</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>107</Top>
+                <Top>104</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>71</Width>
@@ -1630,7 +1630,7 @@
                 <Height>27</Height>
                 <ID>4</ID>
                 <Image>2144</Image>
-                <Left>188</Left>
+                <Left>186</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2145</MouseoverImage>
                 <Name>btnInvDown</Name>
@@ -1640,7 +1640,7 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>71</Top>
+                <Top>23</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>30</Width>
@@ -1655,7 +1655,7 @@
                 <Height>27</Height>
                 <ID>5</ID>
                 <Image>2147</Image>
-                <Left>188</Left>
+                <Left>186</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2148</MouseoverImage>
                 <Name>btnInvUp</Name>
@@ -1665,7 +1665,7 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>8</Top>
+                <Top>68</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>30</Width>
