@@ -1294,7 +1294,7 @@
                 <Left>33</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2105</MouseoverImage>
-                <Name>btnCompactTape</Name>
+                <Name>btnCompactClearTape</Name>
                 <NewModeNumber>1</NewModeNumber>
                 <OnClick>btnCompactTape_OnClick</OnClick>
                 <PushedImage>2106</PushedImage>
@@ -2675,96 +2675,6 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>1176</CursorImage>
-            <Description xml:space="preserve">Magazine Page</Description>
-            <HotspotX>1</HotspotX>
-            <HotspotY>1</HotspotY>
-            <ID>3</ID>
-            <Image>1172</Image>
-            <Name>iMagazine</Name>
-            <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <Properties />
-            <Interactions>
-              <Event Index="0">iMagazine_Look</Event>
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-            </Interactions>
-          </InventoryItem>
-          <InventoryItem>
-            <CursorImage>793</CursorImage>
-            <Description xml:space="preserve">Green Thread</Description>
-            <HotspotX>1</HotspotX>
-            <HotspotY>1</HotspotY>
-            <ID>4</ID>
-            <Image>791</Image>
-            <Name>iGreenThread</Name>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
-            <Properties />
-            <Interactions>
-              <Event Index="0">iGreenThread_Look</Event>
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-            </Interactions>
-          </InventoryItem>
-          <InventoryItem>
-            <CursorImage>1178</CursorImage>
-            <Description>Cigar</Description>
-            <HotspotX>1</HotspotX>
-            <HotspotY>1</HotspotY>
-            <ID>5</ID>
-            <Image>1174</Image>
-            <Name>iCigar</Name>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
-            <Properties />
-            <Interactions>
-              <Event Index="0">iCigar_Look</Event>
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-            </Interactions>
-          </InventoryItem>
-          <InventoryItem>
-            <CursorImage>1182</CursorImage>
-            <Description xml:space="preserve">Crumpled Magazine Page</Description>
-            <HotspotX>1</HotspotX>
-            <HotspotY>1</HotspotY>
-            <ID>6</ID>
-            <Image>1181</Image>
-            <Name>iCrumpledMagazine</Name>
-            <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <Properties />
-            <Interactions>
-              <Event Index="0">iCrumpledMagazine_Look</Event>
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-            </Interactions>
-          </InventoryItem>
-          <InventoryItem>
-            <CursorImage>1177</CursorImage>
-            <Description>Tape</Description>
-            <HotspotX>1</HotspotX>
-            <HotspotY>1</HotspotY>
-            <ID>7</ID>
-            <Image>1173</Image>
-            <Name>iTape</Name>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
-            <Properties />
-            <Interactions>
-              <Event Index="0">iTape_Look</Event>
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-            </Interactions>
-          </InventoryItem>
-          <InventoryItem>
             <CursorImage>1179</CursorImage>
             <Description>Compact</Description>
             <HotspotX>1</HotspotX>
@@ -2792,38 +2702,74 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>1167</CursorImage>
-            <Description>Notebook</Description>
+            <CursorImage>1178</CursorImage>
+            <Description>Cigar</Description>
             <HotspotX>1</HotspotX>
             <HotspotY>1</HotspotY>
-            <ID>9</ID>
-            <Image>1166</Image>
-            <Name>iNotebook</Name>
+            <ID>5</ID>
+            <Image>1174</Image>
+            <Name>iCigar</Name>
             <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <Properties />
             <Interactions>
-              <Event Index="0">iNotebook_Look</Event>
+              <Event Index="0">iCigar_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="3">iCigar_UseInv</Event>
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>0</CursorImage>
-            <Description>Lipstick</Description>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
-            <ID>10</ID>
-            <Image>0</Image>
-            <Name>iLipstick</Name>
-            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>1177</CursorImage>
+            <Description xml:space="preserve">Clear Tape</Description>
+            <HotspotX>1</HotspotX>
+            <HotspotY>1</HotspotY>
+            <ID>7</ID>
+            <Image>1173</Image>
+            <Name>iClearTape</Name>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iClearTape_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="3">iClearTape_UseInv</Event>
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>1182</CursorImage>
+            <Description xml:space="preserve">Crumpled Magazine Page</Description>
+            <HotspotX>1</HotspotX>
+            <HotspotY>1</HotspotY>
+            <ID>6</ID>
+            <Image>1181</Image>
+            <Name>iCrumpledMagazine</Name>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0">iMagazine_Look</Event>
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">iMagazine_UseInv</Event>
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>793</CursorImage>
+            <Description xml:space="preserve">Green Thread</Description>
+            <HotspotX>1</HotspotX>
+            <HotspotY>1</HotspotY>
+            <ID>4</ID>
+            <Image>791</Image>
+            <Name>iGreenThread</Name>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0">iGreenThread_Look</Event>
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">iGreenThread_UseInv</Event>
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
@@ -2838,10 +2784,82 @@
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iLens_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="3">iLens_UseInv</Event>
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>0</CursorImage>
+            <Description>Lipstick</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>10</ID>
+            <Image>0</Image>
+            <Name>iLipstick</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0">iLipstick_Look</Event>
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">iLipstick_UseInv</Event>
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>1176</CursorImage>
+            <Description xml:space="preserve">Magazine Page</Description>
+            <HotspotX>1</HotspotX>
+            <HotspotY>1</HotspotY>
+            <ID>3</ID>
+            <Image>1172</Image>
+            <Name>iMagazine</Name>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0">iMagazine_Look</Event>
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">iMagazine_UseInv</Event>
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>0</CursorImage>
+            <Description xml:space="preserve">New inventory item</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>12</ID>
+            <Image>0</Image>
+            <Name>iMatchbox</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0">iMatchbox_Look</Event>
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">iMatchbox_UseInv</Event>
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>1167</CursorImage>
+            <Description>Notebook</Description>
+            <HotspotX>1</HotspotX>
+            <HotspotY>1</HotspotY>
+            <ID>9</ID>
+            <Image>1166</Image>
+            <Name>iNotebook</Name>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0">iNotebook_Look</Event>
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">iNotebook_UseInv</Event>
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
@@ -3741,7 +3759,7 @@
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>1</ID>
+                <ID>0</ID>
                 <Name>dNotebookCharacters</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[@S
@@ -3751,7 +3769,7 @@ return
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>15</ID>
+                <ID>10</ID>
                 <Name>dNotebookSubjects</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -3762,167 +3780,11 @@ return
               </Dialog>
             </Dialogs>
           </DialogFolder>
-          <DialogFolder Name="Inventory">
-            <SubFolders />
-            <Dialogs>
-              <Dialog>
-                <ID>0</ID>
-                <Name>dPrologue_CigarDesc</Name>
-                <ShowTextParser>False</ShowTextParser>
-                <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-
-Narrator: An expensive cigar from Xavier Stone’s private stash. The rich, earthy aroma clings to the paper like an unspoken secret. Clara doesn’t smoke, but this little indulgence might prove useful—if only to light a fire under someone’s tongue.
-stop
-]]></Script>
-                <DialogOptions />
-              </Dialog>
-              <Dialog>
-                <ID>8</ID>
-                <Name>dPrologue_MagazineDesc</Name>
-                <ShowTextParser>False</ShowTextParser>
-                <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-
-  if (cEgo.HasInventory(iCrumpledMagazine))
-  {
-     Display("Clara carefully uncrumples the page, and finds a scathing movie review with a bold byline: \"Review by Lucinda Price.\"");
-  }
-
-Narrator: Clara's eyes scan the article, quickly absorbing Lucinda's ruthless critique of Stone's latest flop, Gilded Shadows.
-Lucinda: Darlings, Xavier Montagu Stone's once golden touch has sadly tarnished. "Gilded Shadows", in what can only be described as a parade of missed opportunities, is all dressed up with nowhere to go.
-Lucinda: And Vera Stone. Her warbling would be better suited to scaring off crows than serenading swooning moviegoers. Her acting? Pinocchio was less wooden. Her performance limps long like a flapper after a long night at the speakeasy.
-Lucinda: Truly, dears, Stone has offered up a visual feast fit for a king but forgot that even royalty prefers their meals with a little substance. It's a glittering mess, my lovelies, proving once again that all that glitters is not gold.
-Narrator: Clara smirks, piecing together Stone's attempt to control his reputation.
-
-  if (cEgo.HasInventory(iCrumpledMagazine))
-  {
-    cEgo.LoseInventory(iCrumpledMagazine);
-    cEgo.AddInventory(iMagazine);
-  }
-  cLucinda.ColorNotebookButton();
-stop
-]]></Script>
-                <DialogOptions />
-              </Dialog>
-              <Dialog>
-                <ID>9</ID>
-                <Name>dPrologue_NotebookDesc</Name>
-                <ShowTextParser>False</ShowTextParser>
-                <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-
-Narrator: A small, well-worn notebook filled with Clara's precise handwriting. Notes on fingerprints, hushed conversations, and the peculiar behaviors of her companions and suspects fill its pages. The faint scent of ink and paper is oddly comforting—a reporter's lifeline in a labyrinth of secrets
-stop
-]]></Script>
-                <DialogOptions />
-              </Dialog>
-              <Dialog>
-                <ID>10</ID>
-                <Name>dPrologue_TapeDesc</Name>
-                <ShowTextParser>False</ShowTextParser>
-                <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-
-Narrator: A roll of clear adhesive tape, tucked away in the corner of her purse. In Clara’s hands, it’s not just for wrapping gifts—it’s a tool for uncovering clues and securing evidence. Who knew investigative work could be so… sticky?
-stop
-]]></Script>
-                <DialogOptions />
-              </Dialog>
-              <Dialog>
-                <ID>11</ID>
-                <Name>dPrologue_GreenThreadDesc</Name>
-                <ShowTextParser>False</ShowTextParser>
-                <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-
-Narrator: A single length of green thread, pilfered from the plane’s first aid kit. It’s far too light to bind anything significant, but Clara knows that even the smallest threads can unravel the largest mysteries.
-stop
-]]></Script>
-                <DialogOptions />
-              </Dialog>
-              <Dialog>
-                <ID>19</ID>
-                <Name>dAll_Cigar</Name>
-                <ShowTextParser>False</ShowTextParser>
-                <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-
-  if (cEgo.ActiveInventory == iCompact || cEgo.ActiveInventory == iTape /*|| cEgo.ActiveInventory == iCompact&Tape*/) 
-  {
-    Display("There are no fingerprints here to collect.");
-  }
-stop
-]]></Script>
-                <DialogOptions />
-              </Dialog>
-              <Dialog>
-                <ID>20</ID>
-                <Name>dAll_Magazine</Name>
-                <ShowTextParser>False</ShowTextParser>
-                <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-
-  if (cEgo.ActiveInventory == iCompact || cEgo.ActiveInventory == iTape /*|| cEgo.ActiveInventory == iCompact&Tape*/) 
-  {
-    Display("There are no fingerprints here to collect.");
-  }
-return
-]]></Script>
-                <DialogOptions />
-              </Dialog>
-              <Dialog>
-                <ID>21</ID>
-                <Name>dAll_Notebook</Name>
-                <ShowTextParser>False</ShowTextParser>
-                <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-
-  if (cEgo.ActiveInventory == iCompact || cEgo.ActiveInventory == iTape /*|| cEgo.ActiveInventory == iCompact&Tape*/) 
-  {
-    Display("There are no fingerprints here to collect.");
-  }
-return
-]]></Script>
-                <DialogOptions />
-              </Dialog>
-              <Dialog>
-                <ID>22</ID>
-                <Name>dAll_Tape</Name>
-                <ShowTextParser>False</ShowTextParser>
-                <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-
-  if (cEgo.ActiveInventory == iCompact || cEgo.ActiveInventory == iTape /*|| cEgo.ActiveInventory == iCompact&Tape*/) 
-  {
-    Display("There are no fingerprints here to collect.");
-  }
-return
-]]></Script>
-                <DialogOptions />
-              </Dialog>
-              <Dialog>
-                <ID>23</ID>
-                <Name>dAll_Thread</Name>
-                <ShowTextParser>False</ShowTextParser>
-                <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-
-  if (cEgo.ActiveInventory == iCompact || cEgo.ActiveInventory == iTape /*|| cEgo.ActiveInventory == iCompact&Tape*/) 
-  {
-    Display("There are no fingerprints here to collect.");
-  }
-return
-]]></Script>
-                <DialogOptions />
-              </Dialog>
-            </Dialogs>
-          </DialogFolder>
           <DialogFolder Name="Carlos">
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>2</ID>
+                <ID>1</ID>
                 <Name>dPrologue_CarlosCharacters</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4088,7 +3950,7 @@ stop
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>16</ID>
+                <ID>11</ID>
                 <Name>dPrologue_CarlosTopics</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4136,7 +3998,7 @@ stop
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>4</ID>
+                <ID>3</ID>
                 <Name>dPrologue_CarlosInv</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4186,7 +4048,7 @@ stop
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>12</ID>
+                <ID>7</ID>
                 <Name>dAll_CarlosDesc</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4203,7 +4065,7 @@ return
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>3</ID>
+                <ID>2</ID>
                 <Name>dPrologue_JoannaCharacters</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4368,7 +4230,7 @@ stop
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>17</ID>
+                <ID>12</ID>
                 <Name>dPrologue_JoannaTopics</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4416,7 +4278,7 @@ stop
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>6</ID>
+                <ID>5</ID>
                 <Name>dPrologue_JoannaInv</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4448,7 +4310,7 @@ stop
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>13</ID>
+                <ID>8</ID>
                 <Name>dAll_JoannaDesc</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4465,7 +4327,7 @@ stop
             <SubFolders />
             <Dialogs>
               <Dialog>
-                <ID>5</ID>
+                <ID>4</ID>
                 <Name>dPrologue_QueenieCharacters</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4696,7 +4558,7 @@ stop
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>18</ID>
+                <ID>13</ID>
                 <Name>dPrologue_QueenieTopics</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4764,7 +4626,7 @@ stop
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>7</ID>
+                <ID>6</ID>
                 <Name>dPrologue_QueenieInv</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4810,7 +4672,7 @@ stop
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>14</ID>
+                <ID>9</ID>
                 <Name>dAll_QueenieDesc</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -43376,6 +43238,198 @@ stop
                     <Author />
                     <Version />
                     <Key>110914975</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>ICigar.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1937960533</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>ICigar.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1937960533</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>iGreenThread.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>181318766</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>iGreenThread.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>181318766</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>iLens.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1219629607</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>iLens.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1219629607</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>iLipstick.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1208019011</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>iLipstick.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1208019011</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>iMagazine.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1492270619</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>iMagazine.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1492270619</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>iMatchbox.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1175639955</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>iMatchbox.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1175639955</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>iNotebook.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1401888158</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>iNotebook.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1401888158</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>iClearTape.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>2095385725</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>iClearTape.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>2095385725</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
