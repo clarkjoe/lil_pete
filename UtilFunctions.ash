@@ -15,3 +15,5 @@ import int GetCurrentLoop();
 
 import int GetMax(int a, int b);
 import int GetMin(int a, int b);
+
+import function GetFingerprint(InventoryItem* inventoryItem);

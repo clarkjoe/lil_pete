@@ -12,6 +12,14 @@ import int GetWalkableArea(static Mouse);
 // Object
 import bool IsUnderMouse(this Object*);
 import bool IsInteractable(this Object*);
+import bool HasUsedCompact(this Object*);
+import bool HasUsedTape(this Object*);
+import function SetUsedCompact(this Object*,  bool usedCompact);
+import function SetUsedTape(this Object*,  bool usedTape);
+import bool IsFingerprintable(this Object*);
+import bool HasFingerprint(this Object*);
+import function SetFingerprintable(this Object*,  bool fingerprintable);
+import function SetFingerprint(this Object*,  bool hasFingerprint);
 
 // Character
 import function TalkerSay(this Character*, const string text);
@@ -28,6 +36,16 @@ import function ColorNotebookButton(this Character*);
 // Hotspot
 import bool IsInteractable(this Hotspot*);
 import int Baseline(this Hotspot*);
+
+// Inventory Item
+import bool HasUsedCompact(this InventoryItem*);
+import bool HasUsedTape(this InventoryItem*);
+import function SetUsedCompact(this InventoryItem*,  bool usedCompact);
+import function SetUsedTape(this InventoryItem*,  bool usedTape);
+import bool IsFingerprintable(this InventoryItem*);
+import bool HasFingerprint(this InventoryItem*);
+import function SetFingerprintable(this InventoryItem*,  bool fingerprintable);
+import function SetFingerprint(this InventoryItem*,  bool hasFingerprint);
 
 // Other
 import function handle_overlays();

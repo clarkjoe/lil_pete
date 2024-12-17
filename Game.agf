@@ -221,6 +221,50 @@
         <Name>interactableObject</Name>
         <Type>Boolean</Type>
       </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>True</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <DefaultValue>0</DefaultValue>
+        <Description />
+        <Name>usedCompact</Name>
+        <Type>Boolean</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>True</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <DefaultValue>0</DefaultValue>
+        <Description />
+        <Name>usedTape</Name>
+        <Type>Boolean</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>True</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <DefaultValue>0</DefaultValue>
+        <Description xml:space="preserve">Able to have fingerprint</Description>
+        <Name>fingerprintable</Name>
+        <Type>Boolean</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>True</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <DefaultValue>0</DefaultValue>
+        <Description xml:space="preserve">Whether or not fingerprint is extratable</Description>
+        <Name>hasFingerprint</Name>
+        <Type>Boolean</Type>
+      </CustomPropertySchemaItem>
     </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />
@@ -2729,10 +2773,19 @@
             <Image>1175</Image>
             <Name>iCompact</Name>
             <PlayerStartsWithItem>True</PlayerStartsWithItem>
-            <Properties />
+            <Properties>
+              <CustomProperty>
+                <Name>fingerprintable</Name>
+                <Value>1</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>hasFingerprint</Name>
+                <Value>1</Value>
+              </CustomProperty>
+            </Properties>
             <Interactions>
               <Event Index="0">iCompact_Look</Event>
-              <Event Index="1">iCompact_Interact</Event>
+              <Event Index="1" />
               <Event Index="2" />
               <Event Index="3">iCompact_UseInv</Event>
               <Event Index="4" />
@@ -3698,8 +3751,8 @@ return
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>16</ID>
-                <Name>dNotebookTopics</Name>
+                <ID>15</ID>
+                <Name>dNotebookSubjects</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
@@ -3726,18 +3779,6 @@ stop
               </Dialog>
               <Dialog>
                 <ID>8</ID>
-                <Name>dPrologue_CompactDesc</Name>
-                <ShowTextParser>False</ShowTextParser>
-                <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-
-Narrator: A sleek, silver face compact engraved with the initials ‘M.P.W.’ Inside, a delicate puff and faint traces of powder whisper of Queenie’s refined elegance. Clara also spotted a pristine fingerprint on the mirror—a piece of Queenie left behind, willingly or not.
-stop
-]]></Script>
-                <DialogOptions />
-              </Dialog>
-              <Dialog>
-                <ID>9</ID>
                 <Name>dPrologue_MagazineDesc</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -3765,7 +3806,7 @@ stop
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>10</ID>
+                <ID>9</ID>
                 <Name>dPrologue_NotebookDesc</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -3777,7 +3818,7 @@ stop
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>11</ID>
+                <ID>10</ID>
                 <Name>dPrologue_TapeDesc</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -3789,7 +3830,7 @@ stop
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>12</ID>
+                <ID>11</ID>
                 <Name>dPrologue_GreenThreadDesc</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -3801,7 +3842,7 @@ stop
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>21</ID>
+                <ID>19</ID>
                 <Name>dAll_Cigar</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -3811,56 +3852,12 @@ stop
   {
     Display("There are no fingerprints here to collect.");
   }
-return
+stop
 ]]></Script>
                 <DialogOptions />
               </Dialog>
               <Dialog>
                 <ID>20</ID>
-                <Name>dAll_Compact</Name>
-                <ShowTextParser>False</ShowTextParser>
-                <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-
-  if (cEgo.ActiveInventory == iCompact)
-  {
-    /*if  (UsedCompact(Compact) == false)
-    {*/
-      Display("The compact powder settles onto the surface, clearly revealing a fingerprint. Now, you just need a way to preserve it.");
-    /*}
-    else
-    {
-      Display("You’ve already collected fingerprints from here. There’s no need to gather more.");
-    }*/
-  }
-  else if (cEgo.ActiveInventory == iTape)
-  {
-    /*if (UsedCompact(Compact) == false)
-    {
-      Display("You’ll need to apply the compact first if you want to preserve the fingerprint.")
-    }
-    else
-    {
-      if  (UsedTape(Compact) == false)
-      {*/
-        Display("Clara gently presses the clear tape onto the surface, where the powder from the compact has revealed a faint fingerprint. She lifts the tape, preserving the print with precision, and slips it into her notebook for safekeeping.");
-      /*}
-      else
-      {
-        Display("You’ve already collected fingerprints from here. There’s no need to gather more.");
-      }
-    }*/
-  }
-  /*else if (cEgo.ActiveInventory == iCompact&Tape)
-  {
-    Display("You’ve already collected fingerprints from here. There’s no need to gather more.");
-  }*/
-return
-]]></Script>
-                <DialogOptions />
-              </Dialog>
-              <Dialog>
-                <ID>22</ID>
                 <Name>dAll_Magazine</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -3875,7 +3872,7 @@ return
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>23</ID>
+                <ID>21</ID>
                 <Name>dAll_Notebook</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -3890,7 +3887,7 @@ return
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>24</ID>
+                <ID>22</ID>
                 <Name>dAll_Tape</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -3905,7 +3902,7 @@ return
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>25</ID>
+                <ID>23</ID>
                 <Name>dAll_Thread</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -3929,14 +3926,9 @@ return
                 <Name>dPrologue_CarlosCharacters</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-
-  cEgo.Walk(cCarlos.x-30,cCarlos.y,eBlock);
-  cEgo.FaceCharacter(cCarlos);
-  Wait(GetGameSpeed()/4);
-  bool haveSpokenTo = cCarlos.GetProperty("haveSpokenTo"); 
+@S  // Dialog startup entry point 
   
-  if (cCarlos.GetProperty("haveSpokenTo") == false)
+  if (!cCarlos.GetProperty("haveSpokenTo"))
   {
     cEgo.Say("Mind if I join you, Carlos?");
     cCarlos.Say("Not in the mood for a conversation, sweetheart.");
@@ -3944,18 +3936,13 @@ return
     cCarlos.ColorNotebookButton();
     return RUN_DIALOG_STOP_DIALOG;
   }
-  else
+  
+  if (!cCarlos.HasInventory(iCigar))
   {
-    if (cCarlos.HasInventory(iCigar) == false)
-    {
-      cCarlos.Say("Not in the mood for a conversation, sweetheart.");
-      return RUN_DIALOG_STOP_DIALOG;
-    }
-    else
-    {
-      //cEgo.ChangeRoom(19);
-    }
+    cCarlos.Say("Not in the mood for a conversation, sweetheart.");
+    return RUN_DIALOG_STOP_DIALOG;
   }
+  
 return
 
 @1 //Clara
@@ -4023,7 +4010,7 @@ stop
 @12 //Carlos
 cEgo: You’ve got an air of mystery about you. What’s your story?
 cCarlos: What’s there to say? I’m just a guy trying to survive this circus they call Hollywood. Why, you writing my biography?
-return
+stop
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
@@ -4101,7 +4088,7 @@ return
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>17</ID>
+                <ID>16</ID>
                 <Name>dPrologue_CarlosTopics</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4199,7 +4186,7 @@ stop
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>13</ID>
+                <ID>12</ID>
                 <Name>dAll_CarlosDesc</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4221,12 +4208,7 @@ return
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-  
-  cEgo.Walk(cJoanna.x+30,cJoanna.y,eBlock);
-  cEgo.FaceCharacter(cJoanna);
-  Wait(GetGameSpeed()/4);
-  bool haveSpokenTo = cJoanna.GetProperty("haveSpokenTo");
-  
+    
   if (cJoanna.GetProperty("haveSpokenTo") == false)
   {
     cEgo.Say("Hello there.");
@@ -4242,10 +4224,6 @@ return
     cJoanna.SetProperty("haveSpokenTo",true);
     cJoanna.ColorNotebookButton();
     return RUN_DIALOG_STOP_DIALOG;
-  }
-  else
-  {
-    //cEgo.ChangeRoom(19);
   }
  
 return
@@ -4390,7 +4368,7 @@ stop
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>18</ID>
+                <ID>17</ID>
                 <Name>dPrologue_JoannaTopics</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4470,7 +4448,7 @@ stop
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>14</ID>
+                <ID>13</ID>
                 <Name>dAll_JoannaDesc</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4492,12 +4470,7 @@ stop
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-  
-  cEgo.Walk(cQueenie.x+30,cQueenie.y,eBlock);
-  cEgo.FaceCharacter(cQueenie);
-  Wait(GetGameSpeed()/4);
-  bool haveSpokenTo = cQueenie.GetProperty("haveSpokenTo"); 
-  
+    
   if (cQueenie.GetProperty("haveSpokenTo") == false)
   {
     cEgo.Say("Hello there. I'm Clara Bow.");
@@ -4510,10 +4483,6 @@ stop
     cQueenie.SetProperty("haveSpokenTo",true);
     cQueenie.ColorNotebookButton();
     return RUN_DIALOG_STOP_DIALOG;
-  }
-  else
-  {
-    //cEgo.ChangeRoom(19);
   }
  
 return
@@ -4727,7 +4696,7 @@ stop
                 </DialogOptions>
               </Dialog>
               <Dialog>
-                <ID>19</ID>
+                <ID>18</ID>
                 <Name>dPrologue_QueenieTopics</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4841,7 +4810,7 @@ stop
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>15</ID>
+                <ID>14</ID>
                 <Name>dAll_QueenieDesc</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -43378,6 +43347,35 @@ stop
                     <Author />
                     <Version />
                     <Key>1448803869</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+            </ScriptAndHeaders>
+          </ScriptFolder>
+          <ScriptFolder Name="InventoryItems">
+            <SubFolders />
+            <ScriptAndHeaders>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>iCompact.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>110914975</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>iCompact.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>110914975</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
