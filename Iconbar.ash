@@ -1,0 +1,10 @@
+import function btnNotebook_OnClickHandler(GUIControl *control, MouseButton button);
+import function btnCompactClearTape_OnClickHandler(GUIControl *control, MouseButton button);
+import function btnLipstick_OnClickHandler(GUIControl *control, MouseButton button);
+import function btnLens_OnClickHandler(GUIControl *control, MouseButton button);
+import function btnMap_OnClickHandler(GUIControl *control, MouseButton button);
+import function btnCurInv_OnClickHandler(GUIControl *control, MouseButton button);
+import function btnPocket_OnClickHandler(GUIControl *control, MouseButton button);
+import function btnSaveMain_OnClickHandler(GUIControl *control, MouseButton button);
+import function btnMenu_OnClickHandler(GUIControl *control, MouseButton button);
+import function btnQuitMain_OnClickHandler(GUIControl *control, MouseButton button);
