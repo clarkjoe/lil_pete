@@ -4,3 +4,4 @@ import function btnInvWinUp_OnClickHandler(GUIControl *control, MouseButton butt
 import function btnInvWinDown_OnClickHandler(GUIControl *control, MouseButton button);
 import function btnInvWinPointer_OnClickHandler(GUIControl *control, MouseButton button);
 import function btnInvWinCompactAndClearTape_OnClickHandler(GUIControl *control, MouseButton button);
+import function btnInvWinLens_OnClickHandler(GUIControl *control, MouseButton button);
