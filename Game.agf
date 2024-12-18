@@ -30651,7 +30651,1813 @@ See KeyboardMovement.txt for details.
                 <Sprites />
               </SpriteFolder>
               <SpriteFolder Name="5002_AirplaneClouds">
-                <SubFolders />
+                <SubFolders>
+                  <SpriteFolder Name="CockpitClouds">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="1629" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_000.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1630" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_001.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1631" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_002.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1632" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_003.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1633" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_004.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1634" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_005.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1635" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_006.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1636" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_007.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1637" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_008.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1638" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_009.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1639" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_010.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1640" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_011.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1641" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_012.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1642" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_013.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1643" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_014.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1644" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_015.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1645" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_016.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1646" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_017.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1647" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_018.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1648" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_019.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1649" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_020.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1650" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_021.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1651" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_022.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1652" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_023.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1653" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_024.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1654" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_025.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1655" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_026.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1656" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_027.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1657" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_028.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1658" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_029.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1659" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_030.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1660" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_031.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1661" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_032.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1662" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_033.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1663" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_034.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1664" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_035.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1665" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_036.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1666" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_037.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1667" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_038.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1668" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_039.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1669" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_040.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1670" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_041.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1671" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_042.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1672" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_043.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1673" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_044.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1674" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_045.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1675" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_046.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1676" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_047.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1677" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_048.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1678" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_049.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1679" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_050.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1680" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_051.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1681" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_052.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1682" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_053.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1683" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_054.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1684" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_055.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1685" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_056.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1686" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_057.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1687" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_058.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1688" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_059.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1689" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_060.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1690" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_061.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1691" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_062.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1692" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_063.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1693" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_064.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1694" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_065.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1695" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_066.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1696" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_067.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1697" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_068.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1698" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_069.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1699" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_070.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1700" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_071.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1701" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_072.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1702" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_073.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1703" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_074.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1704" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_075.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1705" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_076.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1706" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_077.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1707" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_078.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1708" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_079.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1709" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_080.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1710" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_081.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1711" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_082.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1712" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_083.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1713" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_084.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1714" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_085.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1715" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_086.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1716" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_087.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1717" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_088.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1718" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_089.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1719" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_090.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1720" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_091.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1721" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_092.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1722" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_093.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1723" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_094.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1724" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_095.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1725" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_096.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1726" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_097.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1727" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_098.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1728" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_099.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1729" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_100.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1730" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_101.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1731" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_102.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1732" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_103.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1733" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_104.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1734" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_105.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1735" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_106.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1736" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_107.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1737" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_108.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1738" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_109.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1739" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_110.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1740" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_111.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1741" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_112.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1742" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_113.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1743" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_114.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1744" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_115.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1745" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_116.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1746" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_117.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1747" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_118.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1748" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_119.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>50</ImportHeight>
+                          <ImportWidth>214</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                </SubFolders>
                 <Sprites>
                   <Sprite Slot="992" Width="420" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
@@ -33956,6 +35762,206 @@ See KeyboardMovement.txt for details.
                 </SubFolders>
                 <Sprites />
               </SpriteFolder>
+              <SpriteFolder Name="NotebookBGs/Tabs">
+                <SubFolders>
+                  <SpriteFolder Name="PeoplePage">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="1749" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Pics/Notebook/NotebookA_EVIDENCE.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1750" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Pics/Notebook/NotebookA_PEOPLE.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1751" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Pics/Notebook/NotebookA_SUBJECTS.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1758" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Pics/9050_notebookA_v04_INDEXED.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="SubjectsPage">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="1759" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Pics/9050_notebookB_v04_INDEXED.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1752" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Pics/Notebook/NotebookB_EVIDENCE.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1753" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Pics/Notebook/NotebookB_PEOPLE.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1754" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Pics/Notebook/NotebookB_SUBJECTS.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="EvidencePage">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="1760" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Pics/9050_notebookC_v04_INDEXED.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1755" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Pics/Notebook/NotebookC_EVIDENCE.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1756" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Pics/Notebook/NotebookC_PEOPLE.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="1757" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Pics/Notebook/NotebookC_SUBJECTS.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>200</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                </SubFolders>
+                <Sprites />
+              </SpriteFolder>
             </SubFolders>
             <Sprites />
           </SpriteFolder>
@@ -33964,7 +35970,7 @@ See KeyboardMovement.txt for details.
             <Sprites>
               <Sprite Slot="1595" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                 <Source>
-                  <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Pics/9050_NotebookA.png</FileName>
+                  <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Pics/9050_notebookA_v04_INDEXED.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>200</ImportHeight>
@@ -33979,7 +35985,7 @@ See KeyboardMovement.txt for details.
               </Sprite>
               <Sprite Slot="1596" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                 <Source>
-                  <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Pics/9050_NotebookB.png</FileName>
+                  <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Pics/9050_notebookB_v04_INDEXED.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>200</ImportHeight>
@@ -33994,7 +36000,7 @@ See KeyboardMovement.txt for details.
               </Sprite>
               <Sprite Slot="1597" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                 <Source>
-                  <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Pics/9050_NotebookC.png</FileName>
+                  <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Pics/9050_notebookC_v04_INDEXED.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>200</ImportHeight>
@@ -34231,63 +36237,63 @@ See KeyboardMovement.txt for details.
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>0</ID>
-                        <Image>601</Image>
+                        <Image>33</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>1</ID>
-                        <Image>602</Image>
+                        <Image>9</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>2</ID>
-                        <Image>603</Image>
+                        <Image>10</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>3</ID>
-                        <Image>604</Image>
+                        <Image>11</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>4</ID>
-                        <Image>605</Image>
+                        <Image>12</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>5</ID>
-                        <Image>606</Image>
+                        <Image>13</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>6</ID>
-                        <Image>607</Image>
+                        <Image>14</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>7</ID>
-                        <Image>608</Image>
+                        <Image>7</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>8</ID>
-                        <Image>609</Image>
+                        <Image>8</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -34307,56 +36313,56 @@ See KeyboardMovement.txt for details.
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>1</ID>
-                        <Image>7</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>2</ID>
-                        <Image>8</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>3</ID>
                         <Image>9</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>4</ID>
+                        <ID>2</ID>
                         <Image>10</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>5</ID>
+                        <ID>3</ID>
                         <Image>11</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>6</ID>
+                        <ID>4</ID>
                         <Image>12</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>7</ID>
+                        <ID>5</ID>
                         <Image>13</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>8</ID>
+                        <ID>6</ID>
                         <Image>14</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>7</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>8</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -38289,56 +40295,56 @@ See KeyboardMovement.txt for details.
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>1</ID>
-                        <Image>49</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>True</Flipped>
-                        <ID>2</ID>
                         <Image>50</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
-                        <ID>3</ID>
+                        <ID>2</ID>
                         <Image>51</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
-                        <ID>4</ID>
+                        <ID>3</ID>
                         <Image>52</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
-                        <ID>5</ID>
+                        <ID>4</ID>
                         <Image>53</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
-                        <ID>6</ID>
+                        <ID>5</ID>
                         <Image>54</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
-                        <ID>7</ID>
+                        <ID>6</ID>
                         <Image>55</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
-                        <ID>8</ID>
+                        <ID>7</ID>
                         <Image>56</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>8</ID>
+                        <Image>49</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -38358,56 +40364,56 @@ See KeyboardMovement.txt for details.
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>1</ID>
-                        <Image>49</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>2</ID>
                         <Image>50</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>3</ID>
+                        <ID>2</ID>
                         <Image>51</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>4</ID>
+                        <ID>3</ID>
                         <Image>52</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>5</ID>
+                        <ID>4</ID>
                         <Image>53</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>6</ID>
+                        <ID>5</ID>
                         <Image>54</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>7</ID>
+                        <ID>6</ID>
                         <Image>55</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>8</ID>
+                        <ID>7</ID>
                         <Image>56</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>49</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -40218,56 +42224,56 @@ See KeyboardMovement.txt for details.
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
                         <ID>1</ID>
-                        <Image>291</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>True</Flipped>
-                        <ID>2</ID>
                         <Image>292</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
-                        <ID>3</ID>
+                        <ID>2</ID>
                         <Image>293</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
-                        <ID>4</ID>
+                        <ID>3</ID>
                         <Image>294</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
-                        <ID>5</ID>
+                        <ID>4</ID>
                         <Image>295</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
-                        <ID>6</ID>
+                        <ID>5</ID>
                         <Image>296</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
-                        <ID>7</ID>
+                        <ID>6</ID>
                         <Image>297</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>True</Flipped>
-                        <ID>8</ID>
+                        <ID>7</ID>
                         <Image>298</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>8</ID>
+                        <Image>291</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -40287,56 +42293,56 @@ See KeyboardMovement.txt for details.
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>1</ID>
-                        <Image>291</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>2</ID>
                         <Image>292</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>3</ID>
+                        <ID>2</ID>
                         <Image>293</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>4</ID>
+                        <ID>3</ID>
                         <Image>294</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>5</ID>
+                        <ID>4</ID>
                         <Image>295</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>6</ID>
+                        <ID>5</ID>
                         <Image>296</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>7</ID>
+                        <ID>6</ID>
                         <Image>297</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>8</ID>
+                        <ID>7</ID>
                         <Image>298</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>291</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -41322,56 +43328,56 @@ See KeyboardMovement.txt for details.
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>1</ID>
-                        <Image>146</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>2</ID>
-                        <Image>147</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>3</ID>
                         <Image>148</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>4</ID>
+                        <ID>2</ID>
                         <Image>149</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>5</ID>
+                        <ID>3</ID>
                         <Image>150</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>6</ID>
+                        <ID>4</ID>
                         <Image>151</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>7</ID>
+                        <ID>5</ID>
                         <Image>152</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>8</ID>
+                        <ID>6</ID>
                         <Image>153</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>146</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>147</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -44281,6 +46287,852 @@ See KeyboardMovement.txt for details.
                         <Flipped>False</Flipped>
                         <ID>0</ID>
                         <Image>992</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>1629</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>1630</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>1631</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>1632</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>1633</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>1634</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>1635</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>1636</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>1637</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>9</ID>
+                        <Image>1638</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>10</ID>
+                        <Image>1639</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>11</ID>
+                        <Image>1640</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>12</ID>
+                        <Image>1641</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>13</ID>
+                        <Image>1642</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>14</ID>
+                        <Image>1643</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>15</ID>
+                        <Image>1644</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>16</ID>
+                        <Image>1645</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>17</ID>
+                        <Image>1646</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>18</ID>
+                        <Image>1647</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>19</ID>
+                        <Image>1648</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>20</ID>
+                        <Image>1649</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>21</ID>
+                        <Image>1650</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>22</ID>
+                        <Image>1651</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>23</ID>
+                        <Image>1652</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>24</ID>
+                        <Image>1653</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>25</ID>
+                        <Image>1654</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>26</ID>
+                        <Image>1655</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>27</ID>
+                        <Image>1656</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>28</ID>
+                        <Image>1657</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>29</ID>
+                        <Image>1658</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>30</ID>
+                        <Image>1659</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>31</ID>
+                        <Image>1660</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>32</ID>
+                        <Image>1661</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>33</ID>
+                        <Image>1662</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>34</ID>
+                        <Image>1663</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>35</ID>
+                        <Image>1664</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>36</ID>
+                        <Image>1665</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>37</ID>
+                        <Image>1666</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>38</ID>
+                        <Image>1667</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>39</ID>
+                        <Image>1668</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>40</ID>
+                        <Image>1669</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>41</ID>
+                        <Image>1670</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>42</ID>
+                        <Image>1671</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>43</ID>
+                        <Image>1672</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>44</ID>
+                        <Image>1673</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>45</ID>
+                        <Image>1674</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>46</ID>
+                        <Image>1675</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>47</ID>
+                        <Image>1676</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>48</ID>
+                        <Image>1677</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>49</ID>
+                        <Image>1678</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>50</ID>
+                        <Image>1679</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>51</ID>
+                        <Image>1680</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>52</ID>
+                        <Image>1681</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>53</ID>
+                        <Image>1682</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>54</ID>
+                        <Image>1683</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>55</ID>
+                        <Image>1684</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>56</ID>
+                        <Image>1685</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>57</ID>
+                        <Image>1686</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>58</ID>
+                        <Image>1687</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>59</ID>
+                        <Image>1688</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>60</ID>
+                        <Image>1689</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>61</ID>
+                        <Image>1690</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>62</ID>
+                        <Image>1691</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>63</ID>
+                        <Image>1692</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>64</ID>
+                        <Image>1693</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>65</ID>
+                        <Image>1694</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>66</ID>
+                        <Image>1695</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>67</ID>
+                        <Image>1696</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>68</ID>
+                        <Image>1697</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>69</ID>
+                        <Image>1698</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>70</ID>
+                        <Image>1699</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>71</ID>
+                        <Image>1700</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>72</ID>
+                        <Image>1701</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>73</ID>
+                        <Image>1702</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>74</ID>
+                        <Image>1703</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>75</ID>
+                        <Image>1704</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>76</ID>
+                        <Image>1705</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>77</ID>
+                        <Image>1706</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>78</ID>
+                        <Image>1707</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>79</ID>
+                        <Image>1708</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>80</ID>
+                        <Image>1709</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>81</ID>
+                        <Image>1710</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>82</ID>
+                        <Image>1711</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>83</ID>
+                        <Image>1712</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>84</ID>
+                        <Image>1713</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>85</ID>
+                        <Image>1714</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>86</ID>
+                        <Image>1715</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>87</ID>
+                        <Image>1716</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>88</ID>
+                        <Image>1717</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>89</ID>
+                        <Image>1718</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>90</ID>
+                        <Image>1719</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>91</ID>
+                        <Image>1720</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>92</ID>
+                        <Image>1721</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>93</ID>
+                        <Image>1722</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>94</ID>
+                        <Image>1723</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>95</ID>
+                        <Image>1724</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>96</ID>
+                        <Image>1725</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>97</ID>
+                        <Image>1726</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>98</ID>
+                        <Image>1727</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>99</ID>
+                        <Image>1728</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>100</ID>
+                        <Image>1729</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>101</ID>
+                        <Image>1730</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>102</ID>
+                        <Image>1731</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>103</ID>
+                        <Image>1732</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>104</ID>
+                        <Image>1733</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>105</ID>
+                        <Image>1734</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>106</ID>
+                        <Image>1735</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>107</ID>
+                        <Image>1736</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>108</ID>
+                        <Image>1737</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>109</ID>
+                        <Image>1738</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>110</ID>
+                        <Image>1739</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>111</ID>
+                        <Image>1740</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>112</ID>
+                        <Image>1741</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>113</ID>
+                        <Image>1742</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>114</ID>
+                        <Image>1743</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>115</ID>
+                        <Image>1744</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>116</ID>
+                        <Image>1745</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>117</ID>
+                        <Image>1746</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>118</ID>
+                        <Image>1747</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>119</ID>
+                        <Image>1748</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
