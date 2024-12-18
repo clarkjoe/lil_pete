@@ -1169,14 +1169,14 @@
                     <MouseoverImage>0</MouseoverImage>
                     <Name>btnCharactersToSubjects</Name>
                     <NewModeNumber>0</NewModeNumber>
-                    <OnClick />
+                    <OnClick>btnCharactersToSubjects_OnClick</OnClick>
                     <PushedImage>0</PushedImage>
                     <Text>S</Text>
                     <TextAlignment>TopCenter</TextAlignment>
                     <TextColor>0</TextColor>
-                    <Top>54</Top>
+                    <Top>67</Top>
                     <Translated>True</Translated>
-                    <Visible>False</Visible>
+                    <Visible>True</Visible>
                     <Width>21</Width>
                     <ZOrder>12</ZOrder>
                   </GUIButton>
@@ -1194,14 +1194,14 @@
                     <MouseoverImage>0</MouseoverImage>
                     <Name>btnCharactersToEvidence</Name>
                     <NewModeNumber>0</NewModeNumber>
-                    <OnClick />
+                    <OnClick>btnCharactersToEvidence_OnClick</OnClick>
                     <PushedImage>0</PushedImage>
                     <Text>E</Text>
                     <TextAlignment>TopCenter</TextAlignment>
                     <TextColor>0</TextColor>
                     <Top>124</Top>
                     <Translated>True</Translated>
-                    <Visible>False</Visible>
+                    <Visible>True</Visible>
                     <Width>18</Width>
                     <ZOrder>13</ZOrder>
                   </GUIButton>
@@ -1236,19 +1236,19 @@
                     <Height>46</Height>
                     <ID>0</ID>
                     <Image>0</Image>
-                    <Left>8</Left>
+                    <Left>19</Left>
                     <Locked>False</Locked>
                     <MouseoverImage>0</MouseoverImage>
                     <Name>btnSubjectsToCharacters</Name>
                     <NewModeNumber>0</NewModeNumber>
-                    <OnClick />
+                    <OnClick>btnSubjectsToCharacters_OnClick</OnClick>
                     <PushedImage>0</PushedImage>
                     <Text>C</Text>
                     <TextAlignment>TopCenter</TextAlignment>
                     <TextColor>0</TextColor>
-                    <Top>16</Top>
+                    <Top>19</Top>
                     <Translated>True</Translated>
-                    <Visible>False</Visible>
+                    <Visible>True</Visible>
                     <Width>25</Width>
                     <ZOrder>0</ZOrder>
                   </GUIButton>
@@ -1261,19 +1261,19 @@
                     <Height>59</Height>
                     <ID>1</ID>
                     <Image>0</Image>
-                    <Left>272</Left>
+                    <Left>276</Left>
                     <Locked>False</Locked>
                     <MouseoverImage>0</MouseoverImage>
                     <Name>btnSubjectsToEvidence</Name>
                     <NewModeNumber>0</NewModeNumber>
-                    <OnClick />
+                    <OnClick>btnSubjectsToEvidence_OnClick</OnClick>
                     <PushedImage>0</PushedImage>
                     <Text>E</Text>
                     <TextAlignment>TopCenter</TextAlignment>
                     <TextColor>0</TextColor>
-                    <Top>99</Top>
+                    <Top>115</Top>
                     <Translated>True</Translated>
-                    <Visible>False</Visible>
+                    <Visible>True</Visible>
                     <Width>17</Width>
                     <ZOrder>1</ZOrder>
                   </GUIButton>
@@ -1313,14 +1313,14 @@
                     <MouseoverImage>0</MouseoverImage>
                     <Name>btnEvidenceToCharacters</Name>
                     <NewModeNumber>0</NewModeNumber>
-                    <OnClick />
+                    <OnClick>btnEvidenceToCharacters_OnClick</OnClick>
                     <PushedImage>0</PushedImage>
                     <Text>C</Text>
                     <TextAlignment>TopCenter</TextAlignment>
                     <TextColor>0</TextColor>
                     <Top>27</Top>
                     <Translated>True</Translated>
-                    <Visible>False</Visible>
+                    <Visible>True</Visible>
                     <Width>32</Width>
                     <ZOrder>0</ZOrder>
                   </GUIButton>
@@ -1338,14 +1338,14 @@
                     <MouseoverImage>0</MouseoverImage>
                     <Name>btnEvidenceToSubjects</Name>
                     <NewModeNumber>0</NewModeNumber>
-                    <OnClick />
+                    <OnClick>btnEvidenceToSubjects_OnClick</OnClick>
                     <PushedImage>0</PushedImage>
                     <Text>S</Text>
                     <TextAlignment>TopCenter</TextAlignment>
                     <TextColor>0</TextColor>
-                    <Top>95</Top>
+                    <Top>90</Top>
                     <Translated>True</Translated>
-                    <Visible>False</Visible>
+                    <Visible>True</Visible>
                     <Width>27</Width>
                     <ZOrder>1</ZOrder>
                   </GUIButton>
@@ -6296,7 +6296,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>a6001_AirplaneMusic</ScriptName>
                 <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\Music\6001_Airplane_cropped.mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-11-06 06:10:22Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-09-18 02:31:15Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -6309,7 +6309,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>a1002_CastleGrounds</ScriptName>
                 <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\Music\1002_CastleGrounds.mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-11-06 06:10:22Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-09-18 02:31:15Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InGameEXE</BundlingType>
