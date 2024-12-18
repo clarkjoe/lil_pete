@@ -1,6 +1,9 @@
-import function initialize_notebook_characters();
-import function handle_character_button(GUIControl *control);
-import function color_character_button(Character* theCharacter);
+import function initialize_notebook();
+import function color_in_character_button(Character *contextCharacter, Character *actionCharacter);
+import function grey_in_character_button(Character *contextCharacter, Character *actionCharacter);
+import function silhouette_in_character_button(Character *contextCharacter, Character *actionCharacter);
+import NotebookButtonVariant get_notebook_button_variant(Character *contextCharacter, Character *actionCharacter);
+import function populate_notebook();
 
 // Characters
 import function gNotebookCharacters_OnClickHandler(GUI *theGui, MouseButton button);
@@ -20,9 +23,11 @@ import function btnCharactersToSubjects_OnClickHandler(GUIControl *control, Mous
 import function btnCharactersToEvidence_OnClickHandler(GUIControl *control, MouseButton button);
 
 // Subjects
+import function gNotebookSubjects_OnClickHandler(GUI *theGui, MouseButton button);
 import function btnSubjectsToCharacters_OnClickHandler(GUIControl *control, MouseButton button);
 import function btnSubjectsToEvidence_OnClickHandler(GUIControl *control, MouseButton button);
 
 // Evidence
+import function gNotebookEvidence_OnClickHandler(GUI *theGui, MouseButton button);
 import function btnEvidenceToCharacters_OnClickHandler(GUIControl *control, MouseButton button);
 import function btnEvidenceToSubjects_OnClickHandler(GUIControl *control, MouseButton button);

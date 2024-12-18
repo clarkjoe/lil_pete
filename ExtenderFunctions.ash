@@ -31,7 +31,12 @@ import function SetDestination(this Character*, int x, int y);
 import bool HasReachedDestination(this Character*);
 import function MyWalk(this Character*, int x, int y, BlockingStyle blockingStyle = eBlock, WalkWhere walkWhere = eWalkableAreas);
 import function SendToCharacterNear(this Character*, Character* target, int maxDistance = 15);
-import function ColorNotebookButton(this Character*);
+import function ColorInCharacter(this Character*, Character *actionCharacter);
+import function GreyInCharacter(this Character*, Character *actionCharacter);
+import function SilhouetteInCharacter(this Character*, Character *actionCharacter);
+import bool CharacterIsColor(this Character*, Character *actionCharacter);
+import bool CharacterIsGrey(this Character*, Character *actionCharacter);
+import bool CharacterIsSilhouette(this Character*, Character *actionCharacter);
 
 // Hotspot
 import bool IsInteractable(this Hotspot*);

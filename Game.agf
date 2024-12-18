@@ -1217,7 +1217,7 @@
                   <ID>10</ID>
                   <Left>0</Left>
                   <Name>gNotebookSubjects</Name>
-                  <OnClick />
+                  <OnClick>gNotebookSubjects_OnClick</OnClick>
                   <PopupStyle>Normal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
                   <Top>0</Top>
@@ -1289,7 +1289,7 @@
                   <ID>11</ID>
                   <Left>0</Left>
                   <Name>gNotebookEvidence</Name>
-                  <OnClick />
+                  <OnClick>gNotebookEvidence_OnClick</OnClick>
                   <PopupStyle>Normal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
                   <Top>0</Top>
@@ -4014,7 +4014,10 @@ return
     cEgo.Say("Mind if I join you, Carlos?");
     cCarlos.Say("Not in the mood for a conversation, sweetheart.");
     cCarlos.SetProperty("haveSpokenTo",true);
-    cCarlos.ColorNotebookButton();
+    cEgo.ColorInCharacter(cCarlos);
+    cJoanna.ColorInCharacter(cCarlos);
+    cQueenie.ColorInCharacter(cCarlos);
+    cCarlos.ColorInCharacter(cCarlos);
     return RUN_DIALOG_STOP_DIALOG;
   }
   
@@ -4035,12 +4038,14 @@ cCarlos: Ah, I didn't mean anything by it. All of us are just faking up there in
 cEgo: Well, I'd say I agree with you, but then we'd BOTH be wrong.
 cCarlos: Ha! Ok, you're cute. Got the looks and the wit... maybe there’s more to you than meets the eye.
 cEgo: You can keep your eyes to yourself.
+  cCarlos.GreyInCharacter(cEgo);
 stop
 
 @2 //Stone
 cEgo: What’s your take on Stone?
 cCarlos: Stone’s a showman, through and through. Talks big, acts bigger. 
 cCarlos: Problem is, he’s more interested in making Vera a star than making decent movies. That kind of obsession comes with a price.
+  cCarlos.GreyInCharacter(cStone);
 stop
 
 @3 // Vera
@@ -4049,6 +4054,7 @@ cCarlos: She's her husband's muse, though God knows why.
 cCarlos: Stone's pushed her into every lead role he could find, especially the musical parts. It's like listening to a cat in heat.
 cEgo: Doesn't sound like you're a big fan of the leading lady.
 cCarlos: At this point, there aren't many that are.
+  cCarlos.GreyInCharacter(cVera);
 stop
 
 @4 // Joanna
@@ -4056,11 +4062,13 @@ cEgo: Joanna seems... enthusiastic. What’s your take on her?
 cCarlos: She's talented. Ambitious, too. Deserves more than she's gotten so far, if you ask me. But she's too invested for her own good.
 cEgo: Oh?
 cCarlos: She takes this business so seriously. Gives it too much of her soul. Oh well, hopefully her dreams are about to come true.
+  cCarlos.GreyInCharacter(cJoanna);
 stop
 
 @5 //Salvatore
 cEgo: I saw an ad for a magician named Salvatore in one of the magazines. Ever heard of him?
 cCarlos: Salvatore? Name rings a bell, but I can’t say I know much about him. Magician, right?.
+  cCarlos.GreyInCharacter(cSalvatore);
 stop
 
 @6 //Queenie
@@ -4069,6 +4077,7 @@ cCarlos: Smart, sharp as they come. She's the only one brave enough- or maybe cr
 cCarlos: Stone's last few movies? Total flops. His reputation is teetering. If "Madam White Snake" doesn't hit, even Queenie's money might not be enough to save him.
 cEgo: Why is she helping him?
 cCarlos: She's a business woman. She hasn't produced a project this large before, especially not in Stone's side of Hollywood. Even if the movie bombs, this will open doors for her.
+  cCarlos.GreyInCharacter(cQueenie);
 stop
 
 @7 //Max
@@ -4080,6 +4089,7 @@ stop
 @9 //Lucinda
 cEgo: What do you think of Lucinda Price? She seems to have a knack for getting under people’s skin.
 cCarlos: Lucinda? She’s a shark. Loves digging up dirt and doesn’t care who gets buried in it. She’s trouble, but I guess that’s what sells her columns.
+  cCarlos.GreyInCharacter(cLucinda);
 stop
 
 @10 //Samir
@@ -4091,6 +4101,7 @@ stop
 @12 //Carlos
 cEgo: You’ve got an air of mystery about you. What’s your story?
 cCarlos: What’s there to say? I’m just a guy trying to survive this circus they call Hollywood. Why, you writing my biography?
+  cCarlos.GreyInCharacter(cCarlos);
 stop
 </Script>
                 <DialogOptions>
@@ -4303,7 +4314,10 @@ return
     cEgo.Say("I think you'd make a fantastic Madam White Snake.");
     cJoanna.Say("That's so kind.");
     cJoanna.SetProperty("haveSpokenTo",true);
-    cJoanna.ColorNotebookButton();
+    cEgo.ColorInCharacter(cJoanna);
+    cJoanna.ColorInCharacter(cJoanna);
+    cQueenie.ColorInCharacter(cJoanna);
+    cCarlos.ColorInCharacter(cJoanna);
     return RUN_DIALOG_STOP_DIALOG;
   }
  
@@ -4312,13 +4326,34 @@ return
 @1 // Clara
 cEgo: What's your impression of me?
 cJoanna: Oh, you're THE Clara Bow! You've got that effortless charm, the kind everyone in Hollywood wishes they had.
+  cJoanna.GreyInCharacter(cEgo);
 stop
 
 @2 //Stone
 cEgo: Xavier Stone... he seems a bit obsessed with his ambitions.
 cJoanna: He always talks about his grand ideas, but it always ends up being what he wants for Vera.
 cJoanna: As a result, all of his latest projects have flopped and it's taken a toll on his reputation as a director.
-  cVera.ColorNotebookButton();
+  cEgo.ColorInCharacter(cVera);
+  
+  if (cJoanna.CharacterIsSilhouette(cVera))
+    cJoanna.ColorInCharacter(cVera);
+  else if (cEgo.CharacterIsColor(cVera))
+    cJoanna.GreyInCharacter(cVera);
+    
+  if (cJoanna.CharacterIsSilhouette(cStone))
+    cJoanna.ColorInCharacter(cStone);
+  else if (cEgo.CharacterIsColor(cStone))
+    cJoanna.GreyInCharacter(cStone);
+    
+  if (cCarlos.CharacterIsSilhouette(cVera))
+    cCarlos.ColorInCharacter(cVera);
+  else if (cCarlos.CharacterIsColor(cVera))
+    cCarlos.GreyInCharacter(cVera);
+    
+  if (cQueenie.CharacterIsSilhouette(cVera))
+    cQueenie.ColorInCharacter(cVera);
+  else if (cEgo.CharacterIsColor(cVera))
+    cQueenie.GreyInCharacter(cVera);
 stop
 
 @3 //Vera
@@ -4326,17 +4361,29 @@ cEgo: How about Vera, do you know her well?
 cJoanna: She's Stone's muse and now his third wife. Too bad she can't act to save her life. 
 cJoanna: She tried to make it in Hollywood for a few years, but of course it didn't work out. She was a secretary at Stone's dentist office when he met her and immediately fell in love.
 cJoanna: A quick divorce and an even quicker marriage, now she's the top billed actress at his studio.
+  if (cJoanna.CharacterIsSilhouette(cVera))
+    cJoanna.ColorInCharacter(cVera);
+  else if (cEgo.CharacterIsColor(cVera))
+    cJoanna.GreyInCharacter(cVera);
 stop
 
 @4 //Joanna
 cEgo: So, Joanna, what drives you to keep this career?
 cJoanna: What drives me? This is who I am. I'm an artist to my core. 
 cJoanna: I've got talent, ambition, and I'm not afraid to fight for my spot.
+  if (cJoanna.CharacterIsSilhouette(cJoanna))
+    cJoanna.ColorInCharacter(cJoanna);
+  else if (cEgo.CharacterIsColor(cJoanna))
+    cJoanna.GreyInCharacter(cJoanna);
 stop
 
 @5 //Salvatore
 cEgo: I read something about a magician named Salvatore. Do you know anything about him?
 cJoanna: Salvatore? He's supposed to be up-and-coming, but honestly, I don't know much more than that.
+  if (cJoanna.CharacterIsSilhouette(cSalvatore))
+    cJoanna.ColorInCharacter(cSalvatore);
+  else if (cEgo.CharacterIsColor(cSalvatore))
+    cJoanna.GreyInCharacter(cSalvatore);
 stop
 
 @6 //Queenie
@@ -4345,6 +4392,10 @@ cJoanna: I haven't met her, but I've heard the stories. The woman's fierce. She 
 cJoanna: Honestly I thought she'd be the last person to bankroll one of Stone's pet projects.
 cEgo: Why do you think she's doing it?
 cJoanna: Couldn't tell you. Maybe she wants to expand her portfolio. Or maybe she just enjoys watching Stone squirm. Regardless, Queenie doesn't need Stone, and he's unlikely to forget that.
+  if (cJoanna.CharacterIsSilhouette(cQueenie))
+    cJoanna.ColorInCharacter(cQueenie);
+  else if (cEgo.CharacterIsColor(cQueenie))
+    cJoanna.GreyInCharacter(cQueenie);
 stop
 
 @7 //Max
@@ -4357,6 +4408,10 @@ stop
 cEgo: Do you know the author of the Banter, Lucinda?
 cJoanna: Lucinda Price. She calls herself a reporter but she's no more than a gossip columnist. Everyone in this business has been the victim of her defamations.
 cJoanna: Stone owns the Banter and hired her to run it years ago. But she writes what she wants, even if it's unflattering to Stone. He's grown to hate her for that.
+  if (cJoanna.CharacterIsSilhouette(cLucinda))
+    cJoanna.ColorInCharacter(cLucinda);
+  else if (cEgo.CharacterIsColor(cLucinda))
+    cJoanna.GreyInCharacter(cLucinda);
 stop
 
 @10 //Samir
@@ -4371,6 +4426,10 @@ cJoanna: Moody, charming when he wants to be, but always a bit of a scoundrel. I
 cJoanna: But we get on well enough. In this business, you don't have to be friends to be allies.
 cEgo: It seems like he doesn't even want me as an acquaintance.
 cJoanna: Oh, he's always like this when he can't get a cigar. Stone keeps them hoarded in his minibar up by the Flight Attendant and he's just cranky that he can't have one.
+  if (cJoanna.CharacterIsSilhouette(cCarlos))
+    cJoanna.ColorInCharacter(cCarlos);
+  else if (cEgo.CharacterIsColor(cCarlos))
+    cJoanna.GreyInCharacter(cCarlos);
 stop
 </Script>
                 <DialogOptions>
@@ -4562,7 +4621,10 @@ stop
     cEgo.Say("Well, for what it's worth, I admire your courage. Hollywood isn't an easy place to make your own rules.");
     cQueenie.Say("It isn't. But sometimes, you do what you have to, regardless of who's watching.");
     cQueenie.SetProperty("haveSpokenTo",true);
-    cQueenie.ColorNotebookButton();
+    cEgo.ColorInCharacter(cQueenie);
+    cJoanna.ColorInCharacter(cQueenie);
+    cQueenie.ColorInCharacter(cQueenie);
+    cCarlos.ColorInCharacter(cQueenie);
     return RUN_DIALOG_STOP_DIALOG;
   }
  
@@ -5382,6 +5444,11 @@ stop
           <Name>activeDialogOptionId</Name>
           <Type>int</Type>
         </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>currentNotebookContextID</Name>
+          <Type>int</Type>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <DeletedViews />
@@ -5428,23 +5495,23 @@ stop
               <ScriptAndHeader>
                 <ScriptAndHeader_Header>
                   <Script>
-                    <FileName>CharacterButton.ash</FileName>
+                    <FileName>NotebookButton.ash</FileName>
                     <Name />
                     <Description />
                     <Author />
                     <Version />
-                    <Key>1536029210</Key>
+                    <Key>1735526072</Key>
                     <IsHeader>True</IsHeader>
                   </Script>
                 </ScriptAndHeader_Header>
                 <ScriptAndHeader_Script>
                   <Script>
-                    <FileName>CharacterButton.asc</FileName>
+                    <FileName>NotebookButton.asc</FileName>
                     <Name />
                     <Description />
                     <Author />
                     <Version />
-                    <Key>1536029210</Key>
+                    <Key>1735526072</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
@@ -5469,6 +5536,30 @@ stop
                     <Author />
                     <Version />
                     <Key>31333815</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>NotebookContext.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1858772993</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>NotebookContext.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1858772993</Key>
                     <IsHeader>False</IsHeader>
                   </Script>
                 </ScriptAndHeader_Script>
@@ -23601,6 +23692,356 @@ See KeyboardMovement.txt for details.
                           </Sprite>
                         </Sprites>
                       </SpriteFolder>
+                      <SpriteFolder Name="3_QueenieGossipGiveCompact">
+                        <SubFolders />
+                        <Sprites>
+                          <Sprite Slot="1606" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/0.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1607" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/1.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1608" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/2.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1609" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/3.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1610" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/4.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1611" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/5.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1612" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/6.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1613" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/7.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1614" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/8.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1615" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/9.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1616" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/10.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1617" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/11.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1618" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/12.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1619" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/13.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1620" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/14.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1621" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/15.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1622" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/16.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1623" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/17.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1624" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/18.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1625" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/19.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1626" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/20.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1627" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/21.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1628" Width="79" Height="57" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/Queenie/QueenieGossipGiveCompact.png/22.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>57</ImportHeight>
+                              <ImportWidth>79</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                        </Sprites>
+                      </SpriteFolder>
                     </SubFolders>
                     <Sprites />
                   </SpriteFolder>
@@ -39411,6 +39852,173 @@ See KeyboardMovement.txt for details.
                         <Flipped>False</Flipped>
                         <ID>20</ID>
                         <Image>84</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>4</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>10</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>1606</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>1607</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>1608</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>1609</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>15</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>1610</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>1611</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>1612</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>1613</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>1614</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>9</ID>
+                        <Image>1615</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>10</ID>
+                        <Image>1616</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>11</ID>
+                        <Image>1617</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>15</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>12</ID>
+                        <Image>1618</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>13</ID>
+                        <Image>1619</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>14</ID>
+                        <Image>1620</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>15</ID>
+                        <Image>1621</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>16</ID>
+                        <Image>1622</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>17</ID>
+                        <Image>1623</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>18</ID>
+                        <Image>1624</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>19</ID>
+                        <Image>1625</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>15</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>20</ID>
+                        <Image>1626</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>21</ID>
+                        <Image>1627</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>10</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>22</ID>
+                        <Image>1628</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
