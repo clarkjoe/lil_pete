@@ -844,13 +844,13 @@
                   <Height>200</Height>
                   <ID>9</ID>
                   <Left>0</Left>
-                  <Name>gNotebook1</Name>
-                  <OnClick>gNotebook1_OnClick</OnClick>
+                  <Name>gNotebookCharacters</Name>
+                  <OnClick>gNotebookCharacters_OnClick</OnClick>
                   <PopupStyle>Normal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
                   <Top>0</Top>
                   <Transparency>0</Transparency>
-                  <Visible>True</Visible>
+                  <Visible>False</Visible>
                   <Width>320</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
@@ -1154,6 +1154,200 @@
                     <Visible>True</Visible>
                     <Width>50</Width>
                     <ZOrder>11</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>37</Height>
+                    <ID>12</ID>
+                    <Image>0</Image>
+                    <Left>282</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>btnCharactersToSubjects</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>0</PushedImage>
+                    <Text>S</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>54</Top>
+                    <Translated>True</Translated>
+                    <Visible>False</Visible>
+                    <Width>21</Width>
+                    <ZOrder>12</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>46</Height>
+                    <ID>13</ID>
+                    <Image>0</Image>
+                    <Left>282</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>btnCharactersToEvidence</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>0</PushedImage>
+                    <Text>E</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>124</Top>
+                    <Translated>True</Translated>
+                    <Visible>False</Visible>
+                    <Width>18</Width>
+                    <ZOrder>13</ZOrder>
+                  </GUIButton>
+                </Controls>
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>0</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>10</ID>
+                  <Left>0</Left>
+                  <Name>gNotebookSubjects</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>46</Height>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Left>8</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>btnSubjectsToCharacters</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>0</PushedImage>
+                    <Text>C</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>16</Top>
+                    <Translated>True</Translated>
+                    <Visible>False</Visible>
+                    <Width>25</Width>
+                    <ZOrder>0</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>59</Height>
+                    <ID>1</ID>
+                    <Image>0</Image>
+                    <Left>272</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>btnSubjectsToEvidence</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>0</PushedImage>
+                    <Text>E</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>99</Top>
+                    <Translated>True</Translated>
+                    <Visible>False</Visible>
+                    <Width>17</Width>
+                    <ZOrder>1</ZOrder>
+                  </GUIButton>
+                </Controls>
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>0</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>11</ID>
+                  <Left>0</Left>
+                  <Name>gNotebookEvidence</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>53</Height>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Left>9</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>btnEvidenceToCharacters</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>0</PushedImage>
+                    <Text>C</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>27</Top>
+                    <Translated>True</Translated>
+                    <Visible>False</Visible>
+                    <Width>32</Width>
+                    <ZOrder>0</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>47</Height>
+                    <ID>1</ID>
+                    <Image>0</Image>
+                    <Left>9</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>btnEvidenceToSubjects</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>0</PushedImage>
+                    <Text>S</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>95</Top>
+                    <Translated>True</Translated>
+                    <Visible>False</Visible>
+                    <Width>27</Width>
+                    <ZOrder>1</ZOrder>
                   </GUIButton>
                 </Controls>
               </GUIMain>
