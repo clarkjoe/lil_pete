@@ -838,7 +838,7 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>0</BackgroundColor>
-                  <BackgroundImage>0</BackgroundImage>
+                  <BackgroundImage>1595</BackgroundImage>
                   <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
                   <Height>200</Height>
@@ -1210,7 +1210,7 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>0</BackgroundColor>
-                  <BackgroundImage>0</BackgroundImage>
+                  <BackgroundImage>1596</BackgroundImage>
                   <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
                   <Height>200</Height>
@@ -1282,7 +1282,7 @@
               <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>0</BackgroundColor>
-                  <BackgroundImage>0</BackgroundImage>
+                  <BackgroundImage>1597</BackgroundImage>
                   <BorderColor>0</BorderColor>
                   <Clickable>True</Clickable>
                   <Height>200</Height>
@@ -4334,26 +4334,14 @@ cEgo: Xavier Stone... he seems a bit obsessed with his ambitions.
 cJoanna: He always talks about his grand ideas, but it always ends up being what he wants for Vera.
 cJoanna: As a result, all of his latest projects have flopped and it's taken a toll on his reputation as a director.
   cEgo.ColorInCharacter(cVera);
+  cJoanna.GreyInCharacter(cStone);
   
   if (cJoanna.CharacterIsSilhouette(cVera))
+  {
     cJoanna.ColorInCharacter(cVera);
-  else if (cEgo.CharacterIsColor(cVera))
-    cJoanna.GreyInCharacter(cVera);
-    
-  if (cJoanna.CharacterIsSilhouette(cStone))
-    cJoanna.ColorInCharacter(cStone);
-  else if (cEgo.CharacterIsColor(cStone))
-    cJoanna.GreyInCharacter(cStone);
-    
-  if (cCarlos.CharacterIsSilhouette(cVera))
-    cCarlos.ColorInCharacter(cVera);
-  else if (cCarlos.CharacterIsColor(cVera))
-    cCarlos.GreyInCharacter(cVera);
-    
-  if (cQueenie.CharacterIsSilhouette(cVera))
     cQueenie.ColorInCharacter(cVera);
-  else if (cEgo.CharacterIsColor(cVera))
-    cQueenie.GreyInCharacter(cVera);
+    cCarlos.ColorInCharacter(cVera);
+  }
 stop
 
 @3 //Vera
@@ -4361,10 +4349,7 @@ cEgo: How about Vera, do you know her well?
 cJoanna: She's Stone's muse and now his third wife. Too bad she can't act to save her life. 
 cJoanna: She tried to make it in Hollywood for a few years, but of course it didn't work out. She was a secretary at Stone's dentist office when he met her and immediately fell in love.
 cJoanna: A quick divorce and an even quicker marriage, now she's the top billed actress at his studio.
-  if (cJoanna.CharacterIsSilhouette(cVera))
-    cJoanna.ColorInCharacter(cVera);
-  else if (cEgo.CharacterIsColor(cVera))
-    cJoanna.GreyInCharacter(cVera);
+  cJoanna.GreyInCharacter(cVera);
 stop
 
 @4 //Joanna
