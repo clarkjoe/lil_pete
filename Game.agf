@@ -4408,15 +4408,14 @@ stop
 cEgo: Xavier Stone... he seems a bit obsessed with his ambitions.
 cJoanna: He always talks about his grand ideas, but it always ends up being what he wants for Vera.
 cJoanna: As a result, all of his latest projects have flopped and it's taken a toll on his reputation as a director.
-  cEgo.ColorInCharacter(cVera);
   cJoanna.GreyInCharacter(cStone);
-  
   if (cJoanna.CharacterIsSilhouette(cVera))
   {
-    cJoanna.ColorInCharacter(cVera);
+    cEgo.ColorInCharacter(cVera);
     cQueenie.ColorInCharacter(cVera);
     cCarlos.ColorInCharacter(cVera);
   }
+  cJoanna.ColorInCharacter(cVera);
 stop
 
 @3 //Vera
@@ -4431,19 +4430,13 @@ stop
 cEgo: So, Joanna, what drives you to keep this career?
 cJoanna: What drives me? This is who I am. I'm an artist to my core. 
 cJoanna: I've got talent, ambition, and I'm not afraid to fight for my spot.
-  if (cJoanna.CharacterIsSilhouette(cJoanna))
-    cJoanna.ColorInCharacter(cJoanna);
-  else if (cEgo.CharacterIsColor(cJoanna))
-    cJoanna.GreyInCharacter(cJoanna);
+  cJoanna.GreyInCharacter(cJoanna);
 stop
 
 @5 //Salvatore
 cEgo: I read something about a magician named Salvatore. Do you know anything about him?
 cJoanna: Salvatore? He's supposed to be up-and-coming, but honestly, I don't know much more than that.
-  if (cJoanna.CharacterIsSilhouette(cSalvatore))
-    cJoanna.ColorInCharacter(cSalvatore);
-  else if (cEgo.CharacterIsColor(cSalvatore))
-    cJoanna.GreyInCharacter(cSalvatore);
+  cJoanna.GreyInCharacter(cSalvatore);
 stop
 
 @6 //Queenie
@@ -4452,10 +4445,7 @@ cJoanna: I haven't met her, but I've heard the stories. The woman's fierce. She 
 cJoanna: Honestly I thought she'd be the last person to bankroll one of Stone's pet projects.
 cEgo: Why do you think she's doing it?
 cJoanna: Couldn't tell you. Maybe she wants to expand her portfolio. Or maybe she just enjoys watching Stone squirm. Regardless, Queenie doesn't need Stone, and he's unlikely to forget that.
-  if (cJoanna.CharacterIsSilhouette(cQueenie))
-    cJoanna.ColorInCharacter(cQueenie);
-  else if (cEgo.CharacterIsColor(cQueenie))
-    cJoanna.GreyInCharacter(cQueenie);
+  cJoanna.GreyInCharacter(cQueenie);
 stop
 
 @7 //Max
@@ -4468,10 +4458,7 @@ stop
 cEgo: Do you know the author of the Banter, Lucinda?
 cJoanna: Lucinda Price. She calls herself a reporter but she's no more than a gossip columnist. Everyone in this business has been the victim of her defamations.
 cJoanna: Stone owns the Banter and hired her to run it years ago. But she writes what she wants, even if it's unflattering to Stone. He's grown to hate her for that.
-  if (cJoanna.CharacterIsSilhouette(cLucinda))
-    cJoanna.ColorInCharacter(cLucinda);
-  else if (cEgo.CharacterIsColor(cLucinda))
-    cJoanna.GreyInCharacter(cLucinda);
+  cJoanna.GreyInCharacter(cLucinda);
 stop
 
 @10 //Samir
@@ -4486,10 +4473,7 @@ cJoanna: Moody, charming when he wants to be, but always a bit of a scoundrel. I
 cJoanna: But we get on well enough. In this business, you don't have to be friends to be allies.
 cEgo: It seems like he doesn't even want me as an acquaintance.
 cJoanna: Oh, he's always like this when he can't get a cigar. Stone keeps them hoarded in his minibar up by the Flight Attendant and he's just cranky that he can't have one.
-  if (cJoanna.CharacterIsSilhouette(cCarlos))
-    cJoanna.ColorInCharacter(cCarlos);
-  else if (cEgo.CharacterIsColor(cCarlos))
-    cJoanna.GreyInCharacter(cCarlos);
+  cJoanna.GreyInCharacter(cCarlos);
 stop
 ]]></Script>
                 <DialogOptions>
@@ -4695,11 +4679,13 @@ return
   {
     cEgo.Say("What’s your take on me? I’d love to know what you think.");
     cQueenie.Say("You’re a smart one, Clara. Got the look, got the charm. But, like I said, this town’s full of them.");
+    Display("Seems like Queenie is holding back. If only there was somewhere to talk in private.");
   }
   else
   {
     cEgo.Say("What’s your take on me? I’d love to know what you think.");
     cQueenie.Say("You? You’ve got something different, Clara. It’s not just the beauty or the fame, it’s how you carry yourself. You’re not just playing the part; you’re in control. I’ve seen plenty come and go, but I think you might just be the real deal. Hollywood can swallow you whole, but I think you’ve got the fire to survive it.");
+    cQueenie.GreyInCharacter(cEgo);
   }
 stop
 
@@ -4708,6 +4694,7 @@ stop
   {
     cEgo.Say("What’s your take on Stone? He seems like a man with big plans.");
     cQueenie.Say("Stone’s just another man with big ideas and a bigger ego. Nothing new there.");
+    Display("Seems like Queenie is holding back. If only there was somewhere to talk in private.");
   }
   else
   {
@@ -4716,6 +4703,7 @@ stop
     cEgo.Say("So, if you think Vera's such a bad actress… why invest in the project?");
     cQueenie.Say("Because it's not just about the actress. The Dragon Blossom could still mean something, if it's done right.");
     cQueenie.Say("Besides, sometimes it's better to be the one holding the purse strings. You get to set the rules, decide what really matters.");
+    cQueenie.GreyInCharacter(cStone);
   }
 stop
 
@@ -4724,11 +4712,13 @@ stop
   {
     cEgo.Say("What do you think of Vera? She seems to be at the center of everything.");
     cQueenie.Say("Vera’s... exactly what Stone wants her to be. Nothing more, nothing less.");
+    Display("Seems like Queenie is holding back. If only there was somewhere to talk in private.");
   }
   else
   {
     cEgo.Say("What do you think of Vera? She seems to be at the center of everything.");
     cQueenie.Say("Vera? She’s Stone’s obsession, no question. The poor girl’s talent is as thin as a dime, but Stone’s pushing her into every spotlight he can find. It's a shame, really. She’s got looks, but no depth. The whole thing’s more about Stone’s ego than her abilities, if you ask me.");
+    cQueenie.GreyInCharacter(cVera);
   }
 stop
 
@@ -4737,11 +4727,13 @@ stop
   {
     cEgo.Say("Joanna must be thrilled about tonight's announcement.");
     cQueenie.Say("Joanna's talented. I'm sure she'll make her own mark, in her own way.");
+    Display("Seems like Queenie is holding back. If only there was somewhere to talk in private.");
   }
   else
   {
     cEgo.Say("Joanna seems excited about tonight.");
     cQueenie.Say("Joanna's got plenty of ambition-and plenty of temper to go with it. Talented, sure. But she's always thinking the world owes her something. Doesn't win her many friends.");
+    cQueenie.GreyInCharacter(cJoanna);
   }
 stop
 
@@ -4750,11 +4742,13 @@ stop
   {
     cEgo.Say("Do you know anything about a magician named Salvatore? I’ve heard his name come up a few times.");
     cQueenie.Say("Can’t say I’ve heard much. Doesn’t ring a bell.");
+    Display("Seems like Queenie is holding back. If only there was somewhere to talk in private.");
   }
   else
   {
     cEgo.Say("Do you know anything about a magician named Salvatore? I’ve heard his name come up a few times.");
     cQueenie.Say("Salvatore? I really don’t know anything about him. I’ve heard the name tossed around, but that’s about it. Probably just another eager young guy trying to make a name for himself.");
+    cQueenie.GreyInCharacter(cSalvatore);
   }
 stop
 
@@ -4763,11 +4757,13 @@ stop
   {
     cEgo.Say("So, Queenie, what’s your story? You don’t strike me as someone who likes to sit on the sidelines.");
     cQueenie.Say("I don’t like to play by anyone else’s rules. That’s all you need to know.");
+    Display("Seems like Queenie is holding back. If only there was somewhere to talk in private.");
   }
   else
   {
     cEgo.Say("So, Queenie, what’s your story? You don’t strike me as someone who likes to sit on the sidelines.");
     cQueenie.Say("My story? I’m not interested in following the crowd. I do things my way—whether that’s making my own mark in Hollywood or running my own production company. I’ve learned that the only way to get ahead is to stop waiting for permission.");
+    cQueenie.GreyInCharacter(cQueenie);
   } 
 stop
 
@@ -4782,11 +4778,13 @@ stop
   {
     cEgo.Say("What do you think of Lucinda Price? She seems to have her finger on the pulse of Hollywood gossip.");
     cQueenie.Say("Lucinda? She knows how to stir the pot, that’s for sure.");
+    Display("Seems like Queenie is holding back. If only there was somewhere to talk in private.");
   }
   else
   {
     cEgo.Say("What do you think of Lucinda Price? She seems to have her finger on the pulse of Hollywood gossip.");
     cQueenie.Say("Lucinda’s a character, alright. She thrives on drama and thrives on other people’s misfortunes. She’s got her place in this town, but I wouldn’t trust her any further than I could throw her. Still, she gets people talking, which is exactly what she wants.");
+    cQueenie.GreyInCharacter(cLucinda);
   }
 stop
 
@@ -4801,11 +4799,13 @@ stop
   {
     cEgo.Say("Carlos seems... intense, doesn't he?");
     cQueenie.Say("Carlos is dedicated to his craft. Beyond that, I wouldn't presume to judge.");
+    Display("Seems like Queenie is holding back. If only there was somewhere to talk in private.");
   }
   else
   {
     cEgo.Say("Carlos seems to keep to himself.");
     cQueenie.Say("Carlos is a mystery, alright. Got charm when he wants, but always acting like he's above it all. Just another man who thinks Hollywood's beneath him, yet here he is, soaking in all the perks.");
+    cQueenie.GreyInCharacter(cCarlos);
   }
 stop
 ]]></Script>
