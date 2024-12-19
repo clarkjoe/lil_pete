@@ -974,7 +974,7 @@
                     <Text xml:space="preserve">New Button</Text>
                     <TextAlignment>TopCenter</TextAlignment>
                     <TextColor>0</TextColor>
-                    <Top>67</Top>
+                    <Top>68</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
@@ -999,7 +999,7 @@
                     <Text xml:space="preserve">New Button</Text>
                     <TextAlignment>TopCenter</TextAlignment>
                     <TextColor>0</TextColor>
-                    <Top>67</Top>
+                    <Top>68</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
@@ -1024,7 +1024,7 @@
                     <Text xml:space="preserve">New Button</Text>
                     <TextAlignment>TopCenter</TextAlignment>
                     <TextColor>0</TextColor>
-                    <Top>67</Top>
+                    <Top>68</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
@@ -1049,7 +1049,7 @@
                     <Text xml:space="preserve">New Button</Text>
                     <TextAlignment>TopCenter</TextAlignment>
                     <TextColor>0</TextColor>
-                    <Top>67</Top>
+                    <Top>68</Top>
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
@@ -1326,6 +1326,306 @@
                     <Visible>True</Visible>
                     <Width>15</Width>
                     <ZOrder>2</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>3</ID>
+                    <Image>1269</Image>
+                    <Left>51</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1305</MouseoverImage>
+                    <Name>StoncliffManor</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>1305</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>14</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>50</Width>
+                    <ZOrder>3</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>4</ID>
+                    <Image>1270</Image>
+                    <Left>105</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1306</MouseoverImage>
+                    <Name>MadamWhiteSnake</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>1306</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>14</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>50</Width>
+                    <ZOrder>4</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>5</ID>
+                    <Image>1271</Image>
+                    <Left>51</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1307</MouseoverImage>
+                    <Name>TheBanter</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>1307</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>70</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>50</Width>
+                    <ZOrder>5</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>6</ID>
+                    <Image>1273</Image>
+                    <Left>105</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1309</MouseoverImage>
+                    <Name>MauledScientist</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>1309</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>70</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>50</Width>
+                    <ZOrder>6</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>7</ID>
+                    <Image>1272</Image>
+                    <Left>51</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1308</MouseoverImage>
+                    <Name>TigersBlood</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>1308</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>126</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>50</Width>
+                    <ZOrder>7</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>8</ID>
+                    <Image>1274</Image>
+                    <Left>105</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1310</MouseoverImage>
+                    <Name>Subject06</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>1310</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>126</Top>
+                    <Translated>True</Translated>
+                    <Visible>False</Visible>
+                    <Width>50</Width>
+                    <ZOrder>8</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>9</ID>
+                    <Image>1275</Image>
+                    <Left>167</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1311</MouseoverImage>
+                    <Name>Subject07</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>1311</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>14</Top>
+                    <Translated>True</Translated>
+                    <Visible>False</Visible>
+                    <Width>50</Width>
+                    <ZOrder>9</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>10</ID>
+                    <Image>1276</Image>
+                    <Left>221</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1312</MouseoverImage>
+                    <Name>Subject08</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>1312</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>14</Top>
+                    <Translated>True</Translated>
+                    <Visible>False</Visible>
+                    <Width>50</Width>
+                    <ZOrder>10</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>11</ID>
+                    <Image>1277</Image>
+                    <Left>167</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1313</MouseoverImage>
+                    <Name>Subject09</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>1313</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>70</Top>
+                    <Translated>True</Translated>
+                    <Visible>False</Visible>
+                    <Width>50</Width>
+                    <ZOrder>11</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>12</ID>
+                    <Image>1278</Image>
+                    <Left>221</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1314</MouseoverImage>
+                    <Name>Subject10</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>1314</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>70</Top>
+                    <Translated>True</Translated>
+                    <Visible>False</Visible>
+                    <Width>50</Width>
+                    <ZOrder>12</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>13</ID>
+                    <Image>1279</Image>
+                    <Left>167</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1315</MouseoverImage>
+                    <Name>Subject11</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>1315</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>126</Top>
+                    <Translated>True</Translated>
+                    <Visible>False</Visible>
+                    <Width>50</Width>
+                    <ZOrder>13</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>14</ID>
+                    <Image>1280</Image>
+                    <Left>221</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>1316</MouseoverImage>
+                    <Name>Subject12</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>1316</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>126</Top>
+                    <Translated>True</Translated>
+                    <Visible>False</Visible>
+                    <Width>50</Width>
+                    <ZOrder>14</ZOrder>
                   </GUIButton>
                 </Controls>
               </GUIMain>
@@ -3003,7 +3303,7 @@
             <ID>5</ID>
             <Image>1174</Image>
             <Name>iCigar</Name>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
               <Event Index="0">iCigar_Look</Event>
@@ -4003,7 +4303,7 @@
           <Character>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <AnimationDelay>4</AnimationDelay>
+            <AnimationDelay>7</AnimationDelay>
             <BlinkingView>69</BlinkingView>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
@@ -4315,8 +4615,10 @@ stop
   }
   else
   {
-    cEgo.Walk(cCarlos.x-30,cCarlos.y,eBlock);
+    cCarlos.StopMoving();
+    cEgo.SendToCharacterNear(cCarlos);
     cEgo.FaceCharacter(cCarlos);
+    cCarlos.FaceCharacter(cEgo);
     Wait(GetGameSpeed()/4);
 
     if (cEgo.ActiveInventory == iCigar)

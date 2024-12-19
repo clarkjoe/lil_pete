@@ -2,7 +2,8 @@ import function initialize_notebook();
 import function color_in_character_button(Character *contextCharacter, Character *actionCharacter);
 import function grey_in_character_button(Character *contextCharacter, Character *actionCharacter);
 import function silhouette_in_character_button(Character *contextCharacter, Character *actionCharacter);
-import NotebookButtonVariant get_notebook_button_variant(Character *contextCharacter, Character *actionCharacter);
+import NotebookButtonVariant get_notebook_character_button_variant(Character *contextCharacter, Character *actionCharacter);
+import NotebookButtonVariant get_notebook_subject_button_variant(Character *contextCharacter, int subjectID);
 import function populate_notebook();
 
 // Characters

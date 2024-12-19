@@ -38,6 +38,13 @@ import bool CharacterIsColor(this Character*, Character *actionCharacter);
 import bool CharacterIsGrey(this Character*, Character *actionCharacter);
 import bool CharacterIsSilhouette(this Character*, Character *actionCharacter);
 
+import function ColorInSubject(this Character*, int subject);
+import function GreyInSubject(this Character*, int subject);
+import function SilhouetteInSubject(this Character*, int subject);
+import bool SubjectIsColor(this Character*, int subject);
+import bool SubjectIsGrey(this Character*, int subject);
+import bool SubjectIsSilhouette(this Character*, int subject);
+
 // Hotspot
 import bool IsInteractable(this Hotspot*);
 import int Baseline(this Hotspot*);
