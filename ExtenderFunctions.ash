@@ -31,6 +31,7 @@ import function SetDestination(this Character*, int x, int y);
 import bool HasReachedDestination(this Character*);
 import function MyWalk(this Character*, int x, int y, BlockingStyle blockingStyle = eBlock, WalkWhere walkWhere = eWalkableAreas);
 import function SendToCharacterNear(this Character*, Character* target, int maxDistance = 15);
+
 import function ColorInCharacter(this Character*, Character *actionCharacter);
 import function GreyInCharacter(this Character*, Character *actionCharacter);
 import function SilhouetteInCharacter(this Character*, Character *actionCharacter);
@@ -38,12 +39,19 @@ import bool CharacterIsColor(this Character*, Character *actionCharacter);
 import bool CharacterIsGrey(this Character*, Character *actionCharacter);
 import bool CharacterIsSilhouette(this Character*, Character *actionCharacter);
 
-import function ColorInSubject(this Character*, int subject);
-import function GreyInSubject(this Character*, int subject);
-import function SilhouetteInSubject(this Character*, int subject);
-import bool SubjectIsColor(this Character*, int subject);
-import bool SubjectIsGrey(this Character*, int subject);
-import bool SubjectIsSilhouette(this Character*, int subject);
+import function ColorInSubject(this Character*, int subjectID);
+import function GreyInSubject(this Character*, int subjectID);
+import function SilhouetteInSubject(this Character*, int subjectID);
+import bool SubjectIsColor(this Character*, int subjectID);
+import bool SubjectIsGrey(this Character*, int subjectID);
+import bool SubjectIsSilhouette(this Character*, int subjectID);
+
+import function ColorInEvidence(this Character*, int evidenceID);
+import function GreyInEvidence(this Character*, int evidenceID);
+import function SilhouetteInEvidence(this Character*, int evidenceID);
+import bool EvidenceIsColor(this Character*, int evidenceID);
+import bool EvidenceIsGrey(this Character*, int evidenceID);
+import bool EvidenceIsSilhouette(this Character*, int evidenceID);
 
 // Hotspot
 import bool IsInteractable(this Hotspot*);

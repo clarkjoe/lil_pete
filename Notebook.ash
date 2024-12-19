@@ -1,9 +1,10 @@
 import function initialize_notebook();
-import function color_in_character_button(Character *contextCharacter, Character *actionCharacter);
-import function grey_in_character_button(Character *contextCharacter, Character *actionCharacter);
-import function silhouette_in_character_button(Character *contextCharacter, Character *actionCharacter);
 import NotebookButtonVariant get_notebook_character_button_variant(Character *contextCharacter, Character *actionCharacter);
 import NotebookButtonVariant get_notebook_subject_button_variant(Character *contextCharacter, int subjectID);
+import NotebookButtonVariant get_notebook_evidence_button_variant(Character *contextCharacter, int evidenceID);
+import function change_context_notebook_character_button_variant(Character *contextCharacter, Character *actionCharacter, NotebookButtonVariant variant);
+import function change_context_notebook_subject_button_variant(Character *contextCharacter, int subjectID, NotebookButtonVariant variant);
+import function change_context_notebook_evidence_button_variant(Character *contextCharacter, int evidenceID, NotebookButtonVariant variant);
 import function populate_notebook();
 
 // Characters
@@ -27,6 +28,11 @@ import function btnCharactersToEvidence_OnClickHandler(GUIControl *control, Mous
 import function gNotebookSubjects_OnClickHandler(GUI *theGui, MouseButton button);
 import function btnSubjectsToCharacters_OnClickHandler(GUIControl *control, MouseButton button);
 import function btnSubjectsToEvidence_OnClickHandler(GUIControl *control, MouseButton button);
+import function stonecliffManorNotebook_OnClickHandler(GUIControl *control, MouseButton button);
+import function madamWhiteSnakeNotebook_OnClickHandler(GUIControl *control, MouseButton button);
+import function theBanterNotebook_OnClickHandler(GUIControl *control, MouseButton button);
+import function mauledScientistNotebook_OnClickHandler(GUIControl *control, MouseButton button);
+import function tigersBloodNotebook_OnClickHandler(GUIControl *control, MouseButton button);
 
 // Evidence
 import function gNotebookEvidence_OnClickHandler(GUI *theGui, MouseButton button);
