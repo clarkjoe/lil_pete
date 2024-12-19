@@ -38,20 +38,29 @@ import function SilhouetteInCharacter(this Character*, Character *actionCharacte
 import bool CharacterIsColor(this Character*, Character *actionCharacter);
 import bool CharacterIsGrey(this Character*, Character *actionCharacter);
 import bool CharacterIsSilhouette(this Character*, Character *actionCharacter);
+import function ColorInCharacterEverywhere(static Character, Character *actionCharacter);
+import function GreyInCharacterEverywhere(static Character, Character *actionCharacter);
+import function SilhouetteInCharacterEverywhere(static Character, Character *actionCharacter);
 
-import function ColorInSubject(this Character*, int subjectID);
-import function GreyInSubject(this Character*, int subjectID);
-import function SilhouetteInSubject(this Character*, int subjectID);
-import bool SubjectIsColor(this Character*, int subjectID);
-import bool SubjectIsGrey(this Character*, int subjectID);
-import bool SubjectIsSilhouette(this Character*, int subjectID);
+import function ColorInSubject(this Character*, Button *subject);
+import function GreyInSubject(this Character*, Button *subject);
+import function SilhouetteInSubject(this Character*, Button *subject);
+import bool SubjectIsColor(this Character*, Button *subject);
+import bool SubjectIsGrey(this Character*, Button *subject);
+import bool SubjectIsSilhouette(this Character*, Button *subject);
+import function ColorInSubjectEverywhere(static Character, Button *subject);
+import function GreyInSubjectEverywhere(static Character, Button *subject);
+import function SilhouetteInSubjectEverywhere(static Character, Button *subject);
 
-import function ColorInEvidence(this Character*, int evidenceID);
-import function GreyInEvidence(this Character*, int evidenceID);
-import function SilhouetteInEvidence(this Character*, int evidenceID);
-import bool EvidenceIsColor(this Character*, int evidenceID);
-import bool EvidenceIsGrey(this Character*, int evidenceID);
-import bool EvidenceIsSilhouette(this Character*, int evidenceID);
+import function ColorInEvidence(this Character*, Button *evidence);
+import function GreyInEvidence(this Character*, Button *evidence);
+import function SilhouetteInEvidence(this Character*, Button *evidence);
+import bool EvidenceIsColor(this Character*, Button *evidence);
+import bool EvidenceIsGrey(this Character*, Button *evidence);
+import bool EvidenceIsSilhouette(this Character*, Button *evidence);
+import function ColorInEvidenceEverywhere(static Character, Button *evidence);
+import function GreyInEvidenceEverywhere(static Character, Button *evidence);
+import function SilhouetteInEvidenceEverywhere(static Character, Button *evidence);
 
 // Hotspot
 import bool IsInteractable(this Hotspot*);

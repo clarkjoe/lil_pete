@@ -4638,23 +4638,26 @@ stop
 @S  // Dialog startup entry point
 return
 
-@1 //Madam White Snake
-cEgo: What do you think about "Madam White Snake"? Do you think Stone’s got a hit on his hands this time?
-cCarlos: Stone’s banking everything on "Madam White Snake", but I wouldn’t bet my money on it. 
-cCarlos: His ideas are big, sure, but execution? That’s another story, especially with Vera in the mix.
-stop
-
-@2 //Stonecliff Manor
+@1 //Stonecliff Manor
 cEgo: What can you tell me about Stonecliff Manor? 
 cCarlos: It’s big, flashy, and full of secrets. Perfect for a guy like Stone to play king of the castle.
 cCarlos: He built it on top of his family's gold mine. He didn't like his father, but he reminisces all the time about his mother.
 cCarlos: I think building his palace there is a way of living the childhood he wished he had.
+  cCarlos.GreyInSubject(stonecliffManorNotebook);
+stop
+
+@2 //Madam White Snake
+cEgo: What do you think about "Madam White Snake"? Do you think Stone’s got a hit on his hands this time?
+cCarlos: Stone’s banking everything on "Madam White Snake", but I wouldn’t bet my money on it. 
+cCarlos: His ideas are big, sure, but execution? That’s another story, especially with Vera in the mix.
+  cCarlos.GreyInSubject(madamWhiteSnakeNotebook);
 stop
 
 @3 //Gilded Shadows
 cEgo: What did you think about Stone's latest movie, "Gilded Shadows"? 
 cCarlos: It flopped because Stone insisted on casting his wife, Vera, as the lead again, even though she can't act. It was a mess. 
 cCarlos: Honestly, you would've been perfect for the role, but, well... guess Stone has his reasons.
+  cCarlos.GreyInSubject(madamWhiteSnakeNotebook);
 stop
 </Script>
                 <DialogOptions>
@@ -4662,13 +4665,13 @@ stop
                     <ID>1</ID>
                     <Say>False</Say>
                     <Show>True</Show>
-                    <Text xml:space="preserve">Madam White Snake</Text>
+                    <Text xml:space="preserve">Stonecliff Manor</Text>
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
                     <Say>False</Say>
                     <Show>True</Show>
-                    <Text xml:space="preserve">Stonecliff Manor</Text>
+                    <Text xml:space="preserve">Madam White Snake</Text>
                   </DialogOption>
                   <DialogOption>
                     <ID>3</ID>
@@ -4767,15 +4770,9 @@ return
     cEgo.Say("I think you'd make a fantastic Madam White Snake.");
     cJoanna.Say("That's so kind.");
     cJoanna.SetProperty("haveSpokenTo",true);
-    cEgo.ColorInCharacter(cJoanna);
-    cJoanna.ColorInCharacter(cJoanna);
-    cQueenie.ColorInCharacter(cJoanna);
-    cCarlos.ColorInCharacter(cJoanna);
     
-    cEgo.ColorInSubject(madamWhiteSnakeNotebook.ID);
-    cJoanna.ColorInSubject(madamWhiteSnakeNotebook.ID);
-    cQueenie.ColorInSubject(madamWhiteSnakeNotebook.ID);
-    cCarlos.ColorInSubject(madamWhiteSnakeNotebook.ID);
+    Character.ColorInCharacterEverywhere(cJoanna);
+    Character.ColorInSubjectEverywhere(madamWhiteSnakeNotebook);
     return RUN_DIALOG_STOP_DIALOG;
   }
  
@@ -4793,12 +4790,7 @@ cJoanna: He always talks about his grand ideas, but it always ends up being what
 cJoanna: As a result, all of his latest projects have flopped and it's taken a toll on his reputation as a director.
   cJoanna.GreyInCharacter(cStone);
   if (cJoanna.CharacterIsSilhouette(cVera))
-  {
-    cEgo.ColorInCharacter(cVera);
-    cQueenie.ColorInCharacter(cVera);
-    cCarlos.ColorInCharacter(cVera);
-  }
-  cJoanna.ColorInCharacter(cVera);
+    Character.ColorInCharacterEverywhere(cVera);
 stop
 
 @3 //Vera
@@ -4942,23 +4934,25 @@ stop
 @S  // Dialog startup entry point
 return
 
-@1 //Madam White Snake
-cEgo: It sounds like Stone has high hopes for "Madam White Snake".
-cJoanna: As he should! This will be my chance to have the lead role in one of his films instead of it always going to Vera. 
-cJoanna: I can't wait to show the world what I can do.
-stop
-
-@2 //Stonecliff Manor
+@1 //Stonecliff Manor
 cEgo: This is my first time at Stonecliff Manor. Have you been there before?
 cJoanna: Just once. It's the perfect reflection of Stone himself- big, flashy, and full of drama.
 cJoanna: You know it's built on top of his family's gold mine. 
-cJoanna: His parents bought the land without knowing it was worth anything and found the gold the next year. 
+cJoanna: His parents bought the land without knowing it was worth anything and found the gold the next year.
+  cJoanna.GreyInSubject(stonecliffManorNotebook);
+stop
+
+@2 //Madam White Snake
+cEgo: It sounds like Stone has high hopes for "Madam White Snake".
+cJoanna: As he should! This will be my chance to have the lead role in one of his films instead of it always going to Vera. 
+cJoanna: I can't wait to show the world what I can do.
+  cJoanna.GreyInSubject(madamWhiteSnakeNotebook);
 stop
 
 @3 //Gilded Shadows
 cEgo: I saw a terrible review about Vera's last performance in "Gilded Shadows".
 cJoanna: It's such a shame that role didn't go to you. We all thought you were a shoe in. 
-cJoanna: But of course Vera flew in on her broomstick and stole it. 
+cJoanna: But of course Vera flew in on her broomstick and stole it.
 stop
 </Script>
                 <DialogOptions>
@@ -4966,13 +4960,13 @@ stop
                     <ID>1</ID>
                     <Say>False</Say>
                     <Show>True</Show>
-                    <Text xml:space="preserve">Madam White Snake</Text>
+                    <Text xml:space="preserve">Stonecliff Manor</Text>
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
                     <Say>False</Say>
                     <Show>True</Show>
-                    <Text xml:space="preserve">Stonecliff Manor</Text>
+                    <Text xml:space="preserve">Madam White Snake</Text>
                   </DialogOption>
                   <DialogOption>
                     <ID>3</ID>
@@ -5275,20 +5269,7 @@ stop
 @S  // Dialog startup entry point
 return
 
-@1 //Madam White Snake
-  if (cEgo.Room != 6)
-  {
-    cEgo.Say("\"Madam White Snake\" sounds like a project with a lot riding on it.");
-    cQueenie.Say("Every project has its risks. This one's no different.");
-  }
-  else
-  {
-    cEgo.Say("\"Madam White Snake\" sounds like a project with a lot riding on it.");
-    cQueenie.Say("Madam White Snake film? It’s Stone’s latest obsession. He’s pouring all his hopes into it, but I’m not sure it's going to pay off. He’s got Vera in the lead, and we both know she’s not exactly a natural talent. But Stone’s got this vision, and he’s going to push it, no matter the cost. It could be a hit, or it could flop spectacularly. Either way, it’s his ego on the line.");
-  }
-stop
-
-@2 //Stonecliff Manor
+@1 //Stonecliff Manor
   if (cEgo.Room != 6)
   {
     cEgo.Say("Stonecliff Manor... What’s it really like? It’s got a certain reputation, doesn’t it?");
@@ -5314,6 +5295,19 @@ stop
   }
 stop
 
+@2 //Madam White Snake
+  if (cEgo.Room != 6)
+  {
+    cEgo.Say("\"Madam White Snake\" sounds like a project with a lot riding on it.");
+    cQueenie.Say("Every project has its risks. This one's no different.");
+  }
+  else
+  {
+    cEgo.Say("\"Madam White Snake\" sounds like a project with a lot riding on it.");
+    cQueenie.Say("Madam White Snake film? It’s Stone’s latest obsession. He’s pouring all his hopes into it, but I’m not sure it's going to pay off. He’s got Vera in the lead, and we both know she’s not exactly a natural talent. But Stone’s got this vision, and he’s going to push it, no matter the cost. It could be a hit, or it could flop spectacularly. Either way, it’s his ego on the line.");
+  }
+stop
+
 @3 //Gilded Shadows
   if (cEgo.Room != 6)
   {
@@ -5332,13 +5326,13 @@ stop
                     <ID>1</ID>
                     <Say>False</Say>
                     <Show>True</Show>
-                    <Text xml:space="preserve">Madam White Snake</Text>
+                    <Text xml:space="preserve">Stonecliff Manor</Text>
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
                     <Say>False</Say>
                     <Show>True</Show>
-                    <Text xml:space="preserve">Stonecliff Manor</Text>
+                    <Text xml:space="preserve">Madam White Snake</Text>
                   </DialogOption>
                   <DialogOption>
                     <ID>3</ID>
@@ -5890,6 +5884,21 @@ stop
           <DefaultValue>0</DefaultValue>
           <Name>currentNotebookContextID</Name>
           <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue />
+          <Name>activeCharacterDialog</Name>
+          <Type>Dialog*</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue />
+          <Name>activeSubjectDialog</Name>
+          <Type>Dialog*</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue />
+          <Name>activeEvidenceDialog</Name>
+          <Type>Dialog*</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -6829,7 +6838,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>a6001_AirplaneMusic</ScriptName>
                 <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\Music\6001_Airplane_cropped.mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-11-06 06:10:22Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-09-18 02:31:15Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -6842,7 +6851,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>a1002_CastleGrounds</ScriptName>
                 <SourceFileName>C:\Users\danie\Documents\SIDE_STUFF\LB3\Music\1002_CastleGrounds.mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-11-06 06:10:22Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-09-18 02:31:15Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InGameEXE</BundlingType>
