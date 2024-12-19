@@ -878,7 +878,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
-                    <ZOrder>0</ZOrder>
+                    <ZOrder>1</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -903,7 +903,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
-                    <ZOrder>1</ZOrder>
+                    <ZOrder>2</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -928,7 +928,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
-                    <ZOrder>2</ZOrder>
+                    <ZOrder>3</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -953,7 +953,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
-                    <ZOrder>3</ZOrder>
+                    <ZOrder>4</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -978,7 +978,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
-                    <ZOrder>4</ZOrder>
+                    <ZOrder>5</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1003,7 +1003,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
-                    <ZOrder>5</ZOrder>
+                    <ZOrder>6</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1028,7 +1028,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
-                    <ZOrder>6</ZOrder>
+                    <ZOrder>7</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1053,7 +1053,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
-                    <ZOrder>7</ZOrder>
+                    <ZOrder>8</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1078,7 +1078,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
-                    <ZOrder>8</ZOrder>
+                    <ZOrder>9</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1103,7 +1103,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
-                    <ZOrder>9</ZOrder>
+                    <ZOrder>10</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1128,7 +1128,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
-                    <ZOrder>10</ZOrder>
+                    <ZOrder>11</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1153,7 +1153,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
-                    <ZOrder>11</ZOrder>
+                    <ZOrder>12</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1178,7 +1178,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>16</Width>
-                    <ZOrder>12</ZOrder>
+                    <ZOrder>13</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1203,7 +1203,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>13</Width>
-                    <ZOrder>13</ZOrder>
+                    <ZOrder>14</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1228,7 +1228,32 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>18</Width>
-                    <ZOrder>14</ZOrder>
+                    <ZOrder>15</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>False</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>163</Height>
+                    <ID>15</ID>
+                    <Image>0</Image>
+                    <Left>53</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>CoverallButtonCharacters</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>0</PushedImage>
+                    <Text />
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>16</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>237</Width>
+                    <ZOrder>0</ZOrder>
                   </GUIButton>
                 </Controls>
               </GUIMain>
@@ -1275,7 +1300,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>14</Width>
-                    <ZOrder>0</ZOrder>
+                    <ZOrder>1</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1300,7 +1325,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>12</Width>
-                    <ZOrder>1</ZOrder>
+                    <ZOrder>2</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1325,7 +1350,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>15</Width>
-                    <ZOrder>2</ZOrder>
+                    <ZOrder>3</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1350,7 +1375,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
-                    <ZOrder>3</ZOrder>
+                    <ZOrder>4</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1375,7 +1400,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
-                    <ZOrder>4</ZOrder>
+                    <ZOrder>5</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1400,7 +1425,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
-                    <ZOrder>5</ZOrder>
+                    <ZOrder>6</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1425,7 +1450,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
-                    <ZOrder>6</ZOrder>
+                    <ZOrder>7</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1450,7 +1475,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>50</Width>
-                    <ZOrder>7</ZOrder>
+                    <ZOrder>8</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1475,7 +1500,7 @@
                     <Translated>True</Translated>
                     <Visible>False</Visible>
                     <Width>50</Width>
-                    <ZOrder>8</ZOrder>
+                    <ZOrder>9</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1500,7 +1525,7 @@
                     <Translated>True</Translated>
                     <Visible>False</Visible>
                     <Width>50</Width>
-                    <ZOrder>9</ZOrder>
+                    <ZOrder>10</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1525,7 +1550,7 @@
                     <Translated>True</Translated>
                     <Visible>False</Visible>
                     <Width>50</Width>
-                    <ZOrder>10</ZOrder>
+                    <ZOrder>11</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1550,7 +1575,7 @@
                     <Translated>True</Translated>
                     <Visible>False</Visible>
                     <Width>50</Width>
-                    <ZOrder>11</ZOrder>
+                    <ZOrder>12</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1575,7 +1600,7 @@
                     <Translated>True</Translated>
                     <Visible>False</Visible>
                     <Width>50</Width>
-                    <ZOrder>12</ZOrder>
+                    <ZOrder>13</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1600,7 +1625,7 @@
                     <Translated>True</Translated>
                     <Visible>False</Visible>
                     <Width>50</Width>
-                    <ZOrder>13</ZOrder>
+                    <ZOrder>14</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1625,7 +1650,32 @@
                     <Translated>True</Translated>
                     <Visible>False</Visible>
                     <Width>50</Width>
-                    <ZOrder>14</ZOrder>
+                    <ZOrder>15</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>False</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>167</Height>
+                    <ID>15</ID>
+                    <Image>0</Image>
+                    <Left>44</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>CoverallButtonSubjects</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>0</PushedImage>
+                    <Text />
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>14</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>246</Width>
+                    <ZOrder>0</ZOrder>
                   </GUIButton>
                 </Controls>
               </GUIMain>
@@ -1672,7 +1722,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>13</Width>
-                    <ZOrder>0</ZOrder>
+                    <ZOrder>1</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1697,7 +1747,7 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>14</Width>
-                    <ZOrder>1</ZOrder>
+                    <ZOrder>2</ZOrder>
                   </GUIButton>
                   <GUIButton>
                     <ClickAction>RunScript</ClickAction>
@@ -1722,7 +1772,32 @@
                     <Translated>True</Translated>
                     <Visible>True</Visible>
                     <Width>16</Width>
-                    <ZOrder>2</ZOrder>
+                    <ZOrder>3</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>157</Height>
+                    <ID>3</ID>
+                    <Image>0</Image>
+                    <Left>44</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>CoverallButtonEvidence</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick />
+                    <PushedImage>0</PushedImage>
+                    <Text />
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>22</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>242</Width>
+                    <ZOrder>0</ZOrder>
                   </GUIButton>
                 </Controls>
               </GUIMain>
