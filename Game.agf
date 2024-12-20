@@ -826,6 +826,10 @@
             <Description>Notebook</Description>
             <Number>19</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description>Magazine</Description>
+            <Number>4</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -1890,6 +1894,324 @@
                     <Width>144</Width>
                     <ZOrder>2</ZOrder>
                   </GUITextBox>
+                </Controls>
+              </GUIMain>
+            </GUIs>
+          </GUIFolder>
+          <GUIFolder Name="magazine">
+            <SubFolders />
+            <GUIs>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>1987</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>13</ID>
+                  <Left>0</Left>
+                  <Name>gMagazineCover</Name>
+                  <OnClick>gMagazineCover_OnClick</OnClick>
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>166</Height>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Left>242</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>gMagazineCoverOpen</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>gMagazineCoverOpen_OnClick</OnClick>
+                    <PushedImage>0</PushedImage>
+                    <Text>open</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>14</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>40</Width>
+                    <ZOrder>0</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>50</Height>
+                    <ID>1</ID>
+                    <Image>0</Image>
+                    <Left>173</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>gMagazineCoverDescription</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>gMagazineCoverDescription_OnClick</OnClick>
+                    <PushedImage>0</PushedImage>
+                    <Text>text</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>55</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>45</Width>
+                    <ZOrder>1</ZOrder>
+                  </GUIButton>
+                </Controls>
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>1988</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>14</ID>
+                  <Left>0</Left>
+                  <Name>gMagazinePage1</Name>
+                  <OnClick>gMagazinePage1_OnClick</OnClick>
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>166</Height>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Left>40</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>gMagazinePage1Left</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>gMagazinePage1Left_OnClick</OnClick>
+                    <PushedImage>0</PushedImage>
+                    <Text>left</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>16</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>36</Width>
+                    <ZOrder>0</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>163</Height>
+                    <ID>1</ID>
+                    <Image>0</Image>
+                    <Left>249</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>gMagazinePage1Right</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>gMagazinePage1Right_OnClick</OnClick>
+                    <PushedImage>0</PushedImage>
+                    <Text>right</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>20</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>37</Width>
+                    <ZOrder>1</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>65</Height>
+                    <ID>2</ID>
+                    <Image>0</Image>
+                    <Left>109</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>gMagazinePage1Description</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>gMagazinePage1Description_OnClick</OnClick>
+                    <PushedImage>0</PushedImage>
+                    <Text xml:space="preserve">New Button</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>30</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>54</Width>
+                    <ZOrder>2</ZOrder>
+                  </GUIButton>
+                </Controls>
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>1989</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>15</ID>
+                  <Left>0</Left>
+                  <Name>gMagazinePage2</Name>
+                  <OnClick>gMagazinePage2_OnClick</OnClick>
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>165</Height>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Left>41</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>gMagazinePage2Left</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>gMagazinePage2Left_OnClick</OnClick>
+                    <PushedImage>0</PushedImage>
+                    <Text>left</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>16</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>42</Width>
+                    <ZOrder>0</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>55</Height>
+                    <ID>1</ID>
+                    <Image>0</Image>
+                    <Left>105</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>gMagazinePage2Description</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>gMagazinePage2Description_OnClick</OnClick>
+                    <PushedImage>0</PushedImage>
+                    <Text>text</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>32</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>51</Width>
+                    <ZOrder>1</ZOrder>
+                  </GUIButton>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>63</Height>
+                    <ID>2</ID>
+                    <Image>0</Image>
+                    <Left>227</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>gMagazinePage2Salvatore</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>gMagazinePage2Salvatore_OnClick</OnClick>
+                    <PushedImage>0</PushedImage>
+                    <Text>salvatore</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>103</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>60</Width>
+                    <ZOrder>2</ZOrder>
+                  </GUIButton>
+                </Controls>
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>1986</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>200</Height>
+                  <ID>16</ID>
+                  <Left>0</Left>
+                  <Name>gMagazinePageTorn</Name>
+                  <OnClick>gMagazinePageTorn_OnClick</OnClick>
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>320</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls>
+                  <GUIButton>
+                    <ClickAction>RunScript</ClickAction>
+                    <Clickable>True</Clickable>
+                    <ClipImage>False</ClipImage>
+                    <Enabled>True</Enabled>
+                    <Font>0</Font>
+                    <Height>89</Height>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Left>131</Left>
+                    <Locked>False</Locked>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Name>gMagazinePageTornDescription</Name>
+                    <NewModeNumber>0</NewModeNumber>
+                    <OnClick>gMagazinePageTornDescription_OnClick</OnClick>
+                    <PushedImage>0</PushedImage>
+                    <Text>text</Text>
+                    <TextAlignment>TopCenter</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Top>53</Top>
+                    <Translated>True</Translated>
+                    <Visible>True</Visible>
+                    <Width>76</Width>
+                    <ZOrder>0</ZOrder>
+                  </GUIButton>
                 </Controls>
               </GUIMain>
             </GUIs>
@@ -6118,6 +6440,30 @@ stop
           <ScriptFolder Name="GUIs">
             <SubFolders />
             <ScriptAndHeaders>
+              <ScriptAndHeader>
+                <ScriptAndHeader_Header>
+                  <Script>
+                    <FileName>Magazine.ash</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1186922377</Key>
+                    <IsHeader>True</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Header>
+                <ScriptAndHeader_Script>
+                  <Script>
+                    <FileName>Magazine.asc</FileName>
+                    <Name />
+                    <Description />
+                    <Author />
+                    <Version />
+                    <Key>1186922377</Key>
+                    <IsHeader>False</IsHeader>
+                  </Script>
+                </ScriptAndHeader_Script>
+              </ScriptAndHeader>
               <ScriptAndHeader>
                 <ScriptAndHeader_Header>
                   <Script>
@@ -20326,6 +20672,676 @@ See KeyboardMovement.txt for details.
                               <OffsetY>0</OffsetY>
                               <ImportHeight>66</ImportHeight>
                               <ImportWidth>77</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                        </Sprites>
+                      </SpriteFolder>
+                    </SubFolders>
+                    <Sprites />
+                  </SpriteFolder>
+                  <SpriteFolder Name="1012_ClaraTakeFingerprints">
+                    <SubFolders>
+                      <SpriteFolder Name="0_TakePrints">
+                        <SubFolders />
+                        <Sprites>
+                          <Sprite Slot="1990" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/0.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1991" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/1.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1992" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/2.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1993" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/3.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1994" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/4.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1995" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/5.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1996" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/6.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1997" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/7.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1998" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/8.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="1999" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/9.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2007" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/10.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2008" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/11.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2009" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/12.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2017" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/13.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2018" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/14.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2019" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/15.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2027" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/16.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2028" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/17.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2029" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/18.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2037" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/19.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2038" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/20.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2039" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/21.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2043" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/22.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2044" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/23.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2045" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/24.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2046" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/25.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2047" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/26.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2048" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/27.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2049" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/28.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2050" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/29.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2051" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/30.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2052" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/31.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2053" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/32.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2062" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/33.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2063" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/34.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2064" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/35.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2065" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/36.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2066" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/37.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2067" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/38.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2068" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/39.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2069" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/40.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2070" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/41.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2071" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/42.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="2072" Width="25" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                            <Source>
+                              <FileName>G:/.shortcut-targets-by-id/1QlgbrPTE3dUNfoYltEKQEvFMZU4Fk016/Pixel Studio/LilPete/Characters/ClaraBow/ClaraBowLiftFingerprint.png/43.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>50</ImportHeight>
+                              <ImportWidth>25</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -34620,7 +35636,7 @@ See KeyboardMovement.txt for details.
                     <Sprites>
                       <Sprite Slot="1629" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_000.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_000.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34635,7 +35651,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1630" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_001.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_001.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34650,7 +35666,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1631" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_002.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_002.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34665,7 +35681,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1632" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_003.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_003.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34680,7 +35696,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1633" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_004.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_004.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34695,7 +35711,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1634" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_005.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_005.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34710,7 +35726,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1635" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_006.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_006.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34725,7 +35741,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1636" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_007.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_007.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34740,7 +35756,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1637" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_008.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_008.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34755,7 +35771,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1638" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_009.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_009.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34770,7 +35786,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1639" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_010.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_010.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34785,7 +35801,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1640" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_011.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_011.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34800,7 +35816,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1641" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_012.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_012.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34815,7 +35831,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1642" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_013.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_013.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34830,7 +35846,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1643" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_014.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_014.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34845,7 +35861,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1644" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_015.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_015.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34860,7 +35876,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1645" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_016.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_016.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34875,7 +35891,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1646" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_017.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_017.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34890,7 +35906,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1647" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_018.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_018.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34905,7 +35921,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1648" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_019.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_019.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34920,7 +35936,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1649" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_020.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_020.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34935,7 +35951,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1650" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_021.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_021.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34950,7 +35966,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1651" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_022.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_022.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34965,7 +35981,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1652" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_023.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_023.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34980,7 +35996,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1653" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_024.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_024.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -34995,7 +36011,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1654" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_025.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_025.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35010,7 +36026,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1655" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_026.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_026.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35025,7 +36041,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1656" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_027.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_027.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35040,7 +36056,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1657" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_028.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_028.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35055,7 +36071,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1658" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_029.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_029.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35070,7 +36086,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1659" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_030.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_030.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35085,7 +36101,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1660" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_031.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_031.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35100,7 +36116,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1661" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_032.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_032.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35115,7 +36131,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1662" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_033.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_033.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35130,7 +36146,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1663" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_034.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_034.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35145,7 +36161,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1664" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_035.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_035.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35160,7 +36176,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1665" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_036.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_036.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35175,7 +36191,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1666" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_037.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_037.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35190,7 +36206,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1667" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_038.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_038.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35205,7 +36221,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1668" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_039.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_039.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35220,7 +36236,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1669" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_040.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_040.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35235,7 +36251,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1670" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_041.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_041.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35250,7 +36266,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1671" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_042.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_042.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35265,7 +36281,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1672" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_043.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_043.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35280,7 +36296,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1673" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_044.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_044.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35295,7 +36311,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1674" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_045.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_045.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35310,7 +36326,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1675" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_046.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_046.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35325,7 +36341,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1676" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_047.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_047.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35340,7 +36356,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1677" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_048.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_048.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35355,7 +36371,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1678" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_049.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_049.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35370,7 +36386,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1679" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_050.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_050.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35385,7 +36401,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1680" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_051.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_051.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35400,7 +36416,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1681" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_052.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_052.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35415,7 +36431,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1682" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_053.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_053.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35430,7 +36446,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1683" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_054.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_054.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35445,7 +36461,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1684" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_055.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_055.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35460,7 +36476,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1685" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_056.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_056.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35475,7 +36491,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1686" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_057.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_057.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35490,7 +36506,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1687" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_058.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_058.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35505,7 +36521,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1688" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_059.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_059.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35520,7 +36536,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1689" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_060.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_060.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35535,7 +36551,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1690" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_061.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_061.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35550,7 +36566,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1691" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_062.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_062.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35565,7 +36581,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1692" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_063.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_063.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35580,7 +36596,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1693" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_064.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_064.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35595,7 +36611,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1694" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_065.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_065.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35610,7 +36626,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1695" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_066.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_066.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35625,7 +36641,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1696" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_067.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_067.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35640,7 +36656,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1697" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_068.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_068.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35655,7 +36671,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1698" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_069.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_069.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35670,7 +36686,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1699" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_070.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_070.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35685,7 +36701,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1700" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_071.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_071.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35700,7 +36716,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1701" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_072.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_072.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35715,7 +36731,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1702" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_073.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_073.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35730,7 +36746,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1703" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_074.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_074.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35745,7 +36761,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1704" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_075.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_075.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35760,7 +36776,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1705" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_076.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_076.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35775,7 +36791,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1706" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_077.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_077.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35790,7 +36806,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1707" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_078.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_078.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35805,7 +36821,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1708" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_079.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_079.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35820,7 +36836,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1709" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_080.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_080.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35835,7 +36851,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1710" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_081.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_081.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35850,7 +36866,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1711" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_082.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_082.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35865,7 +36881,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1712" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_083.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_083.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35880,7 +36896,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1713" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_084.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_084.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35895,7 +36911,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1714" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_085.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_085.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35910,7 +36926,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1715" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_086.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_086.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35925,7 +36941,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1716" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_087.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_087.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35940,7 +36956,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1717" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_088.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_088.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35955,7 +36971,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1718" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_089.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_089.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35970,7 +36986,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1719" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_090.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_090.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -35985,7 +37001,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1720" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_091.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_091.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36000,7 +37016,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1721" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_092.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_092.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36015,7 +37031,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1722" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_093.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_093.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36030,7 +37046,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1723" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_094.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_094.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36045,7 +37061,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1724" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_095.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_095.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36060,7 +37076,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1725" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_096.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_096.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36075,7 +37091,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1726" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_097.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_097.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36090,7 +37106,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1727" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_098.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_098.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36105,7 +37121,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1728" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_099.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_099.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36120,7 +37136,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1729" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_100.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_100.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36135,7 +37151,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1730" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_101.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_101.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36150,7 +37166,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1731" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_102.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_102.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36165,7 +37181,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1732" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_103.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_103.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36180,7 +37196,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1733" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_104.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_104.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36195,7 +37211,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1734" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_105.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_105.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36210,7 +37226,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1735" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_106.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_106.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36225,7 +37241,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1736" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_107.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_107.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36240,7 +37256,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1737" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_108.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_108.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36255,7 +37271,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1738" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_109.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_109.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36270,7 +37286,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1739" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_110.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_110.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36285,7 +37301,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1740" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_111.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_111.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36300,7 +37316,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1741" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_112.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_112.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36315,7 +37331,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1742" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_113.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_113.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36330,7 +37346,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1743" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_114.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_114.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36345,7 +37361,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1744" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_115.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_115.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36360,7 +37376,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1745" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_116.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_116.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36375,7 +37391,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1746" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_117.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_117.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36390,7 +37406,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1747" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_118.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_118.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -36405,7 +37421,7 @@ See KeyboardMovement.txt for details.
                       </Sprite>
                       <Sprite Slot="1748" Width="214" Height="50" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                         <Source>
-                          <FileName>C:/Users/danie/Documents/SIDE_STUFF/LB3/Art/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_119.png</FileName>
+                          <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Views/5002_AirplaneClouds/cockpitClouds_reduced/Clouds3D_reduced/Clouds3D_reduced_119.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>50</ImportHeight>
@@ -39976,6 +40992,66 @@ See KeyboardMovement.txt for details.
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
+              <Sprite Slot="1986" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Pics/1_MagazinePage_v01_indexed.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>320</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>NoTransparency</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="1987" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Pics/9061_MagazineFront_v01_compressed_FINAL.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>320</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>NoTransparency</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="1988" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Pics/9062_OpenMagazine_v01_A_compressed_FINAL.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>320</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>NoTransparency</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="1989" Width="320" Height="200" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>G:/.shortcut-targets-by-id/1XYZWSeIYkulML3AjBdv5RVqh0AjYO6Vp/Game_Assets_Gold/LilPete/Pics/9062_OpenMagazine_v01_B_compressed_FINAL.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>320</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>NoTransparency</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
         </SubFolders>
@@ -41106,66 +42182,72 @@ See KeyboardMovement.txt for details.
                         <Image>1574</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>5</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>7</ID>
+                        <ID>0</ID>
                         <Image>1575</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>8</ID>
+                        <ID>1</ID>
                         <Image>1576</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>9</ID>
+                        <ID>2</ID>
                         <Image>1577</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>10</ID>
+                        <ID>3</ID>
                         <Image>1578</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>11</ID>
+                        <ID>4</ID>
                         <Image>1579</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>12</ID>
+                        <ID>5</ID>
                         <Image>1580</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
-                        <ID>13</ID>
+                        <ID>6</ID>
                         <Image>1581</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>10</Delay>
                         <Flipped>False</Flipped>
-                        <ID>14</ID>
+                        <ID>7</ID>
                         <Image>1582</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
                   </Loop>
                   <Loop>
-                    <ID>5</ID>
+                    <ID>6</ID>
                     <RunNextLoop>False</RunNextLoop>
                     <Frames>
                       <ViewFrame>
@@ -44596,6 +45678,674 @@ See KeyboardMovement.txt for details.
                         <Flipped>False</Flipped>
                         <ID>19</ID>
                         <Image>1447</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>74</ID>
+                <Name>ClaraTakeFingerprints</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>1990</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>1991</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>1992</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>1993</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>1994</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>1995</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>1996</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>1997</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>1998</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>9</ID>
+                        <Image>1999</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>10</ID>
+                        <Image>2007</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>11</ID>
+                        <Image>2008</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>12</ID>
+                        <Image>2009</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>13</ID>
+                        <Image>2017</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>14</ID>
+                        <Image>2018</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>15</ID>
+                        <Image>2019</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>16</ID>
+                        <Image>2027</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>17</ID>
+                        <Image>2028</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>18</ID>
+                        <Image>2029</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>19</ID>
+                        <Image>2037</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>20</ID>
+                        <Image>2038</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>21</ID>
+                        <Image>2039</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>22</ID>
+                        <Image>2043</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>23</ID>
+                        <Image>2044</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>24</ID>
+                        <Image>2045</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>25</ID>
+                        <Image>2046</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>10</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>26</ID>
+                        <Image>2047</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>27</ID>
+                        <Image>2048</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>28</ID>
+                        <Image>2049</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>29</ID>
+                        <Image>2050</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>30</ID>
+                        <Image>2051</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>31</ID>
+                        <Image>2052</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>32</ID>
+                        <Image>2053</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>33</ID>
+                        <Image>2062</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>20</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>34</ID>
+                        <Image>2063</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>35</ID>
+                        <Image>2064</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>36</ID>
+                        <Image>2065</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>37</ID>
+                        <Image>2066</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>38</ID>
+                        <Image>2067</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>39</ID>
+                        <Image>2068</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>40</ID>
+                        <Image>2069</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>41</ID>
+                        <Image>2070</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>42</ID>
+                        <Image>2071</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>43</ID>
+                        <Image>2072</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>1990</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>1991</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>1992</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>1993</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>1994</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>1995</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>1996</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>1997</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>1998</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>9</ID>
+                        <Image>1999</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>10</ID>
+                        <Image>2007</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>11</ID>
+                        <Image>2008</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>12</ID>
+                        <Image>2009</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>13</ID>
+                        <Image>2017</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>14</ID>
+                        <Image>2018</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>15</ID>
+                        <Image>2019</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>16</ID>
+                        <Image>2027</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>17</ID>
+                        <Image>2028</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>18</ID>
+                        <Image>2029</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>19</ID>
+                        <Image>2037</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>20</ID>
+                        <Image>2071</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>21</ID>
+                        <Image>2072</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>1990</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>2071</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>2038</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>2039</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>2043</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>2044</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>2045</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>2046</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>10</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>2047</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>9</ID>
+                        <Image>2048</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>10</ID>
+                        <Image>2049</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>11</ID>
+                        <Image>2050</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>12</ID>
+                        <Image>2051</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>13</ID>
+                        <Image>2052</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>14</ID>
+                        <Image>2053</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>15</ID>
+                        <Image>2062</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>20</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>16</ID>
+                        <Image>2063</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>17</ID>
+                        <Image>2064</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>18</ID>
+                        <Image>2065</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>19</ID>
+                        <Image>2066</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>20</ID>
+                        <Image>2067</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>21</ID>
+                        <Image>2068</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>22</ID>
+                        <Image>2069</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>23</ID>
+                        <Image>2070</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>24</ID>
+                        <Image>2071</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>25</ID>
+                        <Image>2072</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
