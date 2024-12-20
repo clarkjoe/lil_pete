@@ -38,3 +38,6 @@ import function tigersBloodNotebook_OnClickHandler(GUIControl *control, MouseBut
 import function gNotebookEvidence_OnClickHandler(GUI *theGui, MouseButton button);
 import function btnEvidenceToCharacters_OnClickHandler(GUIControl *control, MouseButton button);
 import function btnEvidenceToSubjects_OnClickHandler(GUIControl *control, MouseButton button);
+
+// Summary
+import function gNotebookSummary_OnClickHandler(GUI *theGui, MouseButton button);
