@@ -1,3 +1,4 @@
+import function initialize_icon_bar();
 import function btnNotebook_OnClickHandler(GUIControl *control, MouseButton button);
 import function btnCompactClearTape_OnClickHandler(GUIControl *control, MouseButton button);
 import function btnLipstick_OnClickHandler(GUIControl *control, MouseButton button);
