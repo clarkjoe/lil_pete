@@ -5756,7 +5756,6 @@ return
     Wait(GetGameSpeed()/2);
    
     cQueenie.Say("Here. Your face is a bit shiny.");
-    x
     // Queenie pulls out her compact and hands it to Clara
     cQueenie.LockViewOffset(QUEENIEGOSSIP_1155, 19, 6);
     cEgo.on = false;
