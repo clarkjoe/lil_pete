@@ -1,6 +1,10 @@
+#define NUMBER_SECS_SHOW_INVALID_CURSOR 5
+
 import function choose_cursor();
 //import function handle_overlays();
 import function handle_time();
+import function handle_room_click(MouseButton button);
+import function handle_inventory_click(MouseButton button);
 
 import function StartTimerByLoops(int timerID, int durationInLoops);
 import function StartTimerBySeconds(int timerID, float durationInSeconds);

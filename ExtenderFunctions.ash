@@ -75,6 +75,11 @@ import bool IsFingerprintable(this InventoryItem*);
 import bool HasFingerprint(this InventoryItem*);
 import function SetFingerprintable(this InventoryItem*,  bool fingerprintable);
 import function SetFingerprint(this InventoryItem*,  bool hasFingerprint);
+import function HandleLeftClick(this InventoryItem*);
+import function HandleRightClick(this InventoryItem*);
+
+// String
+import bool MyContains(this String*, String search);
 
 // Other
 import function handle_overlays();
