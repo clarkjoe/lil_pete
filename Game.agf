@@ -5750,19 +5750,29 @@ return
     cEgo.Say("Stonecliff Manor... What’s it really like?");
     cQueenie.Say("It’s a monument to Stone’s ego. Huge, over the top, decadent. But there’s something about it that feels... cold, despite the blazing California sun.");
     
+    if (cEgo.HasInventory(iCompact))
+      return RUN_DIALOG_STOP_DIALOG;
+   
     Wait(GetGameSpeed()/2);
+   
     cQueenie.Say("Here. Your face is a bit shiny.");
-    
+    x
     // Queenie pulls out her compact and hands it to Clara
+    cQueenie.LockViewOffset(QUEENIEGOSSIP_1155, 19, 6);
+    cEgo.on = false;
+    cQueenie.Animate(4, 9, eOnce, eBlock, eForwards);
+    cEgo.on = true;
     cEgo.AddInventory(iCompact);
     cQueenie.LoseInventory(iCompact);
+    cQueenie.LockViewFrame(QUEENIEGOSSIP_1155,1,0);
+    cQueenie.x -= 11;
     
     cQueenie.Say("Not used to this heat, are you? New York City girl and all?");
     cEgo.Say("Yes! Growing up in Brooklyn didn't prepare me for these summers.");
     cQueenie.Say("I'm sure. Keep that powder.");
     cEgo.Say("Thank you.");
     cQueenie.Say("Don't mention it. Keep your eyes open tonight. You'll do alright.");
-    cJoanna.GreyInSubject(stonecliffManorNotebook);
+    cQueenie.GreyInSubject(stonecliffManorNotebook);
   }
 stop
 
@@ -5777,7 +5787,7 @@ stop
   {
     cEgo.Say("\"Madam White Snake\" sounds like a project with a lot riding on it.");
     cQueenie.Say("Madam White Snake film? It’s Stone’s latest obsession. He’s pouring all his hopes into it, but I’m not sure it's going to pay off. He’s got Vera in the lead, and we both know she’s not exactly a natural talent. But Stone’s got this vision, and he’s going to push it, no matter the cost. It could be a hit, or it could flop spectacularly. Either way, it’s his ego on the line.");
-    cJoanna.GreyInSubject(madamWhiteSnakeNotebook);
+    cQueenie.GreyInSubject(madamWhiteSnakeNotebook);
   }
 stop
 
@@ -5792,7 +5802,7 @@ stop
   {
     cEgo.Say("So, Gilded Shadows… I’ve heard some whispers about it. Seems like it didn’t quite land as expected.");
     cQueenie.Say("Oh, you could say that. Stone’s obsession with making his wife a star did the movie no favors. She couldn’t act her way out of a paper bag, but he’s too blinded by his own ambition to see it.");
-    cJoanna.GreyInSubject(theBanterNotebook);
+    cQueenie.GreyInSubject(theBanterNotebook);
   }
 stop
 @4 // Mauled Scientist
@@ -6424,6 +6434,11 @@ stop
           <DefaultValue>0</DefaultValue>
           <Name>currentMouseButton</Name>
           <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>true</DefaultValue>
+          <Name>globalChooseCursor</Name>
+          <Type>bool</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
