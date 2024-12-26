@@ -21,3 +21,5 @@ import int GetMax(int a, int b);
 import int GetMin(int a, int b);
 
 import function GetFingerprint(InventoryItem* inventoryItem);
+
+import int RandomBetween(int n, int m);
