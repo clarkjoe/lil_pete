@@ -1,0 +1,10 @@
+import bool HasUsedCompact(this InventoryItem*);
+import bool HasUsedClearTape(this InventoryItem*);
+import function SetUsedCompact(this InventoryItem*,  bool usedCompact);
+import function SetUsedClearTape(this InventoryItem*,  bool usedClearTape);
+import bool IsFingerprintable(this InventoryItem*);
+import bool HasFingerprint(this InventoryItem*);
+import function SetFingerprintable(this InventoryItem*,  bool fingerprintable);
+import function SetFingerprint(this InventoryItem*,  bool hasFingerprint);
+import function HandleLeftClick(this InventoryItem*);
+import function HandleRightClick(this InventoryItem*);

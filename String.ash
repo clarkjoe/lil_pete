@@ -1,0 +1,1 @@
+import bool MyContains(this String*, String search);
