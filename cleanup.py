@@ -105,6 +105,24 @@ def replace_views(source_root, target_root):
         target_game.remove(target_views)
     target_game.append(source_views)
 
+def replace_audio(source_root, target_root):
+    source_game = source_root.find('Game')
+    target_game = target_root.find('Game')
+
+    if source_game is None or target_game is None:
+        print("No <Game> tag found in the source or target file.")
+        return
+
+    source_audio_clips = source_game.find('AudioClips')
+    if source_audio_clips is None:
+        print("No <AudioClips> tag found in the source file.")
+        return
+
+    target_audio_clips = target_game.find('AudioClips')
+    if target_audio_clips is not None:
+        target_game.remove(target_audio_clips)
+    target_game.append(source_audio_clips)
+
 def write_xml_with_header(source_file, target_file, target_root, use_crlf=False):
     newline = '\r\n' if use_crlf else '\n'
 
