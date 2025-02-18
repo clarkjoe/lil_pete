@@ -2,12 +2,17 @@ import function TalkerSay(this Character*, const string text);
 import function TurnOnDetails(this Character*);
 import function TurnOffDetails(this Character*);
 import bool ShowDetails(this Character*);
-import Point* GetDestination(this Character*);
-import function SetDestination(this Character*, int x, int y);
+import Point* Destination(this Character*, int x = -1, int y = -1);
+import LocationType DestinationType(this Character*, LocationType destinationType = -1);
+import int DestinationID(this Character*, int destinationID = -1);
+import bool IsDestination(this Character*, Character* targetCharacter);
 import bool HasReachedDestination(this Character*);
-import function MyWalk(this Character*, int x, int y, BlockingStyle blockingStyle = eBlock, WalkWhere walkWhere = eWalkableAreas);
-import bool ResumableWalk(this Character*, int x, int y, WalkWhere walkWhere = eWalkableAreas);
-import function SendToCharacterNear(this Character*, Character* target, int maxDistance = 15);
+import bool ResumableWalk(this Character*, int x, int y, BlockingStyle blockingStyle = eNoBlock, WalkWhere walkWhere = eWalkableAreas);
+
+import int Graphic(this Character*);
+import bool Sitting(this Character*, bool sitting = -1);
+import CharacterDirection Direction(this Character*, CharacterDirection direction = eDirectionNone, BlockingStyle blockingStyle = eBlock);
+import CharacterDirection DestinationDirection(this Character*, CharacterDirection direction = eDirectionNone);
 
 import function ColorInCharacter(this Character*, Character *actionCharacter);
 import function GreyInCharacter(this Character*, Character *actionCharacter);
@@ -41,4 +46,15 @@ import function SilhouetteInEvidenceEverywhere(static Character, Button *evidenc
 
 import function handle_overlays();
 
-import bool CancelableWalk(this Character*, int x, int y, CharacterDirection dir);
+import int GetFurthestRightX(this Character*);
+import bool CancelableWalk(this Character*, int x, int y, CharacterDirection dir = eDirectionNone);
+//import function SendToCharacterRight(this Character*, Character* player, int offset);
+//import function SendToCharacterLeft(this Character*, Character* player, int offset);
+//import function SendToCharacterTop(this Character*, Character* targetCharacter, int offset);
+//import function SendToCharacterBottom(this Character*, Character* targetCharacter, int offset);
+//import function SendToCharacter(this Character*, Character* targetCharacter, int offset = 5);
+import bool SendToCharacterSide(this Character*, Character* targetCharacter, int offset, bool toRight);
+import bool SendToCharacterVertical(this Character*, Character* targetCharacter, int offset, bool toBottom);
+import bool SendToCharacter(this Character*, Character* targetCharacter, int offset = 5);
+
+import bool TalkHandler_Before(this Character*);
