@@ -22,6 +22,7 @@ def find_and_replace(source_file, target_file, first_replacement_path, second_re
 
     replace_sprites_with_user_path(source_root, target_root, first_replacement_path, second_replacement_path, first_match_path, second_match_path)
     replace_views(source_root, target_root)
+    replace_audio_with_user_path(source_root, target_root, first_replacement_path, second_replacement_path, first_match_path, second_match_path)
     write_xml_with_header(source_file, target_file, target_root, use_crlf=True)
 
 def get_expanded_file_paths(source_file, target_file):
@@ -105,7 +106,7 @@ def replace_views(source_root, target_root):
         target_game.remove(target_views)
     target_game.append(source_views)
 
-def replace_audio(source_root, target_root):
+def replace_audio_with_user_path(source_root, target_root, first_replacement_path, second_replacement_path, first_match_path, second_match_path):
     source_game = source_root.find('Game')
     target_game = target_root.find('Game')
 
@@ -118,10 +119,37 @@ def replace_audio(source_root, target_root):
         print("No <AudioClips> tag found in the source file.")
         return
 
+    modified_audio_clips = copy.deepcopy(source_audio_clips)
+    
+    for audio_clip in modified_audio_clips.findall('.//SourceFileName'):
+        if audio_clip.text:
+            audio_clip.text = audio_clip.text.replace(first_match_path, first_replacement_path)
+            audio_clip.text = audio_clip.text.replace(second_match_path, second_replacement_path)
+            audio_clip.text = audio_clip.text.replace("\\", "/")
+
     target_audio_clips = target_game.find('AudioClips')
     if target_audio_clips is not None:
         target_game.remove(target_audio_clips)
-    target_game.append(source_audio_clips)
+    target_game.append(modified_audio_clips)
+
+
+# def replace_audio(source_root, target_root):
+#     source_game = source_root.find('Game')
+#     target_game = target_root.find('Game')
+#
+#     if source_game is None or target_game is None:
+#         print("No <Game> tag found in the source or target file.")
+#         return
+#
+#     source_audio_clips = source_game.find('AudioClips')
+#     if source_audio_clips is None:
+#         print("No <AudioClips> tag found in the source file.")
+#         return
+#
+#     target_audio_clips = target_game.find('AudioClips')
+#     if target_audio_clips is not None:
+#         target_game.remove(target_audio_clips)
+#     target_game.append(source_audio_clips)
 
 def write_xml_with_header(source_file, target_file, target_root, use_crlf=False):
     newline = '\r\n' if use_crlf else '\n'
