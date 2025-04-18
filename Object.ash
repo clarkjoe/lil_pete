@@ -8,3 +8,5 @@ import bool IsFingerprintable(this Object*);
 import bool HasFingerprint(this Object*);
 import function SetFingerprintable(this Object*,  bool fingerprintable);
 import function SetFingerprint(this Object*,  bool hasFingerprint);
+
+import Point* Destination(this Object*, int x = -1, int y = -1);
